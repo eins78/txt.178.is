@@ -5,7 +5,7 @@
  - every computer can reach every other computer
 
 # *1969--1990*: ARPAnet - military und universities
-- DARPA: *Defense* Advanced Research Projects Agency
+- DARPA: *Defense* Advanced Research Projects Agency  
 ## Features:
   - Log in to and **work on remote computers** (telnet, now SSH)
    - was the only way to do serious stuff before the PC (**Personal** Computer)

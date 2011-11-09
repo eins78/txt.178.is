@@ -1,16 +1,19 @@
 # (Short) History of the Internet
 ## Idea: 
- - decentral network (for stability)
+ - decentral network (for stability, security)
+ - no need for central point of service (and failure)
  - every computer can reach every other computer
-### *1969--1990*: ARPAnet - military und universities
- - Features:
+
+# *1969--1990*: ARPAnet - military und universities
+- DARPA: *Defense* Advanced Research Projects Agency
+## Features:
   - Log in to and **work on remote computers** (telnet, now SSH)
    - was the only way to do serious stuff before the PC (**Personal** Computer)
   - **File "Sharing"**, i.e. sending and receiving (FTP: File Transfer Protocol)
   - **Communication** (E-Mail, Usenet)
 
-### *1982*: **TCP/IP**: Transmission Control Protocol/Internet Protocol
- - defines how data is transmitted and where
+# *1982*: **TCP/IP**: Transmission Control Protocol/Internet Protocol
+## defines how data is transmitted and where
  - IP: every computer has an Internet protocol (IP) address (141.54.1.3, 178.77.78.244)
  - TCP: data is split up into packets and sent around from node to node (*routed*) till they reach their destination
  - 500+ more protocolls at work, but these are the basics…
@@ -22,21 +25,22 @@
  - ![Bild](http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/CERN_NEXT_Server_2010-07-01.jpg/800px-CERN_NEXT_Server_2010-07-01.jpg)
 
 # Human Absuridty, interconnected: The Net Problems
-a.k.a. "This sounds nice, WTF is shit so complicated?" 
+## a.k.a. "This sounds nice, WTF is shit so complicated?" 
 
-![Bild](http://imgs.xkcd.com/comics/file_transfer.png)
+![Bild](http://imgs.xkcd.com/comics/file_transfer.png)  
 > "Every time you email a file to yourself so you can pull it up on your friend's laptop, Tim Berners-Lee sheds a single tear."
 
-## 1. Asymetrische Leitungen (DSL=**A**DSL)
-Max: "Geburtsfehler des privaten Internet"
-- Beispiel DSL16000
+# 1. Asymmetric Connections  (DSL=**A**DSL)
+## the "Geburtsfehler" (birth defect) of the private internet
+
+### Example: DSL16000 = 16 Mbps (=~30€)
  - Down: 13,06 Mbps; Up: 0,96 Mbps
  - = 1,63 MB/s herunter und 0,12MB/s hoch
  - d.h.: 1GB in 10min runter, aber in 2h20min hoch.
 
-## 2. Knappe Adressen
-- Nicht genug IP(v4)s für alle (1.1.1.1--255.255.255.254 = 4.3 Milliarden Adressen ), deswegen:
- - Dynamische IPs: bei jeder Verbindung wird eine neue Adresse zugewiesen
+#2. Address Shortage
+- not enough IP(v4) addresses for everyone (1.1.1.1--255.255.255.254 = 4.3 billion addresses ), so:
+ - dynamics IPs: with every connect you get a new address
  - NAT: jede Wohnung bekommt nur eine IP, alle Computer in der Wohnung sitzen "dahinter". Jeder kommt raus, aber keiner kommt rein (ausser Port-Forwarding etc)
 
 - Langfristige Lösung: IPv6

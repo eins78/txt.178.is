@@ -1,15 +1,15 @@
 # (Short) History of the Internet
-- Idea: 
+## Idea: 
  - decentral network (for stability)
  - every computer can reach every other computer
-- *1969--1990*: ARPAnet - military und universities
+### *1969--1990*: ARPAnet - military und universities
  - Features:
   - Log in to and **work on remote computers** (telnet, now SSH)
    - was the only way to do serious stuff before the PC (**Personal** Computer)
   - **File "Sharing"**, i.e. sending and receiving (FTP: File Transfer Protocol)
   - **Communication** (E-Mail, Usenet)
 
-- *1982*: **TCP/IP**: Transmission Control Protocol/Internet Protocol
+### *1982*: **TCP/IP**: Transmission Control Protocol/Internet Protocol
  - defines how data is transmitted and where
  - IP: every computer has an Internet protocol (IP) address (141.54.1.3, 178.77.78.244)
  - TCP: data is split up into packets and sent around from node to node (*routed*) till they reach their destination
@@ -21,20 +21,20 @@
  - jeder kann beliebig Web-Seiten veröffentlichen, von seinem Computer aus
  - ![Bild](http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/CERN_NEXT_Server_2010-07-01.jpg/800px-CERN_NEXT_Server_2010-07-01.jpg)
 
-## Absurdes Netz: Probleme
-Warum ist das dann so kompliziert? 
+# Human Absuridty, interconnected: The Net Problems
+a.k.a. "This sounds nice, WTF is shit so complicated?" 
 
 ![Bild](http://imgs.xkcd.com/comics/file_transfer.png)
 > "Every time you email a file to yourself so you can pull it up on your friend's laptop, Tim Berners-Lee sheds a single tear."
 
-1. Asymetrische Leitungen (DSL=**A**DSL)
+## 1. Asymetrische Leitungen (DSL=**A**DSL)
 Max: "Geburtsfehler des privaten Internet"
 - Beispiel DSL16000
  - Down: 13,06 Mbps; Up: 0,96 Mbps
  - = 1,63 MB/s herunter und 0,12MB/s hoch
  - d.h.: 1GB in 10min runter, aber in 2h20min hoch.
 
-2. Knappe Adressen
+## 2. Knappe Adressen
 - Nicht genug IP(v4)s für alle (1.1.1.1--255.255.255.254 = 4.3 Milliarden Adressen ), deswegen:
  - Dynamische IPs: bei jeder Verbindung wird eine neue Adresse zugewiesen
  - NAT: jede Wohnung bekommt nur eine IP, alle Computer in der Wohnung sitzen "dahinter". Jeder kommt raus, aber keiner kommt rein (ausser Port-Forwarding etc)
@@ -56,7 +56,7 @@ Absurde Situation: um das dezentrale Netz bequem nutzen zu können, müssen Priv
 
 # Digitale Kollaboration
 
-1. Kommunikation (intern)
+## 1. Kommunikation (intern)
  - austausch von erkenntnissen
  - diskussionen, meinungsbildung, entscheidungen
  - Klassiker: E-Mail, E-Mail-Liste
@@ -64,7 +64,7 @@ Absurde Situation: um das dezentrale Netz bequem nutzen zu können, müssen Priv
  - everything goes, as long as the message comes to the recipient
  - since every media is now emerged in the net, one could rephrase McLuhan to: "the protocol is the message"
 
-2. Datenaustausch - gemeinsamer zugriff auf arbeits-Dateien
+## 2. Datenaustausch - gemeinsamer zugriff auf arbeits-Dateien
  - ROH
   - per USB-Sticks, Netzwerkfreigaben, Dropbox, 1-Klick-Filehoster (Rapidshare etc)
   - per E-Mail (ganz schlecht)
@@ -87,14 +87,14 @@ Absurde Situation: um das dezentrale Netz bequem nutzen zu können, müssen Priv
  - Wikipedia!
   - http://de.wikipedia.org/w/index.php?title=Bauhaus-Universität_Weimar&diff=prev&oldid=76191148
  
-3. Aufgabenverteilung
+## 3. Aufgabenverteilung
  - in PROSA ("mache die und jenes")
   - wie "Kommunikation"
  - programmatisch ("Bug#345 was assigned to Max")
  -  Stichworte: Bugtracker, Tickets, Issues
  - Je nach Projekt auch mit Schnittstelle nach aussen (Nutzer melden Fehler)
 
-4. All-in-One bzw Enough-in-One
+## 4. All-in-One bzw Enough-in-One
  - Google (einfach, aber evil)
  - Basecamp (schön, aber kostet)
   - gibt natürlich noch mehr da draussen

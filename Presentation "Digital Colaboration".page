@@ -1,60 +1,78 @@
 # (Short) History of the Internet
-## Idea: 
+## Idea:
  - decentral network (for stability, security)
  - no need for central point of service (and failure)
  - every computer can reach every other computer
 
-# *1969--1990*: ARPAnet - military und universities
-- DARPA: *Defense* Advanced Research Projects Agency  
+# *1969--1990*: (D)ARPAnet - military und universities
+### DARPA: *Defense* Advanced Research Projects Agency
+
 ## Features:
   - Log in to and **work on remote computers** (telnet, now SSH)
-   - was the only way to do serious stuff before the PC (**Personal** Computer)
+    - was the only way to do serious stuff before the PC (**Personal** Computer)
   - **File "Sharing"**, i.e. sending and receiving (FTP: File Transfer Protocol)
   - **Communication** (E-Mail, Usenet)
 
-# *1982*: **TCP/IP**: Transmission Control Protocol/Internet Protocol
-## defines how data is transmitted and where
- - IP: every computer has an Internet protocol (IP) address (141.54.1.3, 178.77.78.244)
- - TCP: data is split up into packets and sent around from node to node (*routed*) till they reach their destination
- - 500+ more protocolls at work, but these are the basics…
- - Picture: 30% of the internet in 2005: http://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg
-- 1990: Internet opens for everyone, not just educational and military institutions
-- 1991: Tim Berners-Lee invents the World Wide Web and [announces it in usenet](http://groups.google.com/group/alt.hypertext/msg/395f282a67a1916c?dmode=source)
- - Idee: HyperText -> Formatierter Text mit _Links_
- - jeder kann beliebig Web-Seiten veröffentlichen, von seinem Computer aus
- - ![Bild](http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/CERN_NEXT_Server_2010-07-01.jpg/800px-CERN_NEXT_Server_2010-07-01.jpg)
+# *1982*: **TCP/IP**: Transmission Control Protocol/Internet Protocol  
+## defines how data is transmitted and where  
+ - **IP**: every computer has an Internet protocol (IP) address (141.54.1.3, 178.77.78.244)
+ - **TCP**: data is split up into packets and sent around from node to node (*routed*) till they reach their destination
+ - 500+ more protocolls at work, but these are the basics…  
 
-# Human Absuridty, interconnected: The Net Problems
-## a.k.a. "This sounds nice, WTF is shit so complicated?" 
+# Pic: 30% of the internet in 2005  
+![Picture](http://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg)
 
-![Bild](http://imgs.xkcd.com/comics/file_transfer.png)  
+# 1990: Internet opens for everyone, not just educational and military institutions
+
+# 1991: Tim Berners-Lee invents the World Wide Web and [announces it in usenet](http://groups.google.com/group/alt.hypertext/msg/395f282a67a1916c?dmode=source)
+
+# Usenet Post:
+~~~~{.bash}
+
+# WWW: the idea
+ -HyperText == Formatted Text with _Links_
+ - everybody can publish and serve content from his desk
+ - ![The first web **server**](http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/CERN_NEXT_Server_2010-07-01.jpg/800px-CERN_NEXT_Server_2010-07-01.jpg)
+
+# Human Absurdity, interconnected: The Net Problems
+## a.k.a. "This sounds nice, then WTF is shit so complicated?" 
+
+![Bild](http://imgs.xkcd.com/comics/file_transfer.png)
+
 > "Every time you email a file to yourself so you can pull it up on your friend's laptop, Tim Berners-Lee sheds a single tear."
 
-# 1. Asymmetric Connections  (DSL=**A**DSL)
+# Problem #1. Asymmetric Connections  (DSL=**A**DSL)
 ## the "Geburtsfehler" (birth defect) of the private internet
 
 ### Example: DSL16000 = 16 Mbps (=~30€)
  - Down: 13,06 Mbps; Up: 0,96 Mbps
- - = 1,63 MB/s herunter und 0,12MB/s hoch
- - d.h.: 1GB in 10min runter, aber in 2h20min hoch.
+ - = 1,63 MB/s down und 0,12MB/s up
+ - i.e.: *download* 1GB in 10min, *upload* 1GB in 2h20min
 
-#2. Address Shortage
+# Problem #2. Address Shortage
 - not enough IP(v4) addresses for everyone (1.1.1.1--255.255.255.254 = 4.3 billion addresses ), so:
- - dynamics IPs: with every connect you get a new address
- - NAT: jede Wohnung bekommt nur eine IP, alle Computer in der Wohnung sitzen "dahinter". Jeder kommt raus, aber keiner kommt rein (ausser Port-Forwarding etc)
+ - **dynamics IPs**: with every connect you get a new address
+ - **NAT**: every household only gets one IP, so every computer sitting "behind" the modem/router has to share that address. this only works well for connections to servers (computers with real IPs), but a connection between 2 computers in different households are complicated to set up.
 
-- Langfristige Lösung: IPv6
- - 3.4×10^38 Adressen = 	340.000.000.000.000.000.000.000.000.000.000.000.000 = 340 undecillion = [340 Milliarden Milliarden Milliarden Milliarden](http://www.wolframalpha.com/input/?i=340000000000000000000000000000000000000)
- - gibt es seit 1998(!), aber keiner macht was (bis jetzt, wo alles alle ist)
+# Long-term solution: IPv6
+ - 3.4×10^38 Adressen = 	340.000.000.000.000.000.000.000.000.000.000.000.000 = 340 undecillion = [340 billion billion billion billion](http://www.wolframalpha.com/input/?i=340000000000000000000000000000000000000)
+ - this is a standard since 1998(!), but almost none of the big internet providers acted (till now, because now IPv4 is really exhausted)
 
-Daraus folgt: eine direkte Verbindung zwischen Alice und Bob ist schwierig. Beide müssen ihre jeweilige IP herausfinden und mitteilen, ihren Router korrekt einstellen und selbst dann ist alles viel zu langsam.
+# That means:
+Alice and Bob, both sitting at their PCs at home can't just connect to each other. they have to find out their [current IPs](http://ifconfig.me) and tell them to each other. they also have to configure their modem/router correctly and even if they are able to do that, the connection still is slow as hell.
 
-Absurde Situation: um das dezentrale Netz bequem nutzen zu können, müssen Privatnutzer zentrale Dienste benutzen.
-- GMail/Web.de & Co. statt eigener Mailserver (Bin Laden war bei YahooMail)
-- Facebook, Flickr, Soundcloud, Blogspot statt eigenem WWW-Server
-- Skype statt SIP/Jabber (Skype hat eine LI-API)
-- Kino.to/Dropbox statt ftp://max.server/Filme/V.for.Vendetta.avi
-- Rapidshare statt Torrents
+# The absurdity
+
+- we a global and decentral network.
+- to make use of it, private consumers need centralized services.
+
+# Examples
+- GMail/Web.de & Co. *instead of* own mail server 
+ - (Bin Laden had Yahoo!Mail)
+- Facebook, Flickr, Soundcloud, Blogspot, etc *instead of* own WWW Server
+- Skype *instead of* SIP/Jabber (Skype=lawful interception)
+- Kino.to/Dropbox/etc *instead of* ftp://max.server/Filme/V.for.Vendetta.avi
+- Rapidshare/MegaUpload/etc *instead of* Torrents
 
 ---
 

@@ -87,14 +87,17 @@ world of data.
 - > "Every time you email a file to yourself so you can pull it up on your friend's laptop, Tim Berners-Lee sheds a single tear."
 
 # Problem #1. Asymmetric Connections  (DSL=**A**DSL)
-## the "Geburtsfehler" (birth defect) of the private internet
+
+- the "Geburtsfehler" (birth defect) of the private internet
 
 ### Example: DSL16000 = 16 Mbps (=~30€)
  - Down: 13,06 Mbps; Up: 0,96 Mbps
  - = 1,63 MB/s down und 0,12MB/s up
  - i.e.: *download* 1GB in 10min, *upload* 1GB in 2h20min
 
+
 # Problem #2. Address Shortage
+
 - not enough IP(v4) addresses for everyone (1.1.1.1--255.255.255.254 = 4.3 billion addresses ), so:
  - **dynamics IPs**: with every connect you get a new address
  - **NAT**: every household only gets one IP, so every computer sitting "behind" the modem/router has to share that address. this only works well for connections to servers (computers with real IPs), but a connection between 2 computers in different households are complicated to set up.
@@ -108,7 +111,7 @@ Alice and Bob, both sitting at their PCs at home can't just connect to each othe
 
 # The absurdity
 
-- we a global and decentral network.
+- we have a global and decentral network.
 - to make use of it, private consumers need centralized services.
 
 # Examples
@@ -121,57 +124,63 @@ Alice and Bob, both sitting at their PCs at home can't just connect to each othe
 
 ---
 
-# Digitale Kollaboration
+# Digital Collaboration
 
-## 1. Kommunikation (intern)
- - austausch von erkenntnissen
- - diskussionen, meinungsbildung, entscheidungen
- - Klassiker: E-Mail, E-Mail-Liste
- - Auch: Foren, FB-Gruppen, Blogs, etc
- - everything goes, as long as the message comes to the recipient
+# 1. Communikation (internal/external)
+ - sharing knowledge, results and findings
+ - discussing, forming opinions, decisions
+ - Classic: E-Mail, E-Mail-Lists
+ - Also: Forums, FB-Groups, (private) Blogs, etc
+ - *everything goes, as long as the message comes to the recipient*
  - since every media is now emerged in the net, one could rephrase McLuhan to: "the protocol is the message"
 
-## 2. Datenaustausch - gemeinsamer zugriff auf arbeits-Dateien
- - ROH
-  - per USB-Sticks, Netzwerkfreigaben, Dropbox, 1-Klick-Filehoster (Rapidshare etc)
-  - per E-Mail (ganz schlecht)
+# 2. Files - shared access to work data
+- **"Raw"**
+ - via USB-Stick, (dumb) network share, Dropbox, 1-click-file-hosts (Rapidshare etc)
+ - via E-Mail (bad! don't!)
 
- - SEMI-ROH: Netzwerkfreigaben, Google Docs & Co:
-  - nur online, nur bestimmte Datei-Typen
-  - kostenlos und einfach zu bedienen
+# General Problem: 
+- **Who** has edited **what**, **when** (and **why**)?
+- If Alice and Bob edited different parts of the same documents, **which version is the "right" one**?
+- (spoiler: none)
 
- - Probleme: Wer hat wann was wo bearbeitet? Alice und Bob bearbeiten gleichzeitig verschiedene Stellen des selben Dokuments -- was gilt?
+# **Medium Raw**: 
+blocking network drives, specialized services like Google Docs & Co:
+  - only works online -- no offline editing
+  - only works for specific types of files
+  - but: easy to use, mostly free
 
- - Versionskontrolle
-  - einfache Form: UnserFlyer.v25.korrektur5.druck.psd
-   - Datendoppelung, manueller Aufwand
-   - 
-  - cvs, sv, git -> github.com
-   - [fb](https://github.com/facebook/tornado)
-   - [linux](https://github.com/torvalds/linux/blame/master/COPYING)
-   - [M18WEB](http://m18.uni-weimar.de:1337/projects/m18webserver/repository/revisions/893057eedb2b0e592f774d901b24ec0d446e0d39/diff/php5/fpm/pool.d/bauhaus.conf)
- - Funktioniert am besten mit Text (auch Quelltext)
- - Wikipedia!
+# **Versions control**
+the holy grail of digital collaboration
+- DIY: OurFlyer.v25.correction5.print.psd
+ - double data, manual labor
+- cvs, sv, git -> github.com
+ - [fb](https://github.com/facebook/tornado)
+ - [linux](https://github.com/torvalds/linux/blame/master/COPYING)
+ - [M18WEB](http://m18.uni-weimar.de:1337/projects/m18webserver/repository/revisions/893057eedb2b0e592f774d901b24ec0d446e0d39/diff/php5/fpm/pool.d/bauhaus.conf)
+
+ - works best with text (source code is text, too)
+ - Good example: Wikipedia
   - http://de.wikipedia.org/w/index.php?title=Bauhaus-Universität_Weimar&diff=prev&oldid=76191148
  
-## 3. Aufgabenverteilung
- - in PROSA ("mache die und jenes")
-  - wie "Kommunikation"
- - programmatisch ("Bug#345 was assigned to Max")
- -  Stichworte: Bugtracker, Tickets, Issues
- - Je nach Projekt auch mit Schnittstelle nach aussen (Nutzer melden Fehler)
+# 3. Task management
+- **"in "prose"** (prosa): ("alices does this, bob does that next week")
+ - see "Communication"
+- **programmatically** ("Bug#345 was assigned to Max")
+ - Buzz words: bug tracker, tickets, issues
+ - depending on your project the outside world may be part of it (costumers reporting errors/bugs)
 
-## 4. All-in-One bzw Enough-in-One
- - Google (einfach, aber evil)
- - Basecamp (schön, aber kostet)
-  - gibt natürlich noch mehr da draussen
- - Redmine (hässlich, aber OpenSource)
-  - auch: Trac
+## Systems: All-in-One bzw Enough-in-One
+ - Google (simple, but evil)
+ - [Basecamp](https://kkkiosk.basecamphq.com/projects/2790816-k3/posts) (beautiful, aber expensive)
+  - of course there is more out there
+ - Redmine (ugly, but free and open source)
+  - also: Trac
 
 ---
 
-# Tour durch Redmine.org
-- Überblick: [Activity](http://www.redmine.org/projects/redmine/activity?show_issues=1&show_changesets=1&show_news=1&show_wiki_edits=1&show_messages=1)
+# Tour to Redmine.org
+- Overview: [Activity](http://www.redmine.org/projects/redmine/activity?show_issues=1&show_changesets=1&show_news=1&show_wiki_edits=1&show_messages=1)
 - "Heart&Soul": [Issues](http://www.redmine.org/issues/9475)
 - Das große Ganze: [Roadmap](http://www.redmine.org/projects/redmine/roadmap)
 - Drüber reden: [Forums](http://www.redmine.org/boards/1/topics/1183)
@@ -179,17 +188,21 @@ Alice and Bob, both sitting at their PCs at home can't just connect to each othe
 - Ankündigen: [News](http://www.redmine.org/projects/redmine/news)
 - Produzieren: [Repository](http://www.redmine.org/projects/redmine/repository)
 
-# Hausaufgabe
-Bedarfsanalyse für eigenes aktuelles Projekt. am besten in gruppen
-- Was für Funktionen werden gebraucht?
-- Welche Tools können das?
-- Was ist das "best tool for the job"
+# Assignment
+- analyse your own demand for an own project and devise a digital collaboration strategy
+ - best: a current one and in groups
 
+- What tools/functions do you need?
+- Which services offer these tools and how?
+- What is the "best tool for the job" (or the best tools…)
 
-- Erlaubt sind alle genannten Werkzeuge und Services und alle sonstwie geeignet erscheinen
-- Viele kommerzielle Tools haben einen kostenlosen Account, Funktions- oder Zeit-beschränkt
-- Wer Redmine testen möchte: 
- - [Anmelden](http://inc.ars.is/account/register)
- - [neues Projekt anlegen](http://inc.ars.is/projects/new?parent_id=digikollabo)
- - Module und funktionen aussuchen (kann später geändert werden)
+- Use what I've shown, but also similar services (surprise me)
+- Many commercial services have some kind of free account which is enough for testing, but consider the long-term costs (is it worth it?)
+
+# Testing Redmine
+- is not mandatory, but free for all
+ - [Register](http://inc.ars.is/account/register)
+ - (wait for me to activate your account)
+ - [make new project](http://inc.ars.is/projects/new?parent_id=digikollabo)
+ - decide what "modules" to use -- you can change that later so you may just select all for a start
  - ![Bild](Screenshot)

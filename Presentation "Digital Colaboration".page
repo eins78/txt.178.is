@@ -28,6 +28,49 @@
 
 # Usenet Post:
 ~~~~{.bash}
+Path: gmdzi!unido!mcsun!cernvax!info
+From: timbl@info .cern.ch (Tim Berners-Lee)
+Newsgroups: alt.hypertext
+Subject: WorldWideWeb: Summary
+Keywords: heterogeneous hypertext, web, source, protocol, index, information retrieval
+Message-ID: <6487@cernvax.cern.ch>
+Date: 6 Aug 91 16:00:12 GMT
+References: <6484@cernvax.cern.ch>
+Sender: n...@cernvax.cern.ch
+Lines: 84
+
+In article <6...@cernvax.cern.ch> I promised to post a short summary  of the  
+WorldWideWeb project.  Mail me with any queries.
+
+		WorldWideWeb - Executive Summary
+
+
+The WWW project merges the techniques of information retrieval and hypertext to  
+make an easy but powerful global information system.
+
+The project started with the philosophy that much academic information should  
+be freely available to anyone. It aims to allow information sharing within  
+internationally dispersed teams, and the dissemination of information by  
+support groups.
+
+     Reader view
+
+The WWW world consists of documents, and links.  Indexes are special documents  
+which, rather than being read, may be searched. The result of such a search is  
+another ("virtual") document containing links to the documents found.  A simple  
+protocol ("HTTP") is used to allow a browser program to request a keyword  
+search by a remote information server. 
+
+The web contains documents in many formats. Those documents which are  
+hypertext,  (real or virtual) contain links to other documents, or places  
+within documents. All documents, whether real, virtual or indexes, look similar  
+to the reader and are contained within the same addressing scheme.
+
+To follow a link,  a reader clicks with a mouse (or types in a number if he or  
+she has no mouse). To search and index, a reader gives keywords (or other  
+search criteria). These are the only operations  necessary to access the entire  
+world of data.
+~~~~
 
 # WWW: the idea
  - HyperText == Formatted Text with _Links_

@@ -105,7 +105,8 @@ world of data.
 # Long-term solution: IPv6
  - 3.4×10^38 Adressen = 	340.000.000.000.000.000.000.000.000.000.000.000.000 = 340 undecillion = [340 billion billion billion billion](http://www.wolframalpha.com/input/?i=340000000000000000000000000000000000000)
  - this is a standard since 1998(!), but almost none of the big internet providers acted (till now, because now IPv4 is really exhausted)
-
+ - (new: a [german article](http://www.heise.de/netze/artikel/Kommentar-IPv6-und-der-Datenschutz-1375692.html) about how IPv6 could save us all) 
+ - (new: [biggest provider in US finally adopts IPv6](http://blog.comcast.com/2011/11/ipv6-deployment.html) the day after the lecture ;)
 # That means:
 Alice and Bob, both sitting at their PCs at home can't just connect to each other. they have to find out their [current IPs](http://ifconfig.me) and tell them to each other. they also have to configure their modem/router correctly and even if they are able to do that, the connection still is slow as hell.
 

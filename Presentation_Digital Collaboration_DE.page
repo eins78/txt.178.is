@@ -231,8 +231,9 @@ world of data.
 - CVS, SVN, GIT -> <http://github.com>
   - wurde entwickelt für Software (=Text)
   - eignet sich daher am besten für Text
- - [fb](https://github.com/facebook/tornado)
- - [linux](https://github.com/torvalds/linux/blame/master/COPYING)
+
+  - [fb](https://github.com/facebook/tornado)
+  - [linux](https://github.com/torvalds/linux/blame/master/COPYING)
 
 
 # **Versions control**

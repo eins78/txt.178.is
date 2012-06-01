@@ -1,30 +1,51 @@
-# (Short) History of the Internet
-## Idea:
- - decentral network (for stability, security)
- - no need for central point of service (and failure)
- - every computer can reach every other computer
+# Eine (kurze) Geschichte des Internets
 
-# *1969--1990*: (D)ARPAnet - military und universities
+## Die Idee:
+ - ein dezentrales Netzwerk
+ - braucht keinen zentralen Computer/Server
+ - jeder Computer kann jeder anderen Computer erreichen (Daten austauschen)
+
+
+# *1969--1990*: (D)ARPAnet - Militär und Universitäten
+
 ### DARPA: *Defense* Advanced Research Projects Agency
 
-## Features:
-  - Log in to and **work on remote computers** (telnet, now SSH)
-    - was the only way to do serious stuff before the PC (**Personal** Computer)
-  - **File "Sharing"**, i.e. sending and receiving (FTP: File Transfer Protocol)
-  - **Communication** (E-Mail, Usenet)
+## Funktionen:
+ - Log-In in entfernte Rechner (Terminal -- telnet, heute SSH)
+   - Kennt man aus Hackerfilmen (Matrix)
+   - War die Möglichkeit mit Computern zu arbeitern (vor dem *Personal* Computer
+ - File Sharing, also Senden und Empfangen von Dateien
+   - FTP=File Transfer Protocol
+ - Kommunikation
+   - E-Mail = elektronische Briefe
+   - Usenet (vorläufer von Foren, Email-Listen
+
 
 # *1982*: **TCP/IP**: Transmission Control Protocol/Internet Protocol  
-## defines how data is transmitted and where  
- - **IP**: every computer has an Internet protocol (IP) address (141.54.1.3, 178.77.78.244)
- - **TCP**: data is split up into packets and sent around from node to node (*routed*) till they reach their destination
- - 500+ more protocolls at work, but these are the basics…  
 
-# Pic: 30% of the internet in 2005  
+## Protokoll, wie Daten ausgetauscht werden
+  
+ - **IP**: every computer has an Internet protocol (IP) address (141.54.1.3, 178.77.78.244)
+ - **TCP**: Daten werden in kleine Packete **zerteilt**, **addressiert** und solange von Knoten zu Knoten **weitergeschickt** ("gerouted") bis sie angekommen
+ - TCP/IP ist nur die Grundlage, es gibt 500+ weitere Protokolle die darauf aufsetzen
+
+
+# Pic: 30% des Internets im Jahre 2005  
 ![Picture](http://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg)
 
 # 1990: Internet opens for everyone, not just educational and military institutions
 
-# 1991: Tim Berners-Lee invents the World Wide Web and [announces it in usenet](http://groups.google.com/group/alt.hypertext/msg/395f282a67a1916c?dmode=source)
+# 1990: Internet für Alle!
+
+- jeder darf die Protokolle benutzen (nicht neu)
+- alle dürfen in DAS Internet (das ist der springende Punkt, sonst gäbe es nicht "das" Internet)
+
+
+# 1991: WWW
+
+- Tim Berners-Lee erfindet das *World Wide Web*
+- In Ermangelung einer Website [postet er die Idee ins Usenet](http://groups.google.com/group/alt.hypertext/msg/395f282a67a1916c?dmode=source)
+
 
 # Usenet Post:
 ~~~~{.bash}

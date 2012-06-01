@@ -249,21 +249,28 @@ world of data.
 - Schlagwörter: Bug Tracker, Tickets, Issues
 - Je nach Projekt ist auch die Aussenwelt involviert (Kunden melden Fehler)
 
-- ## Systemm: All-in-One bzw Enough-in-One
+- ## Systemm: All-in-One bzw Genug-in-One
+- Google: (einfach aber böse)
+- [Basecamp](https://kkkiosk.basecamphq.com/projects/2790816-k3/posts) (beautiful, aber expensive)
+ - of course there is more out there
+- Redmine (häßlich, aber free and open source)
+ - also: Trac, etc
+ - Lots of more stuff!
 
--
 - **"in "prose"** (prosa): ("alices does this, bob does that next week")
  - see "Communication"
 - **programmatically** ("Bug#345 was assigned to Max")
  - Buzz words: bug tracker, tickets, issues
  - depending on your project the outside world may be part of it (costumers reporting errors/bugs)
 
-## Systems: All-in-One bzw Enough-in-One
- - Google (simple, but evil)
- - [Basecamp](https://kkkiosk.basecamphq.com/projects/2790816-k3/posts) (beautiful, aber expensive)
-  - of course there is more out there
- - Redmine (ugly, but free and open source)
-  - also: Trac
+---
+
+# Diskussion
+
+![Screenshot](http://eins78.kunsttechnikeinheit.com/files/2011/11/redmine-newproject.png)
+
+<style>body{font-family: Lato, "Gill Sans MT", "Gill Sans", GillSans, sans-serif;}div.slide{padding-top: 20px;}h1{text-align: center;}</style>
+
 
 ---
 
@@ -276,22 +283,16 @@ world of data.
 - Announce stuff: [News](http://www.redmine.org/projects/redmine/news)
 - Produce stuff: [Repository](http://www.redmine.org/projects/redmine/repository)
 
+---
 
 # Assignment
 - analyse your own demand for an own project and devise a digital collaboration strategy
  - best: a current one and in groups
-
+---
 - What tools/functions do you need?
 - Which services offer these tools and how?
 - What is the "best tool for the job" (or the best tools…)
-
+---
 - Use what I've shown, but also similar services (surprise me)
 - Many commercial services have some kind of free account which is enough for testing, but consider the long-term costs (is it worth it?)
 
-
-
-# Diskussion
-
-![Screenshot](http://eins78.kunsttechnikeinheit.com/files/2011/11/redmine-newproject.png)
-
-<style>body{font-family: Lato, "Gill Sans MT", "Gill Sans", GillSans, sans-serif;}div.slide{padding-top: 20px;}h1{text-align: center;}</style>

@@ -240,10 +240,16 @@ world of data.
  
 # 3. Aufgabenverteilung und -management
 
-- ## **in "Prosa"**
-- Alice tut nächste Woche dies, Bob tut das.
+- ## in "Prosa"
+- "Alice tut nächste Woche dies, Bob tut das."
   - siehe *"Kommunikation"*
- 
+
+- ## programmatisch
+- "Bug#345 wurde Max zugewiesen"
+- Schlagwörter: Bug Tracker, Tickets, Issues
+- Je nach Projekt ist auch die Aussenwelt involviert (Kunden melden Fehler)
+
+- ## Systemm: All-in-One bzw Enough-in-One
 
 -
 - **"in "prose"** (prosa): ("alices does this, bob does that next week")

@@ -225,22 +225,21 @@ world of data.
 
 - "heiliger Gral" der digitalen Zusammenarbeit.
 
-1. Handgemacht: **Faltblatt-Aussendarst.korrektur3_print5__FREIGEGEBEN.pdf**
+- ## Handgemacht: **Faltblatt-Aussendarst.korrektur3_print5__FREIGEGEBEN.pdf**
   - mehrfach Arbeit und Speicher (doof, aber einfach)
 
 - ## CVS, SVN, GIT 
-> <http://github.com> / [fb](https://github.com/facebook/tornado) / [linux](https://github.com/torvalds/linux/blame/master/COPYING)
-
+- > > <http://github.com> / [fb](https://github.com/facebook/tornado) / [linux](https://github.com/torvalds/linux/blame/master/COPYING)
   - wurde entwickelt für Software (=Text)
   - eignet sich daher am besten für Text
 
- - Gutes Beispiel: Wikipedia
+ - #### Gutes Beispiel: Wikipedia
   - <http://de.wikipedia.org/w/index.php?title=Bauhaus-Universität_Weimar&diff=prev&oldid=76191148>
 
  
 # 3. Aufgabenverteilung und -management
 
-- **in "Prosa"**: Alice tut nächste Woche dies, Bob tut das.
+- ## **in "Prosa"**: Alice tut nächste Woche dies, Bob tut das.
   - siehe *"Kommunikation"*
 
 -
@@ -268,6 +267,7 @@ world of data.
 - Announce stuff: [News](http://www.redmine.org/projects/redmine/news)
 - Produce stuff: [Repository](http://www.redmine.org/projects/redmine/repository)
 
+
 # Assignment
 - analyse your own demand for an own project and devise a digital collaboration strategy
  - best: a current one and in groups
@@ -279,16 +279,6 @@ world of data.
 - Use what I've shown, but also similar services (surprise me)
 - Many commercial services have some kind of free account which is enough for testing, but consider the long-term costs (is it worth it?)
 
-# Testing Redmine
-- is not mandatory, but free for all
-
-## Workflow
-### First user for each group, will be the manager, has to set up the project
- - [Register](http://inc.ars.is/account/register)
- - you'll get a email with a link, click it to activate your account
- - write me so i'll add you to our main project
- - [make new sub project](http://inc.ars.is/projects/new?parent_id=digikollabo)
- - decide what "modules" to use -- you can change that later so you may just select all for a start
 
 
 # Diskussion

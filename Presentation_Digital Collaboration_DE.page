@@ -130,7 +130,7 @@ world of data.
 # Problem #2. Knapper Addressraum
 
 - es gibt (schon lange) nicht mehr genug IP-Adressen für alle (1.1.1.1--255.255.255.254 = 4.3 Milliarden ), also:
-- **Dynamische IPs**: jeder Kunde bekommt bei jeder neuen Verbindung irgendeine freie Adresse zugewiesen
+- **Dynamische IPs**: jeder Kunde bekommt bei jeder neuen Verbindung *irgendeine* freie Adresse zugewiesen
 - **NAT**: Ein Kunde = 1 Anschluss = 1 Wohnung = 1 Addresse für X Geräte
   - 5 Leute teilen sich eine Telefonnummer
   - Das funktioniert gut, wenn ich etwas aus dem Netz will (ich hebe ab und wähle eine Nummer -> Telefonat)

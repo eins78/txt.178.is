@@ -228,26 +228,13 @@ world of data.
 - Handgemacht: **Faltblatt-Aussendarst.korrektur3_print5__FREIGEGEBEN.pdf**
   - mehrfach Arbeit und Speicher (doof, aber einfach)
 
-- CVS, SVN, GIT > <http://github.com>
+- CVS, SVN, GIT > <http://github.com> / [fb](https://github.com/facebook/tornado) / [linux](https://github.com/torvalds/linux/blame/master/COPYING)
+
   - wurde entwickelt für Software (=Text)
   - eignet sich daher am besten für Text
 
-  - [fb](https://github.com/facebook/tornado)
-  - [linux](https://github.com/torvalds/linux/blame/master/COPYING)
-
-
-# **Versions control**
-the holy grail of digital collaboration
-- DIY: OurFlyer.v25.correction5.print.psd
- - double data, manual labor
-- cvs, sv, git -> github.com
- - [fb](https://github.com/facebook/tornado)
- - [linux](https://github.com/torvalds/linux/blame/master/COPYING)
- - [M18WEB](http://m18.uni-weimar.de:1337/projects/m18webserver/repository/revisions/893057eedb2b0e592f774d901b24ec0d446e0d39/diff/php5/fpm/pool.d/bauhaus.conf)
-
- - works best with text (source code is text, too)
- - Good example: Wikipedia
-  - http://de.wikipedia.org/w/index.php?title=Bauhaus-Universität_Weimar&diff=prev&oldid=76191148
+ - Gutes Beispiel: Wikipedia
+  - <http://de.wikipedia.org/w/index.php?title=Bauhaus-Universität_Weimar&diff=prev&oldid=76191148>
  
 # 3. Task management
 - **"in "prose"** (prosa): ("alices does this, bob does that next week")

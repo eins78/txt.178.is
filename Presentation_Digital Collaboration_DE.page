@@ -201,7 +201,7 @@ world of data.
 - Wenn Alice und Bob gleichzeitig verschiedene Stellen des Textes bearbeiten, welche Version ist dann die korrekte?
   - (Spoiler: Keine)
 
-# DIFF 1
+# DIFF
  
   - Der Freistaat Thüringen (Abkürzung TÜ) ist ein Land der Bundesrepublik Deutschland. Mit rund 1,2 Millionen Eiwohnern und einer Fläche von rund 76.000qm gehört es zu den kleineren Ländern der Bundesrepublik. 
 
@@ -222,10 +222,16 @@ world of data.
 
 # Versionskontrolle
 
-- "heiliger Gral" der digitalen Zusammenarbeit
-- Handgemacht: **Faltblatt-Aussendarstellung.korrektur3_print5__FREIGEGEBEN.pdf**
+- "heiliger Gral" der digitalen Zusammenarbeit.
+
+- Handgemacht: **Faltblatt-Aussendarst.korrektur3_print5__FREIGEGEBEN.pdf**
   - mehrfach Arbeit und Speicher (doof, aber einfach)
-- CVS, SVN, GIT -> <http://github.com
+- CVS, SVN, GIT -> <http://github.com>
+  - wurde entwickelt für Software (=Text)
+  - eignet sich daher am besten für Text
+ - [fb](https://github.com/facebook/tornado)
+ - [linux](https://github.com/torvalds/linux/blame/master/COPYING)
+
 
 # **Versions control**
 the holy grail of digital collaboration

@@ -113,11 +113,11 @@ world of data.
 - > "Every time you email a file to yourself so you can pull it up on your friend's laptop, Tim Berners-Lee sheds a single tear."
 
 
-# Problem #1. Asymmetrische Verbindungen  (DSL=**A**DSL)
+# Problem #1. Asymmetrische Verbindungen  
 
-- der Geburtsfehler des (privaten) Internets
-
-### Beispiel: DSL16000 = 16 Mbps (=~30€)
+- DSL=**A**DSL
+ - der Geburtsfehler des (privaten) Internets
+- Beispiel: DSL16000 = 16 Mbps (=~30€)
  - Herunteladen: 13,06 Mbps; Up: 0,96 Mbps
  - = 1,63 MB/s down und 0,12MB/s up
  - also: 1GB **herunterladen**: 10min; 1GB **hochladen**: 2h 20min

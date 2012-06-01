@@ -151,12 +151,14 @@ world of data.
 
 - **IPv6**
  - 3.4×10^38 Adressen = 	340.000.000.000.000.000.000.000.000.000.000.000.000 = 340 undecillion = [340 billion billion billion billion](http://www.wolframalpha.com/input/?i=340000000000000000000000000000000000000)
- - this is a standard since 1998(!), but almost none of the big internet providers acted (till now, because now IPv4 is really exhausted)
- - (new: a [german article](http://www.heise.de/netze/artikel/Kommentar-IPv6-und-der-Datenschutz-1375692.html) about how IPv6 could save us all) 
- - (new: [biggest provider in US finally adopts IPv6](http://blog.comcast.com/2011/11/ipv6-deployment.html) the day after the lecture ;)
+ - standard since 1998(!)
 
 
-# The absurdity
+
+# Die Absurde Situation
+
+- wir haben ein weltumspannendes, dezentrales Netzwerk
+- um es zu
 
 - we have a global and decentral network.
 - to make use of it, private consumers need centralized services.

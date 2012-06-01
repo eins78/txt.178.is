@@ -214,6 +214,7 @@ world of data.
 # Mittelweg
 
 - "blockierender" Netzwerkspeicher (nur einer kann jeweils bearbeiten -- doof)
+
 - spezielle Dienste (wie Google Docs)
   - rein web-basiert, kein offline-bearbeiten
   - funktioniert nur mit bestimmten Formaten von Inhalten (für die es einen Service gibt)
@@ -226,6 +227,7 @@ world of data.
 
 - Handgemacht: **Faltblatt-Aussendarst.korrektur3_print5__FREIGEGEBEN.pdf**
   - mehrfach Arbeit und Speicher (doof, aber einfach)
+
 - CVS, SVN, GIT -> <http://github.com>
   - wurde entwickelt für Software (=Text)
   - eignet sich daher am besten für Text

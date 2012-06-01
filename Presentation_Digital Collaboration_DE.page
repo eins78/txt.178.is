@@ -228,7 +228,8 @@ world of data.
 1. Handgemacht: **Faltblatt-Aussendarst.korrektur3_print5__FREIGEGEBEN.pdf**
   - mehrfach Arbeit und Speicher (doof, aber einfach)
 
-- ## CVS, SVN, GIT > <http://github.com> / [fb](https://github.com/facebook/tornado) / [linux](https://github.com/torvalds/linux/blame/master/COPYING)
+- ## CVS, SVN, GIT 
+> <http://github.com> / [fb](https://github.com/facebook/tornado) / [linux](https://github.com/torvalds/linux/blame/master/COPYING)
 
   - wurde entwickelt für Software (=Text)
   - eignet sich daher am besten für Text
@@ -289,8 +290,7 @@ world of data.
  - [make new sub project](http://inc.ars.is/projects/new?parent_id=digikollabo)
  - decide what "modules" to use -- you can change that later so you may just select all for a start
 
-### All other collaborators:
-- just [Register](http://inc.ars.is/account/register) and activate with the E-Mail-Link
-- now ask your "group manager" to add you to you group's project
+
+# Diskussion
 
 ![Screenshot](http://eins78.kunsttechnikeinheit.com/files/2011/11/redmine-newproject.png)

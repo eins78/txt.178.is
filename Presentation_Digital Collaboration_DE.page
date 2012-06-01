@@ -239,7 +239,10 @@ world of data.
  
 # 3. Aufgabenverteilung und -management
 
-- **
+- **in "Prosa"**: Alice tut nächste Woche dies, Bob tut das.
+  - siehe *"Kommunikation"*
+
+-
 - **"in "prose"** (prosa): ("alices does this, bob does that next week")
  - see "Communication"
 - **programmatically** ("Bug#345 was assigned to Max")

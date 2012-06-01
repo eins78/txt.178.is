@@ -150,8 +150,8 @@ world of data.
 # (Long-term solutions)
 
 - **IPv6**
- - 3.4×10^38 Adressen = 	340.000.000.000.000.000.000.000.000.000.000.000.000 = 340 undecillion = [340 billion billion billion billion](http://www.wolframalpha.com/input/?i=340000000000000000000000000000000000000)
- - standard since 1998(!)
+  - 3.4×10^38 Adressen =  340.000.000.000.000.000.000.000.000.000.000.000.000 = 340 undecillion = [340 billion billion billion billion](http://www.wolframalpha.com/input/?i=340000000000000000000000000000000000000)
+  - standard since 1998(!)
 
 
 # Die Absurde Situation
@@ -162,7 +162,7 @@ world of data.
 
 # Examples
 - GMail/Web.de & Co. *statt* einem eigenem Email-Server
- - (Fun Fact: Osama Bin Laden war bei Yahoo!Mail)
+  - (Fun Fact: Osama Bin Laden war bei Yahoo!Mail)
 - Facebook, Flickr, Soundcloud, Blogspot, etc *statt* eigenem WWW-Server
 - Skype *statt* VoIP/SIP/Jabber
 - Kino.to/Dropbox/etc *instead of* ftp://max.server/Filme/V.for.Vendetta.avi
@@ -198,11 +198,11 @@ world of data.
 
 # Generelles Problem
 - 4W: **Was** wurde vom **Wem** **Wann** bearbeited (und **Warum**)?
+- Wenn Alice und Bob gleichzeitig verschiedene Stellen des Textes bearbeiten, welche Version ist dann die korrekte?
+  - (Spoiler: Keine)
 
-# 2. Files - shared access to work data
-- **"Raw"**
- - via USB-Stick, (dumb) network share, Dropbox, 1-click-file-hosts (Rapidshare etc)
- - via E-Mail (bad! don't!)
+Version 1:
+Der Freistaat Thüringen (Abkürzung TH) ist ein Land der Bundesrepublik Deutschland. Mit rund 2,2 Millionen Einwohnern und einer Fläche von rund 16.000 Quadratkilometern gehört es zu den kleineren Ländern der Bundesrepublik. 
 
 # General Problem: 
 - **Who** has edited **what**, **when** (and **why**)?

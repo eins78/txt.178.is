@@ -154,34 +154,31 @@ world of data.
  - standard since 1998(!)
 
 
-
 # Die Absurde Situation
 
 - wir haben ein weltumspannendes, dezentrales Netzwerk
-- um es zu
+- um es zu benutzen, brauchen wir (Privatleute) zentrale Dienste
 
-- we have a global and decentral network.
-- to make use of it, private consumers need centralized services.
 
 # Examples
-- GMail/Web.de & Co. *instead of* own mail server 
- - (Bin Laden had Yahoo!Mail)
-- Facebook, Flickr, Soundcloud, Blogspot, etc *instead of* own WWW Server
-- Skype *instead of* SIP/Jabber (Skype=lawful interception)
+- GMail/Web.de & Co. *statt* einem eigenem Email-Server
+ - (Fun Fact: Osama Bin Laden war bei Yahoo!Mail)
+- Facebook, Flickr, Soundcloud, Blogspot, etc *statt* eigenem WWW-Server
+- Skype *statt* VoIP/SIP/Jabber
 - Kino.to/Dropbox/etc *instead of* ftp://max.server/Filme/V.for.Vendetta.avi
-- Rapidshare/MegaUpload/etc *instead of* Torrents
+- Rapidshare/MegaUpload/etc *statt* BitTorrent
 
 ---
 
 # Digital Collaboration
 
-- generally: "Von Software lernen heißt siegen lernen"
-- (learn from programmers, learn to win)
-- success story: LINUX
- - 20 years of developement
- - 1000s of current collaborators
- - 10000s of coll. over time
- - see [kernel.org](http://kernel.org)
+- allgemein: "Von Programmierern lernen heißt siegen lernen"
+- Erfolgsgeschichte: LINUX (Kernel)
+ - 20 Jahre Entwicklung
+ - 1000e Mitarbeiter aktuell
+ - 10000e Mitarbeiter über die Jahre
+ - 1,3 Milliarden Euro [Entwicklungskosten](http://www.linuxfoundation.org/sites/main/files/publications/estimatinglinux.html)…
+ - siehe [kernel.org](http://kernel.org)
 
 # 1. Communikation (internal/external)
  - sharing knowledge, results and findings

@@ -206,7 +206,7 @@ world of data.
   - Der Freistaat Thüringen (Abkürzung TÜ) ist ein Land der Bundesrepublik Deutschland. Mit rund 1,2 Millionen Eiwohnern und einer Fläche von rund 76.000qm gehört es zu den kleineren Ländern der Bundesrepublik. 
 
 - Edit Alice:
-  - Der Freistaat Thüringen (Abkürzung **TH**) ist ein Land der Bundesrepublik Deutschland. Mit rund *2,2* Millionen Eiwohnern und einer Fläche von rund *16.000*qm gehört es zu den kleineren Ländern der Bundesrepublik.
+  - Der Freistaat Thüringen (Abkürzung **TH**) ist ein Land der Bundesrepublik Deutschland. Mit rund **2,2** Millionen Eiwohnern und einer Fläche von rund **16.000**qm gehört es zu den kleineren Ländern der Bundesrepublik.
 
 - Edit Bob:
   - Der Freistaat Thüringen (Abkürzung TH) ist ein Land der Bundesrepublik Deutschland. Mit rund 1,2 Millionen **Einwohnern** und einer Fläche von rund 76.000 **Quadratkilometern** gehört es zu den kleineren Ländern der Bundesrepublik.
@@ -235,8 +235,11 @@ world of data.
 
  - Gutes Beispiel: Wikipedia
   - <http://de.wikipedia.org/w/index.php?title=Bauhaus-Universität_Weimar&diff=prev&oldid=76191148>
+
  
-# 3. Task management
+# 3. Aufgabenverteilung und -management
+
+- **
 - **"in "prose"** (prosa): ("alices does this, bob does that next week")
  - see "Communication"
 - **programmatically** ("Bug#345 was assigned to Max")

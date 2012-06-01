@@ -130,11 +130,11 @@ world of data.
 # Problem #2. Knapper Addressraum
 
 - es gibt (schon lange) nicht mehr genug IP-Adressen für alle (1.1.1.1--255.255.255.254 = 4.3 Milliarden ), also:
-  - **Dynamische IPs**: jeder Kunde bekommt bei jeder neuen Verbindung irgendeine freie Adresse zugewiesen
-  - **NAT**: Ein Kunde = 1 Anschluss = 1 Wohnung = 1 Addresse für X Geräte
-   - 5 Leute teilen sich eine Telefonnummer
-   - Das funktioniert gut, wenn ich etwas aus dem Netz will (ich hebe ab und wähle eine Nummer -> Telefonat)
-   - Funktioniert schlecht, wenn jemand aus dem Netz etwas von mir will (das Telefon klingelt -> "Hi, ist Max da?")
+- **Dynamische IPs**: jeder Kunde bekommt bei jeder neuen Verbindung irgendeine freie Adresse zugewiesen
+- **NAT**: Ein Kunde = 1 Anschluss = 1 Wohnung = 1 Addresse für X Geräte
+  - 5 Leute teilen sich eine Telefonnummer
+  - Das funktioniert gut, wenn ich etwas aus dem Netz will (ich hebe ab und wähle eine Nummer -> Telefonat)
+  - Funktioniert schlecht, wenn jemand aus dem Netz etwas von mir will (das Telefon klingelt -> "Hi, ist Max da?")
 
 
 # Was heisst das?
@@ -174,11 +174,11 @@ world of data.
 
 - allgemein: "Von Programmierern lernen heißt siegen lernen"
 - Erfolgsgeschichte: LINUX (Kernel)
- - 20 Jahre Entwicklung
- - 1000e Mitarbeiter aktuell
- - 10000e Mitarbeiter über die Jahre
- - 1,3 Milliarden Euro [Entwicklungskosten](http://www.linuxfoundation.org/sites/main/files/publications/estimatinglinux.html)…
- - siehe [kernel.org](http://kernel.org)
+  - 20 Jahre Entwicklung
+  - 1000e Mitarbeiter aktuell
+  - 10000e Mitarbeiter über die Jahre
+  - 1,3 Milliarden Euro [Entwicklungskosten](http://www.linuxfoundation.org/sites/main/files/publications/estimatinglinux.html)…
+  - siehe [kernel.org](http://kernel.org)
 
 # 1. Kommunikation (intern/extern)
 
@@ -192,9 +192,8 @@ world of data.
 # 2. Dateien -- gemeiner Zugriff auf Arbeitsdaten
 
 - fällt bei jedem Projekt an, mal mehr mal weniger
-
 - **"Roh"**: 
- * USB-Stick, (einfache) Netzwerkfreigabe, Dropbox, 1-click-file-hosts (Rapidshare etc)
+  - USB-Stick, (einfache) Netzwerkfreigabe, Dropbox, 1-click-file-hosts (Rapidshare etc)
   - E-Mail (nicht!)
 
 # Generelles Problem

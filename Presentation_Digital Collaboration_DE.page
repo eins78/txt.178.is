@@ -120,31 +120,38 @@ world of data.
 ### Beispiel: DSL16000 = 16 Mbps (=~30€)
  - Herunteladen: 13,06 Mbps; Up: 0,96 Mbps
  - = 1,63 MB/s down und 0,12MB/s up
- - also: 1GB **herunterladen**: 10min; 1GB **hochladen**: 2h20min
-
-# Problem #1. Asymmetric Connections  (DSL=**A**DSL)
-
-- the "Geburtsfehler" (birth defect) of the private internet
-
-### Example: DSL16000 = 16 Mbps (=~30€)
- - Down: 13,06 Mbps; Up: 0,96 Mbps
- - = 1,63 MB/s down und 0,12MB/s up
- - i.e.: *download* 1GB in 10min, *upload* 1GB in 2h20min
+ - also: 1GB **herunterladen**: 10min; 1GB **hochladen**: 2h 20min
+ - noch schlimmer: 1GB an 10 Leute schicken (~1,5h vs. ~1 Tag)
 
 
-# Problem #2. Address Shortage
+# Problem #2. Knapper Addressraum
 
-- not enough IP(v4) addresses for everyone (1.1.1.1--255.255.255.254 = 4.3 billion addresses ), so:
- - **dynamics IPs**: with every connect you get a new address
- - **NAT**: every household only gets one IP, so every computer sitting "behind" the modem/router has to share that address. this only works well for connections to servers (computers with real IPs), but a connection between 2 computers in different households are complicated to set up.
+- es gibt (schon lange) nicht mehr genug IP-Adressen für alle (1.1.1.1--255.255.255.254 = 4.3 Milliarden ), also:
+  - **Dynamische IPs**: jeder Kunde bekommt bei jeder neuen Verbindung irgendeine freie Adresse zugewiesen
+  - **NAT**: Ein Kunde = 1 Anschluss = 1 Wohnung = 1 Addresse für X Geräte
+   - 5 Leute teilen sich eine Telefonnummer
+   - Das funktioniert gut, wenn ich etwas aus dem Netz will (ich hebe ab und wähle eine Nummer -> Telefonat)
+   - Funktioniert schlecht, wenn jemand aus dem Netz etwas von mir will (das Telefon klingelt -> "Hi, ist Max da?")
 
-# Long-term solution: IPv6
+
+# Was heisst das?
+
+- Alice und Bob sitzen beide in ihrer Wohnung (hinter einem DSL-Anschluss)
+- Beide wollen eine Datenverbindung aufbauen
+- Also müssen beide ihre eigene, aktuelle IP-Adresse herausfinden und sich mitteilen.
+- Wie? Brieftaube?
+- Dann müssen beide noch ihren Router richtig konfiguriert haben…
+- Und selbst dann ist alles sehr langsam
+
+
+# (Long-term solutions)
+
+- **IPv6**
  - 3.4×10^38 Adressen = 	340.000.000.000.000.000.000.000.000.000.000.000.000 = 340 undecillion = [340 billion billion billion billion](http://www.wolframalpha.com/input/?i=340000000000000000000000000000000000000)
  - this is a standard since 1998(!), but almost none of the big internet providers acted (till now, because now IPv4 is really exhausted)
  - (new: a [german article](http://www.heise.de/netze/artikel/Kommentar-IPv6-und-der-Datenschutz-1375692.html) about how IPv6 could save us all) 
  - (new: [biggest provider in US finally adopts IPv6](http://blog.comcast.com/2011/11/ipv6-deployment.html) the day after the lecture ;)
-# That means:
-Alice and Bob, both sitting at their PCs at home can't just connect to each other. they have to find out their [current IPs](http://ifconfig.me) and tell them to each other. they also have to configure their modem/router correctly and even if they are able to do that, the connection still is slow as hell.
+
 
 # The absurdity
 

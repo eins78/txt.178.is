@@ -10,12 +10,14 @@
 
 ### DARPA: *Defense* Advanced Research Projects Agency
 
-## Funktionen:
+- ### Funktionen:
  - Log-In in entfernte Rechner (Terminal -- telnet, heute SSH)
    - Kennt man aus Hackerfilmen (Matrix)
    - War die Möglichkeit mit Computern zu arbeitern (vor dem *Personal* Computer
+
  - File Sharing, also Senden und Empfangen von Dateien
    - FTP=File Transfer Protocol
+
  - Kommunikation
    - E-Mail = elektronische Briefe
    - Usenet (vorläufer von Foren, Email-Listen

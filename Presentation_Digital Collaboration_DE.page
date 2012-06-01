@@ -180,13 +180,20 @@ world of data.
  - 1,3 Milliarden Euro [Entwicklungskosten](http://www.linuxfoundation.org/sites/main/files/publications/estimatinglinux.html)…
  - siehe [kernel.org](http://kernel.org)
 
-# 1. Communikation (internal/external)
- - sharing knowledge, results and findings
- - discussing, forming opinions, decisions
- - Classic: E-Mail, E-Mail-Lists
- - Also: Forums, FB-Groups, (private) Blogs, etc
- - *everything goes, as long as the message comes to the recipient*
- - since every media is now emerged in the net, one could rephrase McLuhan to: "the protocol is the message"
+# 1. Kommunikation (intern/extern)
+
+- (Mit-)Teilen von Wissen, Informationen und Ergebnissen
+  - Diskussionen, Meinungsbildung, Entscheidungen
+  - Klassisch: E-Mail(-Listen)
+  - Auch: Foren, Facebookgruppen, interne Blogs, etc
+  - "Alles geht, solange die Botschaft den Empfänger erreicht"
+
+
+# 2. Dateien -- gemeiner Zugriff auf Arbeitsdaten
+
+- fällt bei jedem Projekt an, mal mehr mal weniger
+
+- **"Roh"**: 
 
 # 2. Files - shared access to work data
 - **"Raw"**

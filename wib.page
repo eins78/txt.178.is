@@ -24,6 +24,6 @@
 
 # The system uses cryptography to make it mathematically harder than it would be to keep the log
 
-# If you would want to cheat, you would make your own blocks claiming a lot of transactions to you -- needs more half of the computing power of the combined net
+# If you would want to cheat, you would make your own blocks claiming a lot of transactions to you -- needs more than half of the computing power of the combined net
 
 # "Network effect" -- bla -- Mining!

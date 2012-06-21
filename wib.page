@@ -1,6 +1,6 @@
 # What is Bitcoin
 
-    From the perspective Satoshi Nakamoto and what problems he tried to solve
+- *From the perspective Satoshi Nakamoto and what problems he tried to solve*
 
 # we want digital "money", with full control of ownership
 
@@ -14,8 +14,7 @@
 
 # Because we can not trust people we still want a central bank
 
-# We build a piece of software which connects every user into one 
-system, forming a decentral bank
+# We build a piece of software which connects every user into one system, forming a decentral bank
 
 # Also, there is no money -- just accounts and their positive or zero balance
 
@@ -26,4 +25,5 @@ system, forming a decentral bank
 # The system uses cryptography to make it mathematically harder than it would be to keep the log
 
 # If you would want to cheat, you would make your own blocks claiming a lot of transactions to you -- needs more half of the computing power of the combined net
+
 # "Network effect" -- bla -- Mining!

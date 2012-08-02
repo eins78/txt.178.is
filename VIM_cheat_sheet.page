@@ -1,0 +1,24 @@
+# VIM CHEAT SHEET
+
+## MODES
+
+    ESC	enter command mode
+    i		enter editing mode (insert)
+
+
+## COMMANDS
+
+    :w   save
+    :x   save and exit
+    :q!  dont save and quit
+
+    /    search
+    n    (search) next
+    dd   delete line
+    2dd  delete 2 lines
+    3↓   go down 3 lines
+
+### TRICKS
+
+open vim and jump to line number  
+    $ vim .ssh/known_hosts +1337

@@ -1,0 +1,13 @@
+# Monitoring-Next
+
+## Stack Architecture
+
+    [ROUTER] =(JSON)=> [API-in] => [DATABASE] => [API-out] =(JSON)=> [WEBAPP]
+                                   [DATABASE] => [API-out] =(JSON)=> [ALERTS]
+                                   [DATABASE] => [API-out] =(JSON)=> [REPORT]
+
+## Stack Component Options
+
+### [DATABASE]
+
+see [JSON/Serve](JSON#servestore)

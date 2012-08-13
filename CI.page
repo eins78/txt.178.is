@@ -6,3 +6,7 @@ Continuos Integration
 ## OpenWRT
 
 - they [are using](http://www.mail-archive.com/openwrt-devel@lists.openwrt.org/msg07701.html) a [buildbot instance](http://buildbot.openwrt.org:8010/)
+
+## Deploying
+
+- <https://github.com/blog/470-deployment-script-spring-cleaning>

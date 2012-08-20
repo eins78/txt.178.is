@@ -38,6 +38,10 @@ let a = 1:a in head a
     b. another
 3.  item three
 
+And a quotation[@author:booktag]
+
+[@author:booktag]: Author, First Name: The Title of the Book. Publisher Inc, 2000.
+
 term
 :   definition
 orange

@@ -33,8 +33,12 @@ Serve&Store
 - [WP: ESB / Enterprise service bus](http://en.wikipedia.org/wiki/Enterprise_service_bus)
     - <http://docs.adroitlogic.org/display/esb/Introducing+the+UltraESB>
 
+JS FUN
+------
 
-FUTUREDEV
+- [NowJS creates a magic namespace "now", accessible by server and client](http://www.nowjs.com/guide)
+
+WTF?
 ---------
 
 - [Json:select -- select JSON like CSS](http://jsonselect.org/#overview) -- but what for?

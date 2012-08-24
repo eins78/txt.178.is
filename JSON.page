@@ -36,6 +36,8 @@ Serve&Store
 JS FUN
 ------
 
+- [Cube is a system for collecting timestamped events and deriving metrics.](http://square.github.com/cube/)
+- [Cubism.js is a D3 plugin for visualizing time series. ](http://square.github.com/cubism/)
 - [NowJS creates a magic namespace "now", accessible by server and client](http://www.nowjs.com/guide)
 
 WTF?

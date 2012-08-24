@@ -5,8 +5,11 @@ Frameworks
 ----------
 
 - [Spine. Build Awesome JavaScript MVC Applications](http://spinejs.com)
+- <http://expressjs.com>
 
 Libraries
 ---------
 
 - [NowJS creates a magic namespace "now", accessible by server and client](http://www.nowjs.com/guide)
+- <http://socket.io>
+	

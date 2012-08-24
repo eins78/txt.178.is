@@ -22,6 +22,9 @@ Serve&Store
 
 - [MongoDB]()
     - [use cases: monitoring](http://www.mongodb.org/display/DOCS/Production+Deployments#ProductionDeployments-Realtimestats%2Fanalytics)
+    - [Cube is a system for collecting timestamped events and deriving metrics.](http://square.github.com/cube/)
+        - [Cubism.js is a D3 plugin for visualizing time series. ](http://square.github.com/cubism/)
+
 
 - [Redis. key-value-store/data structure server. Hot shit -- runs YouPorn(!)](http://redis.io)
     - [Blog: When to use Redis](http://www.paperplanes.de/2009/10/29/when_to_redis.html)
@@ -36,8 +39,8 @@ Serve&Store
 JS FUN
 ------
 
-- [Cube is a system for collecting timestamped events and deriving metrics.](http://square.github.com/cube/)
-- [Cubism.js is a D3 plugin for visualizing time series. ](http://square.github.com/cubism/)
+
+
 - [NowJS creates a magic namespace "now", accessible by server and client](http://www.nowjs.com/guide)
 
 WTF?

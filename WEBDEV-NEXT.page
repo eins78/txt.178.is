@@ -1,10 +1,14 @@
-WEBDEV-NEXT
+#WEBDEV-NEXT
 
 
-# Projects to check out
+## Helpfull Info
+
+- <http://addyosmani.github.com/todomvc/>
+
+## Projects to check out
 
 - [Dillinger. text editor, I like the components](http://dillinger.io)
 
-# Technologies
+## Technologies
 
 - [Ajax+PushState=PJAX]http://pjax.heroku.com)

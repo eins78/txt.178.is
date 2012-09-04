@@ -1,0 +1,59 @@
+#
+# GLOBAL Makefile
+# BUGS:
+
+default:
+	@echo "NOTHING TO DO"
+
+
+# GIT HOOKS 
+# -- git hooks are just local, not in repo, so we can't sync.    #
+# -- Solution: every git-hook just calls 'make $hook',           #
+# --           actual code is synced via Makefile.               ### Docs used: http://git-scm.com/book/en/Customizing-Git-Git-Hooks
+
+## Committing-Workflow Hooks
+#
+### pre-commit: runs first, before message generation
+git-hook--pre-commit:
+	@echo "NOTHING TO DO"
+
+### prepare-commit-msg: is run before the commit message editor is fired up but after the default message is created
+git-hook--prepare-commit-msg:
+	@echo "NOTHING TO DO"
+
+### commit-msg: takes one parameter (path to a temporary file that contains the current commit message)
+git-hook--commit-msg:
+	@echo "NOTHING TO DO"
+
+### post-commit: runs after the entire commit process is completed
+git-hook--post-commit:
+	@echo "NOTHING TO DO"
+
+## Other Client Hooks
+#
+### pre-rebase: runs before you rebase anything and can halt the process by exiting non-zero
+git-hook--pre-rebase:
+	@echo "NOTHING TO DO"
+
+### post-checkout: is run after a successful `git checkout`
+git-hook--post-checkout:
+	@echo "NOTHING TO DO"
+
+### post-merge: runs after a successful `merge` command
+git-hook--post-merge:
+	@echo "NOTHING TO DO"
+
+## Server-Side Hooks
+#
+### pre-receive: first script to run when handling a push from a client
+git-hook--pre-receive:
+	@echo "NOTHING TO DO"
+
+### post-receive : runs after the entire process is completed 
+git-hook--post-receive :
+	@echo "NOTHING TO DO"
+
+### update: similar to `pre-receive`, except that it’s run once for each branch the pusher is trying to update.
+git-hook--update:
+	@echo "NOTHING TO DO"
+

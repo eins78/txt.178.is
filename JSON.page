@@ -1,6 +1,12 @@
 JSON
 ====
 
+CLI
+---
+
+- <https://github.com/micha/jsawk>
+  - needs spidermonkey
+  - maybe works with phantomjs
 
 Editoren
 --------

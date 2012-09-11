@@ -1,5 +1,5 @@
 ---
-format:markdown+lhs
+format: markdown+lhs
 title: Main.hs
 ...
 

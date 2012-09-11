@@ -6,7 +6,7 @@ title: Main.hs
 Minimal browser based on the gtk2hs webkit demo
 
 Usage:
-     Helium [uri]
+     Helium [uri] [--help] [--version]
 
 
 > {-# LANGUAGE ScopedTypeVariables #-}

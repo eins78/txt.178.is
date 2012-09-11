@@ -1,3 +1,8 @@
+---
+format:markdown+lhs
+title: Main.hs
+...
+
 > {-# LANGUAGE ScopedTypeVariables #-}
 
 Minimal browser based on the gtk2hs webkit demo

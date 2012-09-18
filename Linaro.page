@@ -1,0 +1,8 @@
+# Images
+
+Linaro provides [different flavours of ubuntu-based images](https://wiki.linaro.org/Platform/DevPlatform/Rootfs)
+
+- `Nano` (minimal, console-only)
+- `Developer` (like nano + build-tools)
+- `ALIP` (**L**ubuntu + Chrome)
+- `Desktop` (like U. Desktop)

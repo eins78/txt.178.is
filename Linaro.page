@@ -6,3 +6,9 @@ Linaro provides [different flavours of ubuntu-based images](https://wiki.linaro.
 - `Developer` (like nano + build-tools)
 - `ALIP` (**L**ubuntu + Chrome)
 - `Desktop` (like U. Desktop)
+
+
+Differences by [hardware](https://wiki.linaro.org/Boards) pack
+
+- "`x11-base`" include graphics support from the vendor
+- "`lt-`" were built from landing team kernel trees

@@ -16,11 +16,12 @@ Differences by [hardware](https://wiki.linaro.org/Boards) pack
 
 # Boards
 
+- [TI: Pandaboard](http://pandaboard.org)
+- [TI: Beagleboard](http://beagleboard.org/)
+- [IGEP: v2 Board (España)](http://igep.es/products/processor-boards/igepv2-board)
 - [ARM: Versatile Express](http://www.arm.com/products/tools/development-boards/versatile-express/index.php)
+- [Genesi´s EFIKA MX53 Board](http://www.genesi-tech.com/products/efika/mx/53)
 - [gumstix: Overo Boards](https://www.gumstix.com/store/index.php?cPath=27_33)
 - [Samsung: Origen Board](http://www.origenboard.org/wiki/index.php/Main_Page)
 - [Boundary: Sabre Lite Board](http://boundarydevices.com/products/sabre-lite-imx6-sbc/)
 - [Freescale: i.MX53 Quick Start Board](http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=IMX53QSB)
-- [IGEP: v2 Board (España)](http://igep.es/products/processor-boards/igepv2-board)
-- [](http://www.genesi-tech.com/products/efika/mx/53)
-- [](http://beagleboard.org/)

@@ -30,9 +30,14 @@ Differences by [hardware](https://wiki.linaro.org/Boards) pack
 # linaro-media-create --help
  
 - for panda:
-
+    
+    # landing team hardware pack with vendor graphics
+    wget http://releases.linaro.org/12.08/ubuntu/precise-hwpacks/hwpack_linaro-lt-panda-x11-base_20120826-270_armhf_supported.tar.gz
+    # landing team hardware pack with
+    #wget http://releases.linaro.org/12.08/ubuntu/precise-hwpacks/hwpack_linaro-lt-panda_20120826-368_armhf_supported.tar.gz
     HWPACK=""
-    ROOTFS=""
+    ROOTFS="hwpack_linaro-lt-panda-x11-base_20120826-270_armhf_supported.tar.gz"
+    #ROOTFS="hwpack_linaro-lt-panda_20120826-368_armhf_supported.tar.gz"
     linaro-media-create --image-file linaro-panda.img --dev panda --rootfs btrfs --hwpack $HWPACK --binary $ROOTFS
  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

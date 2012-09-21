@@ -28,7 +28,8 @@ Differences by [hardware](https://wiki.linaro.org/Boards) pack
 
 
 # linaro-media-create --help
-
+ 
+ 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 usage: linaro-media-create [-h] [-v] [--mmc DEVICE | --image-file DEVICE]
                            [--output-directory DIRECTORY] [--read-hwpack]

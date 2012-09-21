@@ -31,13 +31,21 @@ Differences by [hardware](https://wiki.linaro.org/Boards) pack
  
 - for panda:
     
-    # landing team hardware pack with vendor graphics
+    # linaro 12.08, ubuntu 12.04p - landing team hardware pack with vendor graphics
     wget http://releases.linaro.org/12.08/ubuntu/precise-hwpacks/hwpack_linaro-lt-panda-x11-base_20120826-270_armhf_supported.tar.gz
-    # landing team hardware pack with
+    # linaro 12.08, ubuntu 12.04p - landing team hardware pack with
     #wget http://releases.linaro.org/12.08/ubuntu/precise-hwpacks/hwpack_linaro-lt-panda_20120826-368_armhf_supported.tar.gz
+    # linaro (latest), ubuntu 12.04p - landing team hardware pack (latest)
+    #wget http://snapshots.linaro.org/precise/hwpacks/panda/latest/hwpack_linaro-panda_20120921-304_armhf_supported.tar.gz
+    # linaro (latest), ubuntu 12.04p - landing team hardware pack with vendor graphics (latest)
+    #wget http://snapshots.linaro.org/precise/hwpacks/lt-panda-x11-base/latest/hwpack_linaro-lt-panda-x11-base_20120921-322_armhf_supported.tar.gz
+    # linaro (latest), ubuntu 12.04p - vendor hardware pack with vendor graphics (latest)
+    #wget http://snapshots.linaro.org/precise/hwpacks/ti-panda-x11-base/latest/hwpack_linaro-ti-panda-x11-base_20120921-112_armhf_supported.tar.gz
+    
     HWPACK=""
     ROOTFS="hwpack_linaro-lt-panda-x11-base_20120826-270_armhf_supported.tar.gz"
     #ROOTFS="hwpack_linaro-lt-panda_20120826-368_armhf_supported.tar.gz"
+    
     linaro-media-create --image-file linaro-panda.img --dev panda --rootfs btrfs --hwpack $HWPACK --binary $ROOTFS
  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

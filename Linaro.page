@@ -58,13 +58,13 @@ Differences by [hardware](https://wiki.linaro.org/Boards) pack
     linaro-media-create --image-file linaro-panda.img --dev panda --rootfs btrfs --hwpack $HWPACK --binary $ROOTFS
     
     # stable 12.04 desktop
-    linaro-media-create --image-file linaro-desk1204-tihw-tix11-latest.img --dev panda --rootfs btrfs --hwpack hwpack_linaro-lt-panda-x11-base_20120826-270_armhf_supported.tar.gz --binary linaro-precise-ubuntu-desktop-20120826-376.tar.gz
+    linaro-media-create --image-file linaro-desk1204-lthw-tix11-latest.img --dev panda --rootfs btrfs --hwpack hwpack_linaro-lt-panda-x11-base_20120826-270_armhf_supported.tar.gz --binary linaro-precise-ubuntu-desktop-20120826-376.tar.gz
     
     # Most recent most vendor desktop
-    linaro-media-create --image-file linaro-desk1204-tihw-tix11-latest.img --dev panda --rootfs btrfs --hwpack hwpack_linaro-ti-panda-x11-base_20120921-112_armhf_supported.tar.gz --binary linaro-precise-ubuntu-desktop-20120921-429.tar.gz
+    linaro-media-create --image-file linaro-desk1204latest-tihw-tix11-latest.img --dev panda --rootfs btrfs --hwpack hwpack_linaro-ti-panda-x11-base_20120921-112_armhf_supported.tar.gz --binary linaro-precise-ubuntu-desktop-20120921-429.tar.gz
     
     # most recent most vendor nano
-    linaro-media-create --image-file linaro-desk1204-tihw-tix11-latest.img --dev panda --rootfs btrfs --hwpack hwpack_linaro-ti-panda-x11-base_20120921-112_armhf_supported.tar.gz --binary linaro-precise-nano-20120921-412.tar.gz
+    linaro-media-create --image-file linaro-nanolatest-tihw-tix11-latest.img --dev panda --rootfs btrfs --hwpack hwpack_linaro-ti-panda-x11-base_20120921-112_armhf_supported.tar.gz --binary linaro-precise-nano-20120921-412.tar.gz
     
  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

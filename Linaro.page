@@ -33,7 +33,7 @@ Differences by [hardware](https://wiki.linaro.org/Boards) pack
     
     # linaro 12.08, ubuntu 12.04p - landing team hardware pack with vendor graphics
     wget http://releases.linaro.org/12.08/ubuntu/precise-hwpacks/hwpack_linaro-lt-panda-x11-base_20120826-270_armhf_supported.tar.gz
-    # linaro 12.08, ubuntu 12.04p - landing team hardware pack with
+    # linaro 12.08, ubuntu 12.04p - landing team hardware pack
     wget http://releases.linaro.org/12.08/ubuntu/precise-hwpacks/hwpack_linaro-lt-panda_20120826-368_armhf_supported.tar.gz
     # linaro (latest), ubuntu 12.04p - landing team hardware pack (latest)
     wget http://snapshots.linaro.org/precise/hwpacks/panda/latest/hwpack_linaro-panda_20120921-304_armhf_supported.tar.gz
@@ -57,10 +57,13 @@ Differences by [hardware](https://wiki.linaro.org/Boards) pack
     
     linaro-media-create --image-file linaro-panda.img --dev panda --rootfs btrfs --hwpack $HWPACK --binary $ROOTFS
     
-    # Most recent desktop
+    # stable 12.04 desktop
+    linaro-media-create --image-file linaro-desk1204-tihw-tix11-latest.img --dev panda --rootfs btrfs --hwpack hwpack_linaro-lt-panda-x11-base_20120826-270_armhf_supported.tar.gz --binary linaro-precise-ubuntu-desktop-20120921-429.tar.gz
+    
+    # Most recent most vendor desktop
     linaro-media-create --image-file linaro-desk1204-tihw-tix11-latest.img --dev panda --rootfs btrfs --hwpack hwpack_linaro-ti-panda-x11-base_20120921-112_armhf_supported.tar.gz --binary linaro-precise-ubuntu-desktop-20120921-429.tar.gz
     
-    # most recent nano
+    # most recent most vendor nano
     linaro-media-create --image-file linaro-desk1204-tihw-tix11-latest.img --dev panda --rootfs btrfs --hwpack hwpack_linaro-ti-panda-x11-base_20120921-112_armhf_supported.tar.gz --binary linaro-precise-nano-20120921-412.tar.gz
     
  

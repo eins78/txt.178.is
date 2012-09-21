@@ -29,6 +29,7 @@ Differences by [hardware](https://wiki.linaro.org/Boards) pack
 
 # linaro-media-create --help
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 usage: linaro-media-create [-h] [-v] [--mmc DEVICE | --image-file DEVICE]
                            [--output-directory DIRECTORY] [--read-hwpack]
                            [--dev {fastmodel,overo,vexpress,ux500,igep,mx51evk,smdkv310,i386,snowball_emmc,snowball_sd,beagle,efikamx,origen,mx6qsabrelite,efikasb,mx53loco,vexpress-a9,panda}]
@@ -102,3 +103,5 @@ optional arguments:
                         Extra boot args.
   --extra-boot-args-file EXTRA_BOOT_ARGS_FILE
                         File containing extra boot arguments.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

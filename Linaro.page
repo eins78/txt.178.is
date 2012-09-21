@@ -29,6 +29,11 @@ Differences by [hardware](https://wiki.linaro.org/Boards) pack
 
 # linaro-media-create --help
  
+- for panda:
+
+    HWPACK=""
+    ROOTFS=""
+    linaro-media-create --image-file linaro-panda.img --dev panda --rootfs btrfs --hwpack $HWPACK --binary $ROOTFS
  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 usage: linaro-media-create [-h] [-v] [--mmc DEVICE | --image-file DEVICE]

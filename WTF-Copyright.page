@@ -1,0 +1,216 @@
+- sprache: ich sage unten "das hier ist ein text", richtig? was ist das eigentlich?
+
+- Text ist formatiert mit Markdown!
+- "hacker" deutsch sprechen! wah.
+- für moderation: text wird auch veröffentlicht -- link? (wegen verweis auf CC lizenz und links im text, noch unklar wo eigentlich, maschinenraum.tk?)
+
+---
+
+# Nr. 1 - Was ist das Urheberrecht?
+
+Die Idee hinter dem [Urheberrechtsgesetz](http://dejure.org/gesetze/UrhG) ist *eigentlich* recht einfach nachvollziehbar, der Teufel steckt aber wie immer im Detail…
+
+Am einfachsten zu verstehen ist der URHEBER: denn das ist eigentlich jeder. 
+
+## Bin ich ein URHEBER?
+
+URHEBER ist jeder, der ein WERK erschaffen hat. 
+Und da kommt schon das erste Detail: die SCHÖPFUNGSHÖHE. 
+Dies ist die Grenze die ein WERK überschreiten muss, damit es auch ein WERK ist -- und nur dann gilt das deutsche Urheberrechtsgesetz.
+
+Die SCHÖPFUNGSHÖHE ist leider je nach Medium sehr verschieden.
+- Bei Fotos ist sie sehr niedrig. So heißt es im Gesetz ZITAT Lichtbilder und Erzeugnisse, die ähnlich wie Lichtbilder hergestellt werden ZITAT ENDE haben einen URHEBER. Also sobald er den Auslöser betätigt hat. [§72](http://dejure.org/gesetze/UrhG/72.html)
+- Bei Musik und Texten ist sie meist mit gesundem Menschenverstand abschätzbar. 
+- Bei Filmen ist ebenfalls der betriebene Aufwand erkennbar: Alle wesentlichen Beteiligten sind gemeinsam URHEBER.
+
+Weiterhin muss der Urheber noch ein Mensch sein. Egal wie alt. Aber eben kein Tier (nicht einmal [menschenähnliche Affen](http://www.techdirt.com/articles/20110712/01182015052/monkeys-dont-do-fair-use-news-agency-tells-techdirt-to-remove-photos.shtml)).
+
+Dieses Recht kann man (in der BRD) nicht verkaufen, verschenken oder sonstwie loswerden. Es ist sogar vererblich, aber nicht übertragbar.
+Es gilt einfach so lange bis der URHEBER 70 Jahre tot ist. Danach unterliegen seine WERKE nicht mehr dem Urheberrecht und sind ebenfalls *gemeinfrei*. 
+
+Diese *Gemeinfreiheit* entspricht dem amerikanischen Rechtsbegriff *"Public Domain"*.
+
+## Was bringt mir dieses RECHT als URHEBER?
+
+Als URHEBER erhält man verschiedene Arten von RECHTEN aus diesem Gesetz. Da wären einerseits die *Persönlichkeits-RECHTE* 
+und andererseits verschiedene *Verwertungs-RECHTE*. (§§ 15 - 24)
+
+Die Persönlichkeits-RECHTE stellen sicher dass der URHEBER namentlich genannt werden muss. 
+So kann auch kein Anderer behaupten, es geschaffen zu haben. Auch die *"Entstellung"* eines Werkes ist verboten.
+
+Die Nutzungsrechte auf der anderen Seite sind der wirtschaftlich, also finanziell, interessante Teil des Urheberrechts. 
+Nur der Urheber hat das Recht sein WERK zu **kopieren**, **weiterzugeben**, zu **verändern**, überhaupt erst zu **veröffentlichen** oder nicht -- und je nach Medium noch einiges mehr. 
+Bildende Künstler zum Beispiel haben ein Besuchsrecht an ihren Arbeiten. Autoren haben das Recht ihr Buch zu verfilmen.
+Bei Musik, Filmen und Theaterstücken gibt es das Recht der Aufführung, selbst das Kopieren von Musik-Noten ist streng reglementiert. 
+(Es erscheint geradezu erstaunlich, das Kochrezepte immer noch so unkontrolliert abgeschrieben werden dürfen.)
+
+Im Gegensatz zu den *Persönlichkeitsrechten* kann der URHEBER die *Verwertungs-RECHTE* an andere Menschen oder Dinge verkaufen oder verschenken, je nach dem.
+
+Das aus den USA bekannte *Copyright* ist also nur eines von vielen *Urheber-Rechten*.
+
+---
+
+# Nr. 2 -- Wie kann ich ein fremdes WERK nutzen wenn der URHEBER doch alle RECHTE hat?
+
+Möchte man nun ein geschütztes WERK in irgendeiner Form verwenden ohne der URHEBER zu sein, dann braucht man dazu einen "GRUND". 
+
+Für einen "GRUND" gibt es dabei nur 2 Möglichkeiten: 
+
+Erstens: bekommt nicht nur der URHEBER bestimmte RECHTE an seinem WERK per Gesetz, sondern im Gegenzug erhält auch die Öffentlichkeit, also jeder, bestimmte RECHTE daran. 
+Das Gesetz nennt das die "Schranken des Urheberrechts". [§§ 44a - 63a]
+In den USA ist es wieder nur ähnlich und nennt sich dort "Fähr Juhs"
+Dazu gehören zum Beispiel das ZITATRECHT, die PRIVATKOPIE, etwas gelockerte Bedingungen für die Nutzung and Schulen und Universitäten und vieles mehr.
+Es dürfen also Kopien zu privaten Zwecken angefertigt werden, es darf ein bisschen zitiert werden -- ohne das dafür die Zustimmung des URHEBERS nötig ist. 
+Weiter sind WERKE, die vom öffentlichen Raum aus sichtbar sind zum Beispiel nicht davor geschützt fotografiert und so verbreitet zu werden.
+
+Zweite Möglichkeit um ein fremdes Werk zu nutzen: Wird das WERK mehr als nur zitiert, braucht man eine LIZENZ.
+Eine LIZENZ ist ein Vertrag zwischen URHEBER und jemand Anderem, der Diesem bestimmte Nutzungen eines WERKES erlaubt. 
+
+Es muss geregelt sein WER, WEM, WO, WIE LANGE, EXKLUSIV oder NICHT-Exklusiv, WELCHE NUTZUNGEN erlaubt. Und wieviel Geld das kosten soll.
+
+Ein bekanntes Beispiel ist der Autor, der einem Verlag das Recht überträgt sein Buch zu drucken und dafür am Gewinn beteiligt wird. 
+Solange keine Nutzung exklusiv übertragen wurde, können beliebig viele Lizenzen vergeben werden: 
+So kann, später, ein anderer Verlag mit anderen Konditionen das Buch als Taschenbuch herausbringen.
+
+---
+
+
+# Nr 2 oder 3: Warum ist das dann so kompliziert?
+
+In der Praxis stellt sich meist heraus, das RECHTE verschachtelt auftreten: 
+Wenn in einem Film Musik spielt, hat diese einen Komponisten und meist noch weitere Musiker, die sie eingespielt haben. 
+
+Ausserdem kreuzen sich auch noch ganz andere Gesetze mit dem Urheberrecht, z.B. das Persönlichkeitsrecht abgebildeter Menschen. 
+
+Graffiti-Writer sind zwar oft Urheber, aber anonym, können deswegen ihre Schutzrechte nicht durchsetzen. Strafgesetzbuch sticht Urheber-Recht. 
+(Ironischerweise sind die Graffiti ja aber im öffentlichen Raum, so dass ein Fotograf, der ein "Lichtbild" davon anfertigt mit einem Klick weitaus mehr Rechte am Werk hat.) 
+ 
+Kein öffentlicher Raum ist wiederum der Neue Berliner Hauptbahnhof. Das Urheberrecht des Architekten [sticht](http://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=LG%20Berlin&Datum=28.11.2006&Aktenzeichen=16%20O%20240/05) Physik und Baustatik.
+
+Auch das Prinzip der LIZENZEN ist ja prinzipiell einfach nachzuvollziehen, aber:
+Musik ist meistens mehr als sich ein selbst auf der Gitarre begleitende Singer/Songwriter, der sich auch noch selbst produziert hat, 
+sondern dies sind alles eigenständige Berufe beziehungsweise URHEBER.
+
+Im echten Leben ist es also schlecht möglich, das jeder einzelne DJ in einem Club oder Radiosender für jedes Lied jeden Beteiligten kontaktiert,
+um Erlaubnis fragt und eine "angemessene Vergütung" vereinbart (wie im Gesetz gefordert).
+
+---
+
+# Nr. 3 -- Wie kann man das lösen?
+
+Diese Probleme werden auf 2 sehr unterschiedliche Arten zu lösen versucht: Zentralistisch und Dezentralistisch.
+
+## Zentralistisch: das hat der Führer noch gebaut
+
+Die Zentralistische Lösung ist wenig überraschend die ältere Idee und wurde auch im entsprechenden Teil der deutschen Geschichte eingeführt: 
+z.B. die Gesellschaft für musikalische Aufführungs- und mechanische Vervielfältigungsrechte, besser bekannt als die GEMA.
+Einige der Rechte, die Musiker aus dem Urheberechtsgesetz bekommen, werden durch Urheberchts-Wahrnehmungs-Gesetz auf die *Verwertungsgesellschaft* GEMA übertragen. 
+Die Vorteil daran sind die zentrale Lizensierung der Rechte und die Vergütung der Urheber durch die GEMA, 
+die Nachteile sind die zentrale Lizensierung der Rechte und die Vergütung der Urheber durch die GEMA.
+
+Ähnliche Modelle sind die VG Wort oder die VG Bild-Kunst.
+
+---
+
+## Dezentralistisch: *Free and open source*
+
+In den späten achtziger Jahren sahen sich US-amerikanische Programmierer und Nutzer von Software, vor allem an Universitäten vor ähnliche Probleme gestellt: 
+Das vereinfachte Model von URHEBER, SCHUTZRECHTEN und LIZENZEN skaliert nicht auf eine große Zahl von Urhebern und Nutzern. 
+Vor allem dann nicht, wenn man "seine" Software über das entstehende Internet mit anderen austauschen und optimieren wollte. 
+Das war auch nötig, denn der "Persönliche Computer" war nur auf einem langsamen Vormarsch. 
+So war die Zeit auf den universitären Grossrechnern beschränkt und wollte effizient genutzt werden. 
+Die gleichen Menschen nannten sich auch *hacker* zu einer Zeit als der Begriff noch nicht zwischen Gut und Böse differenziert werden musste und so beschlossen sie,
+das System *copyright* zu *hacken*. 
+
+Die Idee war dann auch entsprechend einfach, aber wirksam: Es entstanden "Freie Lizenzen", welche möglichst viele Rechte des Urhebers auch an jeden interessierten Nutzer weitergeben. 
+Genauer gesagt vor allem [4 grundlegende Freiheiten](http://fsfe.org/about/basics/freesoftware.html):
+- Die Freiheit, ein Programm auszuführen -- vergleichbar mit dem Recht, Musik abzuspielen oder eine Schallplatter anzuhören.
+- Die Freiheit, ein Programm weiterzugeben.
+- Die Freiheit, die Funktionsweise eines Programms herauszufinden und möglicherweise anzupassen.
+- Die Freiheit, auch dieses angepasste Programm weiterzugeben.
+
+Dieses Modell ist dezentral, weil beliebig viele Organisationen Freie Lizenzen veröffentlichen können. 
+Der Autor muss sich aber nicht unbedingt selbst eine Lizenz ausdenken und auf ihre rechtliche Gültigkeit überprüfen. 
+Auch für die Nutzer ist es einfacher, weil es einige bekannte Standard-Lizenzen gibt und jede gute Lizenz auch eine schnell verständliche Zusammenfassung hat oder ist.
+
+# CC?
+
+CreativeCommons wendet dieses Prinzip  nun auf mehr als nur Software an und soll auch für Musik und andere Kulturerzeugnisse eingesetzt werden können.
+CC ist also sowohl eine Organisation, die Lizenzen erstellt und auch ein Sammelbegriff für diese Lizenzen.
+
+Die bekannteste CC-Lizenz funktioniert dabei für den Autor wie ein Baukaustenprinzip. 
+Dieser Text ist ein gutes Beispiel. Damit ihn möglichst viele Menschen lesen, möchte der Autor vor allem auf sein Kopier-Recht verzichten.
+
+Der [Baukasten](http://creativecommons.org/choose/?lang=de) fragt als Erstes: "Möchten Sie Abwandlungen und Bearbeitungen Ihres Werkes bzw. Inhaltes erlauben?"
+
+Denn es könnte ja jemand Alles ganz anders sehen, meine Fehler korrigieren und das veröffentlichen wollen. 
+Es soll auch jeder den Text erweitern oder kürzen dürfen. Diese Freiheit soll aber auch bei eventuellen weiteren Versionen erhalten bleiben.
+Also lautet die Antwort: "Ja, solange andere Abwandlungen unter gleichen Bedingungen weitergeben."
+
+Die nächste Frage: "Möchten Sie kommerzielle Nutzungen Ihres Werkes erlauben?"
+
+Da es sich hier weder um schicke Illustrationen noch hippe Musik, sondern trockenen Text handelt, besteht keine Gefahr, das Coca-Cola (oder Aldi) mit dem Inhalt Zucker verkaufen wollen.
+Ausserdem hat die Definition von "kommerzieller Nutzung" in der Vergangenheit immer mal wieder zu Unklarheiten geführt: 
+Was ist mit Hobby-Bloggern, die eine handvoll Pixel als Werbefläche vermieten?
+
+Also lautet die Antwort hier: "Ja, ich erlaube Alles".
+
+Das ergibt zusammen die (internationale) Lizenz: [Zeh Zeh Bai Es Ah Drei Punkt Null](http://creativecommons.org/licenses/by-sa/3.0/)
+
+Wie von allen CC-Lizenzen gibt es auch hier mehrere Formate. 
+Erstens ein menschenlesbares Format, also eine Zusammenfassung, die für den Nuzer schnell verständlich sein soll.
+Zweitens ein gültiger Lizenztext im "anwaltslesbaren Format". 
+Dies ist die rechtlich gültige Form der Lizenz und ist mit über 3000 Wörtern mehr als doppelt so umfangreich wie dieser Text, der damit lizensiert wird!
+Drittens gibt es auch ein maschinenlesbares Format, damit Suchmaschinen wissen können welche gefundenen Inhalte welchen Lizenzen unterliegen. 
+
+CreativeCommons bietet auch selbst eine [Suchmaschine](http://search.creativecommons.org) an, mit der nach Inhalten gesucht werden kann, die frei weitergegeben und bearbeitet werden können.
+
+Zum Abschluss nun die leicht gekürzte Fassung der CreativeCommons-Lizenz für diesen Text, 
+
+CreativeCommons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Unported
+
+Diese "Commons Deed" ist lediglich eine vereinfachte Zusammenfassung des rechtsverbindlichen Lizenzvertrages in allgemeinverständlicher Sprache.
+
+Sie dürfen:
+- das Werk bzw. den Inhalt vervielfältigen, verbreiten und öffentlich zugänglich machen. 
+- Abwandlungen und Bearbeitungen des Werkes bzw. Inhaltes anfertigen. 
+- das Werk kommerziell nutzen
+
+Zu den folgenden Bedingungen: 
+
+1. Namensnennung. Sie müssen den Namen des Autors in der von ihm festgelegten Weise nennen. 
+2. Weitergabe unter gleichen Bedingungen. Wenn Sie das lizenzierte Werk bearbeiten, dürfen Sie die daraufhin neu entstandenen Werke nur unter Verwendung von vergleichbaren Lizenzbedingungen weitergeben. 
+
+Wobei gilt:
+
+1. Verzichtserklärung. Jede der vorgenannten Bedingungen kann aufgehoben werden, sofern Sie die ausdrückliche Einwilligung des Rechteinhabers dazu erhalten. 
+2. Papplick Domähn (gemeinfreie oder nicht-schützbare Inhalte). Soweit das Werk, der Inhalt oder irgendein Teil davon zur Papplick Domähn der jeweiligen Rechtsordnung gehört, wird dieser Status von der Lizenz in keiner Weise berührt. 
+3. Sonstige Rechte. Die Lizenz hat keinerlei Einfluss auf die folgenden Rechte: 
+a) Die Rechte, die jedermann wegen der Schranken des Urheberrechts oder aufgrund gesetzlicher Erlaubnisse zustehen (in einigen Ländern als grundsätzliche Doktrin des fähr juhs etabliert); 
+b) Das Urheberpersönlichkeitsrecht des Rechteinhabers; 
+c) Rechte anderer Personen, entweder am Lizenzgegenstand selber oder bezüglich seiner Verwendung, zum Beispiel für Werbung oder Privatsphärenschutz. 
+Hinweis: Im Falle einer Verbreitung müssen Sie anderen alle Lizenzbedingungen mitteilen, die für dieses Werk gelten. Am einfachsten ist es, an entsprechender Stelle einen Link auf diese Seite einzubinden.
+
+      
+
+---
+
+`````
+FÜR DIE MODERATOREN ALS EIN-/ÜBERLEITUNG ZU OPEN ACCESS?
+`````
+
+
+# Open Access: 
+
+Seit einiger zeit ist den wissenschaftler aufgefallen das sie den verlagen geld zahlen damit ihre arbeiten publiziert werden und dann ihre unis nochmal geld zahlen um diese zugänglich zu machen.
+  - oft haben die autoren auch zuviele (EXKLUSIVE!) rechte an diese verlage abgegeben, könnten ihre eigenen texte nicht mehr auf eigene webseite stellen.
+  - tolle wurst -- was tun?
+  - aha: es gibt ja freie Lizenzen! damit kann man publishen und sicherstellen das andere einfachen zugang haben (und trotzdem verkaufen wenn man will)
+  - trotzdem muss man das alles natürlich irgendwie finanziert werden, und kuratiert, durchsuchbsr, etc
+   - goldener weg -- pub in OA verlag oder publikation
+   - grüner weg -- pub via uni repo (webarchiv)
+  - OA ist also auch wieder eine org, die strukturen schaffen will zwischen um autoren und nutzern zu vermitteln
+    - funktional ist es eher wie ein Bio-Siegel, man kann sich sogar schon zertifizieren lassen
+    - auch sehr viele arbeitsgruppen für alle erdenklichen subthemen
+  - wird teilweise von geldgebenden institutionen oktruiert, uni, förderungen, schreiben freie pub vor
+- Währenddessen gründet sich hier in Deutschland, aus dem Umfeld von CC, eine Verwertungsgesellschaft für CC!

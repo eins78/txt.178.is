@@ -24,3 +24,8 @@ see [JSON/Serve](JSON#servestore)
 - [talk from opscode](http://www.youtube.com/watch?v=BXxtdE-Paco)
 - [rackspace: monitoring for chef](http://www.rackspace.com/knowledge_center/article/cloud-monitoring-automation-integrate-monitoring-with-chef)
 - [slides on puppet+nagios](http://www.slideshare.net/ChristianMague/automating-monitoring-with-puppet)
+
+# Common Tools
+
+- [nagios](http://www.nagios.org)
+- 

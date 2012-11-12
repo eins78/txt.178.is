@@ -16,3 +16,11 @@ see [JSON/Serve](JSON#servestore)
 - <https://github.com/etsy/statsd>
 - <>
 - <>
+
+
+# General Info
+
+- [short list from opscode wiki](http://wiki.opscode.com/display/chef/Monitoring+Sucks)
+- [talk from opscode](http://www.youtube.com/watch?v=BXxtdE-Paco)
+- [rackspace: monitoring for chef](http://www.rackspace.com/knowledge_center/article/cloud-monitoring-automation-integrate-monitoring-with-chef)
+- [slides on puppet+nagios](http://www.slideshare.net/ChristianMague/automating-monitoring-with-puppet)

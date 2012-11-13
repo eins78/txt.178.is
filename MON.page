@@ -1,6 +1,6 @@
 # Monitoring-Next
 
-## Stack Architecture (Idea)
+## Idea 1: CouchDB
 
 - CouchDB as Backend for DB and API (json-over-http)
 - View: web app served from CouchDB (["CouchApp"](http://couchapp.org/page/what-is-couchapp))
@@ -25,21 +25,22 @@ a more complicated setup is possible, using multiple distributed DBs (per-instal
                           ↑ sync ↓
                        [Redis or *SQL] =[Costum Code]=> [WEBAPP.public]
 
+### Special Info
+
+(info regarding the Idea to use CouchDB as Backend/DB/API)
+
+- [blog post by someone who did it (2010)](http://jamietalbot.com/2010/02/16/couchdb-for-a-real-time-monitoring-system/)
+
+see also [JSON](JSON#servestore)
 
 ## Stack Component Options
 
 ### [DATABASE]
 
-see [JSON/Serve](JSON#servestore)
+
 
 - <http://graphite.wikidot.com/high-level-diagram>
 - <https://github.com/etsy/statsd>
-
-# Special Info
-
-(info regarding the Idea to use CouchDB as Backend/DB/API)
-
-- [blog post by someone who did it (2010)](http://jamietalbot.com/2010/02/16/couchdb-for-a-real-time-monitoring-system/)
 
 
 # General Info

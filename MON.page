@@ -3,21 +3,27 @@
 ## Stack Architecture (Idea)
 
 - CouchDB as Backend for DB and API (json-over-http)
-- View: web app served (["CouchApp"](http://couchapp.org/page/what-is-couchapp))
+- View: web app served from CouchDB (["CouchApp"](http://couchapp.org/page/what-is-couchapp))
+- CouchDB == NoSQL: no schema (good!), but no filtered queries (bad!)
 
     [ROUTER] =(JSON)=> [API-in] => [DATABASE] => [API-out] =(JSON)=> [WEBAPP]
                                    [DATABASE] => [API-out] =(JSON)=> [ALERTS]
                                    [DATABASE] => [API-out] =(JSON)=> [REPORT]
                                    
+
 ### v2: distribution, performance
+
+a more complicated setup is possible, using multiple distributed DBs (per-installation).
+
+- couchdb can replicate (sync) in clever ways
+- local (server) installation = local web interface possible
+- for better performance of public interface redis or a traditional DB might be used along with costum code (but caching might be enough).
 
     [ROUTER] =[API]=> [DATABASE.local] =[API]=> [WEBAPP.local?]
                           ↑ sync ↓
                       [DATABASE.global] =[API]=> [WEBAPP.global]
                           ↑ sync ↓
                        [Redis or *SQL] =[Costum Code]=> [WEBAPP.public]
-
-                                   
 
 
 ## Stack Component Options

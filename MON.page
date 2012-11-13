@@ -1,10 +1,24 @@
 # Monitoring-Next
 
-## Stack Architecture
+## Stack Architecture (Idea)
+
+- CouchDB as Backend for DB and API (json-over-http)
+- View: web app served (["CouchApp"](http://couchapp.org/page/what-is-couchapp))
 
     [ROUTER] =(JSON)=> [API-in] => [DATABASE] => [API-out] =(JSON)=> [WEBAPP]
                                    [DATABASE] => [API-out] =(JSON)=> [ALERTS]
                                    [DATABASE] => [API-out] =(JSON)=> [REPORT]
+                                   
+### v2: distribution, performance
+
+    [ROUTER] =[API]=> [DATABASE.local] =[API]=> [WEBAPP.local?]
+                          ↑ sync ↓
+                      [DATABASE.global] =[API]=> [WEBAPP.global]
+                          ↑ sync ↓
+                       [Redis or *SQL] =[Costum Code]=> [WEBAPP.public]
+
+                                   
+
 
 ## Stack Component Options
 

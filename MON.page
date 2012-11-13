@@ -31,16 +31,13 @@ a more complicated setup is possible, using multiple distributed DBs (per-instal
 
 - [blog post by someone who did it (2010)](http://jamietalbot.com/2010/02/16/couchdb-for-a-real-time-monitoring-system/)
 
-see also [JSON](JSON#servestore)
-
-## Stack Component Options
-
-### [DATABASE]
+see also: [JSON](JSON#servestore)
 
 
+## Other Options
 
-- <http://graphite.wikidot.com/high-level-diagram>
-- <https://github.com/etsy/statsd>
+- [StatsD](https://github.com/etsy/statsd)
+- [Graphite](http://graphite.wikidot.com/high-level-diagram)
 
 
 # General Info

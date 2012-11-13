@@ -2,9 +2,12 @@
 
 ## Idea 1: CouchDB
 
+- [20min Screencast about CouchApps](http://vimeo.com/26147136)
+
 - CouchDB as Backend for DB and API (json-over-http)
 - View: web app served from CouchDB (["CouchApp"](http://couchapp.org/page/what-is-couchapp))
 - CouchDB == NoSQL: no schema (good!), but no filtered queries (bad!)
+
 - Flexible Segmentation:
     - There can be multiple Databases! 
     - Inside a DB can be multiple CouchApps!

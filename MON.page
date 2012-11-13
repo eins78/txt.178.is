@@ -15,6 +15,12 @@ see [JSON/Serve](JSON#servestore)
 - <http://graphite.wikidot.com/high-level-diagram>
 - <https://github.com/etsy/statsd>
 
+# Special Info
+
+(info regarding the Idea to use CouchDB as Backend/DB/API)
+
+- [blog post by someone who did it](http://jamietalbot.com/2010/02/16/couchdb-for-a-real-time-monitoring-system/)
+
 
 # General Info
 

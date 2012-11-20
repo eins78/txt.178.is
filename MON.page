@@ -39,6 +39,9 @@ a more complicated setup is possible, using multiple distributed DBs (per-instal
 
 see also: [JSON](JSON#servestore)
 
+### More stuff
+
+- [nodejs monitoring framework](https://github.com/gflarity/nervous)
 
 ## Other Options
 

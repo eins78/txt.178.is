@@ -41,8 +41,8 @@ see also: [JSON](JSON#servestore)
 
 ### More stuff
 
-- [nodejs monitoring framework](https://github.com/gflarity/nervous)
-
+- [nervous: nodejs monitoring framework](https://github.com/gflarity/nervous)
+- [response: nodejs monitoring framework](https://github.com/gflarity/response)
 ## Other Options
 
 - [StatsD](https://github.com/etsy/statsd)

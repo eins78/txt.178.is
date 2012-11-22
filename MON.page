@@ -36,6 +36,7 @@ a more complicated setup is possible, using multiple distributed DBs (per-instal
 (info regarding the Idea to use CouchDB as Backend/DB/API)
 
 - [blog post by someone who did it (2010)](http://jamietalbot.com/2010/02/16/couchdb-for-a-real-time-monitoring-system/)
+- [Reclinejs - relax with couchdb](http://reclinejs.com)
 
 see also: [JSON](JSON#servestore)
 

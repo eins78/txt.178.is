@@ -32,7 +32,9 @@
 - keine großen Eigenentwicklungen, (nicht "das Rad neu erfinden") *sondern:*
 - **Integration** bestehender Bestandteile und **Werkzeuge** zu einer funktionierenden **Lösung**
 - Syntax und Konvertierung (Markdown/`pandoc`), Versionskontrolle (`git`), etc
-- Flexibilität durch Modularität!
+- Flexibilität
+- Plain-Text
+- Modularität!
 - (und: 100% Free/OpenSource-Software)
 
 # 3. `mill.sh`

@@ -43,11 +43,11 @@ Referenz-Implementierung als shell-script(s)
 - `mill web` -- exportiert zu HTML (**plain**, noch!)
 - `mill print` -- exportiert zu PDF (via LaTeX)
 
-# Frage
+# Eingebaute Gegenfrage 1
 
 ***Ist es nicht jetzt schon unglaublich einfach, digital zu schreiben?***
 
-Laptop auf, Word an. Schreiben, formatieren, speichern, fertig.
+Klar: Laptop auf, Word an. Schreiben, formatieren, speichern, fertig.
 
 Aber:
 
@@ -55,7 +55,7 @@ Aber:
 - Format nur schwierig (sehr unsauber) übersetzbar (web, eBook, PDF)
 - schwierige Kollaboration
 
-# Frage
+# `#BTW`: Eingebaute Gegenfrage 2
 
 ***Kein Problem: Das macht ja alles der Verlag!***
 

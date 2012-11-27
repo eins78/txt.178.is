@@ -42,7 +42,7 @@ Referenz-Implementierung als shell-script(s)
 - `mill web` -- exportiert zu HTML (**plain**, noch!)
 - `mill print` -- exportiert zu PDF (via LaTeX)
 
-# Wait, what?
+# Frage
 
 ***Ist es nicht jetzt schon unglaublich einfach, digital zu schreiben?***
 
@@ -54,7 +54,7 @@ Aber:
 - Format nur schwierig (sehr unsauber) übersetzbar (web, eBook, PDF)
 - schwierige Kollaboration
 
-# Aber
+# Frage
 
 ***Kein Problem: Das macht ja alles der Verlag!***
 
@@ -68,6 +68,8 @@ Aber:
     - nicht einmal diese von jedem Autor "benötigt"
 
 # OPP *(other people's problems)*
+
+Folgende Punkte sind nicht im *scope* des Projektes:
 
 - Vergütung
 - Gestaltung

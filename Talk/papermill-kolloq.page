@@ -12,14 +12,15 @@
 
 # Ein Plan 
 
-zur Vereinfachung des Erstellens **langer Texte** *(aus Sicht des Autors)*
+**Vereinfachung des Erstellens langer Texte** *(aus Sicht des Autors)*
+
 - Lange Texte: Bücher; wissenschaftliche Arbeiten wie Papers, Dissertationen 
 - Nicht: Handbücher, Dokumentationen -- Problem weitestgehend "gelöst"
 - Nicht: (klassisches) Content-Management -- kein Fokus auf Autor
     - Redaktions- und Verlagssysteme
     - `NoCMS` :)
 - Anspruch: Ein neues Dokument anzufangen sollte nicht komplizierter sein als ein Blatt Papier in seine Schreibmaschine zu spannen und loszuschreiben
-   
+
 
 # 2. Eine toolchain
 - Werkzeug-Kette/Sammlung
@@ -29,6 +30,6 @@ zur Vereinfachung des Erstellens **langer Texte** *(aus Sicht des Autors)*
 # 3. `mill.sh`
 
 Referenz-Implementierung als shell-script(s)
-- `mill new` -- spannt das Papier in die Schreibmaschine
+- `mill new` -- "spannt das Papier in die Schreibmaschine"
 - `mill web` -- exportiert zu HTML (**plain**)
 - `mill print` -- exportiert zu PDF (via LaTeX)

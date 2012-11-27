@@ -44,6 +44,12 @@ Ein "Projekt".
 - keine großen Eigenentwicklungen, (nicht "das Rad neu erfinden") *sondern:*
 - **Integration** bestehender Bestandteile und **Werkzeuge** zu einer funktionierenden **Lösung**
 - Syntax und Konvertierung (Markdown/`pandoc`), Versionskontrolle (`git`), etc
+- Bestehende 'Standards'
+    - `HTML`/`CSS`/`javascript`
+    - `TeX`/`LaTeX`
+- Fertige Tools und Services:
+    - Plugins für Texteditoren (`vim`, `TextMate`)
+    - `github` u.a.
 - Flexibilität:
     - Plain-Text
     - Modularität!

@@ -33,13 +33,14 @@
 - keine großen Eigenentwicklungen, (nicht "das Rad neu erfinden") *sondern:*
 - möglichst komplette Integration bestehender Bestandteile und Werkzeuge in eine "fertige" Lösung
 - Syntax und Konversion (Markdown/`pandoc`), Versionskontrolle (`git`), etc
+- 100% Free/OpenSource-Software
 
 # 3. `mill.sh`
 
 Referenz-Implementierung als shell-script(s)
 
 - `mill new` -- "spannt das Papier in die Schreibmaschine"
-- `mill web` -- exportiert zu HTML (**plain**)
+- `mill web` -- exportiert zu HTML (**plain**, noch!)
 - `mill print` -- exportiert zu PDF (via LaTeX)
 
 # FAQ

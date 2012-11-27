@@ -31,11 +31,11 @@ Ein "Projekt".
 - Lange Texte = ***long-form text***
     - "Bücher"; wissenschaftliche Arbeiten wie Papers, Dissertationen 
 - ***cross-publish***: Ein Quell-Text = verschiedene Ausgaben
-- Nicht: Handbücher, Dokumentationen (Problem weitestgehend gelöst)
-- Nicht: (klassisches) Content-Management (Fokus nicht Autor, sondern Ausgabemedium)
+- *Nicht:* Handbücher, Dokumentationen (Problem weitestgehend gelöst)
+- *Nicht:* (klassisches) Content-Management (Fokus nicht Autor, sondern Ausgabemedium)
     - Redaktions- und Verlagssysteme
     - `NoCMS 8)`
-- Anspruch: Ein neues Dokument anzufangen sollte nicht komplizierter sein als ein Blatt Papier in seine Schreibmaschine zu spannen und loszuschreiben
+- **Anspruch:** Ein neues Dokument anzufangen sollte nicht komplizierter sein als ein Blatt Papier in seine Schreibmaschine zu spannen und loszuschreiben
 
 
 # 2. Die *toolchain*

@@ -1,6 +1,7 @@
 *Presentation IFD:Kolloq* \
 Max Albrecht, `2012-11-28`
 
+
 # `papermill`
 
 > ![*write once, publish everywhere*](http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Forest_Fibre_Company_Berlin%2C_New_Hampshire.JPG/220px-Forest_Fibre_Company_Berlin%2C_New_Hampshire.JPG)
@@ -219,13 +220,15 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 # Links
 
+<http://getbootstrap.com> \
+<http://johnmacfarlane.net/pandoc> \
 <https://github.com/papermill> -- all the `<CODE>` is here \
 <https://github.com/NTS/PhD> -- (unreleased) - PhD written with `papermill` \
 <http://www.enviv.de> -- Dirk von Gehlen is writing a new book…
 
 Weiteres:
 
-<http://www.open-access.net> -- at least want open licensing \
+<http://www.open-access.net> -- at least they want open licensing \
 <https://leanpub.com> -- are doing 'liquid' publishing, Markdown \
 <http://substance.io> -- also working on the revolution in writing
 

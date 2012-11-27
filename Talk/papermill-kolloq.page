@@ -91,17 +91,19 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 - Integriert das web-framework `bootstrap` mit der HTML-Ausgabe von `pandoc`
 - *Old and busted:* [Trennung von Inhalt und Präsentation](http://en.wikipedia.org/wiki/Separation_of_presentation_and_content) (`HTML`/`CSS`)
 - *New hotness:* Unterscheidung von (Inhalt und Formatierung), (Präsentation und Design)
-- Aufgepasst: (Inhalt = Text + Formatierung) ➞ Deshalb `Markdown`
+- (**Inhalt** = Text + Formatierung) ➞ Deshalb `Markdown`
 - (Präsentation = Inhalt + Framework) ➞ Deshalb `bootstrap`
 - (Produkt = Inhalt + Framework + Design)
 
 # zum Beispiel
 
-- Autor **meint**: Dieses Wort is wichtig
-- Autor **schreibt**: `Dieses Wort ist *wichtig*.`
-- Im `HTML` steht: `Dieses Wort ist <em>wichtig<em>.`
+- Inhalt: `Das ist der Text.`
+- Autor **meint**: Das Wort "`ist`" ist wichtig
+- Autor **schreibt**: `Das *ist* der Text.`
+- Im `HTML` steht:`Das <em>ist</em> der Text.`
     - (`<em>` == *empasis*, Hervorhebung)
-- Lt. Konvention ist em
+- Lt. Konvention ist kursiv
+- Daher: browser-default.css: `em {font-style:italic}`
 
 
 # Vorher

@@ -83,7 +83,8 @@ Folgende Punkte sind nicht im *scope* des Projektes:
     - **better web output** -- think "book as web application". This is currently done in pandoc-bootstrap.
     - better workflow (also as web app)
     - better collaboration by integrating even more with git
-    
+
+
 # pandoc-bootstrap
 
 - Integriert das web-framework `bootstrap` mit der HTML-Ausgabe von `pandoc`
@@ -105,3 +106,21 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 - "Buch" als web-application
 - Andersherum gesagt: eBook und eBook-Reader in einem `HTML`!
+- Erweiterung des frameworks um Funktionen
+    - Inhaltsverzeichnis
+    - Fußnoten!
+    - Offline/LocalStorage, Lesezeichen, Notizen
+- u.v.m. `:)`
+
+
+# BTW: Was habe ich eigentlich gegen "Bücher"
+
+- "Buch" ist KEIN Medium sondern ein FORMAT
+- Roman, Gedicht, Sachbuch (z.B. Biographie) sind Medien
+- (Gleiches Problem wie bei "Zeitung", ist auch nicht "Nachrichten auf totem Holz", sondern "regelmäßige, redaktionell aufbereitete Nachrichten")
+- Geschichte der langen Texte: von Schriftrolle zu Webseite -- das Buch kürzt sich weg!
+
+# Scroll right!
+
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/PSF-scroll.png/519px-PSF-scroll.png)
+

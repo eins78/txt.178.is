@@ -76,10 +76,16 @@ Aber:
 
 # Roadmap
 
-- `Papermill`: zu viel, zu ungenau, zu utopisch
+- `Papermill`: zu viel, zu ungenau, zu utopisch -> schlechtes Bachelor-Projekt
 - Deshalb: Roadmap
-    - better web output -- think "book as web application". This is currently done in pandoc-bootstrap.
+    - **better web output** -- think "book as web application". This is currently done in pandoc-bootstrap.
     - better workflow (also as web app)
     - better collaboration by integrating even more with git
     
-    # 
+# pandoc-bootstrap
+
+- Integriert das web-framework `bootstrap` mit der HTML-Ausgabe von `pandoc`
+
+# Vorher
+
+![plain](https://dl.dropbox.com/s/2d5x0kkzhjevdzu/curie-html-plain.png?dl=1)

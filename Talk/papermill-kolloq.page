@@ -129,7 +129,7 @@ Folgende Punkte sind nicht im *scope* des Projektes:
     - (`<em>` == *empasis*, Hervorhebung)
 - **Ausgabe**: Das *ist* der Text.
     - ist nur kursiv lt. Konvention 
-    - Daher: browser-default.css: `em {font-style:italic}`
+    - implementierung: browser-default.css: `em {font-style:italic}`
 - **Design** = Welche Schriftart? Wenn kein kursiver Schnitt, was dann?
 
 

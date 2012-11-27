@@ -30,9 +30,10 @@
 
 - Werkzeug-Kette/Sammlung
 - keine großen Eigenentwicklungen, (nicht "das Rad neu erfinden") *sondern:*
-- möglichst komplette Integration bestehender Bestandteile und Werkzeuge in eine "fertige" Lösung
+- **Integration** bestehender Bestandteile und **Werkzeuge** zu einer funktionierenden **Lösung**
 - Syntax und Konversion (Markdown/`pandoc`), Versionskontrolle (`git`), etc
-- 100% Free/OpenSource-Software
+- Flexibilität durch Modularität!
+- (und: 100% Free/OpenSource-Software)
 
 # 3. `mill.sh`
 

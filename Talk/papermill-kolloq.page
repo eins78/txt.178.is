@@ -102,8 +102,9 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 - Autor **schreibt**: `Das *ist* der Text.`
 - Im **`HTML`** steht: `Das <em>ist</em> der Text.`
     - (`<em>` == *empasis*, Hervorhebung)
-- Lt. Konvention ist kursiv
-- Daher: browser-default.css: `em {font-style:italic}`
+- **Ausgabe**: Das *ist* der Text.
+    - Lt. Konvention ist kursiv
+    - Daher: browser-default.css: `em {font-style:italic}`
 - **Design** = Welche Schriftart? Wenn kein kursiver Schnitt, was dann?
 
 

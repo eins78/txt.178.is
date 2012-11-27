@@ -123,9 +123,9 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 # zum Beispiel
 
 - `Das ist der Text.`
-- **Inhalt:** Autor meint, die Betonung liegt auf dem "`ist`".
-- Autor **schreibt**: `Das *ist* der Text.`
-- Im **`HTML`** steht: `Das <em>ist</em> der Text.`
+- **Inhalt:** Autor meint, die Betonung liegt auf dem "`ist`"
+- **Markdown**: `Das *ist* der Text.`
+- **`HTML`**: `Das <em>ist</em> der Text.`
     - (`<em>` == *empasis*, Hervorhebung)
 - **Ausgabe**: Das *ist* der Text.
     - ist nur kursiv lt. Konvention 

@@ -42,12 +42,12 @@
 Referenz-Implementierung als shell-script(s)
 
 - `mill new` -- "spannt das Papier in die Schreibmaschine"
-- `mill web` -- exportiert zu HTML (**plain**, noch!)
+- `mill web` -- exportiert zu HTML (**plain**, noch…)
 - `mill print` -- exportiert zu PDF (via LaTeX)
 
 # `mill` in the shell
 
-```bash
+`````bash
 $ mill
 Usage: mill <command> [<args>]
 
@@ -62,7 +62,8 @@ Some useful mill commands are:
    web                    Output to HTML
 
 See 'mill help <command>' for information on a specific command.
-```
+`````
+
 
 # Eingebaute Gegenfrage 1
 

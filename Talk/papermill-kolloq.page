@@ -31,7 +31,7 @@
 - Werkzeug-Kette/Sammlung
 - keine großen Eigenentwicklungen, (nicht "das Rad neu erfinden") *sondern:*
 - **Integration** bestehender Bestandteile und **Werkzeuge** zu einer funktionierenden **Lösung**
-- Syntax und Konversion (Markdown/`pandoc`), Versionskontrolle (`git`), etc
+- Syntax und Konvertierung (Markdown/`pandoc`), Versionskontrolle (`git`), etc
 - Flexibilität durch Modularität!
 - (und: 100% Free/OpenSource-Software)
 

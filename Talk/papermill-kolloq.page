@@ -43,7 +43,7 @@ Referenz-Implementierung als shell-script(s)
 - `mill web` -- exportiert zu HTML (**plain**, noch!)
 - `mill print` -- exportiert zu PDF (via LaTeX)
 
-# FAQ
+# Wait, what?
 
 ***Ist es nicht jetzt schon unglaublich einfach, digital zu schreiben?***
 
@@ -54,6 +54,8 @@ Aber:
 - meist geschlossenes Dateiformat
 - Format nur schwierig (sehr unsauber) übersetzbar (web, eBook, PDF)
 - schwierige Kollaboration
+
+# Aber
 
 ***Kein Problem: Das macht ja alles der Verlag!***
 

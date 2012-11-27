@@ -1,6 +1,11 @@
-# Was ist Papermill?
+# `papermill`
 
-- klassisches "Projekt"
+*write once, publish everywhere*
+
+![p](http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Forest_Fibre_Company_Berlin%2C_New_Hampshire.JPG/220px-Forest_Fibre_Company_Berlin%2C_New_Hampshire.JPG)
+
+**`papermill` is a toolchain for cross-publishing long form text** to different media. The text can be something like an academic paper, an essay like static websites, an Ebook or a printable PDF.
+
 
 # Was ist es nicht?
 
@@ -16,6 +21,7 @@
 
 - Lange Texte = ***long-form text***
     - Bücher; wissenschaftliche Arbeiten wie Papers, Dissertationen 
+- *cross-publish*: Ein Quell-Text = verschiedene Ausgaben
 - Nicht: Handbücher, Dokumentationen -- Problem weitestgehend "gelöst"
 - Nicht: (klassisches) Content-Management -- kein Fokus auf Autor
     - Redaktions- und Verlagssysteme
@@ -24,9 +30,11 @@
 
 
 # 2. Eine toolchain
+
 - Werkzeug-Kette/Sammlung
 - keine großen Eigenentwicklungen, (nicht "das Rad neu erfinden") *sondern:*
 - möglichst komplette Integration bestehender Bestandteile und Werkzeuge in eine "fertige" Lösung
+- Syntax und Konversion (Markdown/`pandoc`), Versionskontrolle (`git`), etc
 
 # 3. `mill.sh`
 
@@ -35,3 +43,42 @@ Referenz-Implementierung als shell-script(s)
 - `mill new` -- "spannt das Papier in die Schreibmaschine"
 - `mill web` -- exportiert zu HTML (**plain**)
 - `mill print` -- exportiert zu PDF (via LaTeX)
+
+# FAQ
+
+***Ist es nicht jetzt schon unglaublich einfach, digital zu schreiben?***
+
+Laptop auf, Word an. Schreiben, formatieren, speichern, fertig.
+
+Aber:
+
+- meist geschlossenes Dateiformat
+- Format nur schwierig (sehr unsauber) übersetzbar (web, eBook, PDF)
+- schwierige Kollaboration
+
+***Kein Problem: Das macht ja alles der Verlag!***
+
+- Genau das *ist* das eigentlich zu lösende Problem:
+- Verlage = grundsätzlich "evil", **müssen** es sein (Kapitalismus)
+    - Rechte-Byout, Verwaltungsoverhead
+- Ansatz: OpenAccess (Infrastruktur, Druck durch Geldgeber)
+- Papermill: Problemlösung kann nur beim Autor ansetzen! (= der Urheber)
+- Verlage werden nicht überflüssig, aber viele Aufgaben sind dort fehl am Platz
+    - Kernkompetenzen: Kuration, Distribution, Promotion
+    - nicht einmal diese von jedem Autor "benötigt"
+
+# out of scope
+
+- Vergütung
+- Gestaltung
+- Soziale Integration der Kollaboration
+
+# Roadmap
+
+- `Papermill`: zu viel, zu ungenau, zu utopisch
+- Deshalb: Roadmap
+    - better web output -- think "book as web application". This is currently done in pandoc-bootstrap.
+    - better workflow (also as web app)
+    - better collaboration by integrating even more with git
+    
+    # 

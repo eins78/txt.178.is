@@ -123,7 +123,7 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 # zum Beispiel
 
 - `Das ist der Text.`
-- Autor **meint**: Betonung liegt auf dem "`ist`".
+- **Inhalt:** Autor meint, die Betonung liegt auf dem "`ist`".
 - Autor **schreibt**: `Das *ist* der Text.`
 - Im **`HTML`** steht: `Das <em>ist</em> der Text.`
     - (`<em>` == *empasis*, Hervorhebung)

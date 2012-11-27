@@ -17,7 +17,7 @@
 **Vereinfachung des Erstellens langer Texte** *(aus Sicht des Autors)*
 
 - Lange Texte = ***long-form text***
-    - Bücher; wissenschaftliche Arbeiten wie Papers, Dissertationen 
+    - "Bücher"; wissenschaftliche Arbeiten wie Papers, Dissertationen 
 - *cross-publish*: Ein Quell-Text = verschiedene Ausgaben
 - Nicht: Handbücher, Dokumentationen -- Problem weitestgehend "gelöst"
 - Nicht: (klassisches) Content-Management -- kein Fokus auf Autor
@@ -103,5 +103,5 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 # Ziele
 
-- ein Buch als web-application
-- andersherum: website, ist ein ebook und der reader!
+- "Buch" als web-application
+- andersherum: website, ist ein eBook und der reader!

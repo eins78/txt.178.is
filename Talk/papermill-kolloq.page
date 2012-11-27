@@ -2,8 +2,9 @@
 
 > ![*write once, publish everywhere*](http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Forest_Fibre_Company_Berlin%2C_New_Hampshire.JPG/220px-Forest_Fibre_Company_Berlin%2C_New_Hampshire.JPG)
 > 
-> **`papermill` is a toolchain for cross-publishing long form text** to different media. The text can be something like an academic paper or an essay; with output like static websites, an Ebook or a printable PDF. \
-> *me, [late march 2012](https://github.com/eins78/papermill/commit/ac2c8179e4254e809d311a3929bd2a1a7ef101ca#L0R18)*
+> **`papermill` is a toolchain for cross-publishing long form text** to different media. The text can be something like an academic paper or an essay; with output like static websites, an Ebook or a printable PDF. 
+
+*me, [late march 2012](https://github.com/eins78/papermill/commit/ac2c8179e4254e809d311a3929bd2a1a7ef101ca#L0R18)*
 
 # Was ist es nicht?
 

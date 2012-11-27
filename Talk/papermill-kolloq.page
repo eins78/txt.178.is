@@ -168,6 +168,8 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 # `pandoc-bootstrap`
 
 - Integriert das web-framework [`bootstrap`](http://getbootstrap.com) mit der HTML-Ausgabe von `pandoc`
+    - Base-Design und Layout: `CSS` aus `bootstrap`, Markup aus `pandoc`
+    - Funktionsbausteine: `js` aus `bootstrap` (`jQuery`-basiert)
 - *Informatik-Klassiker:* [Trennung von Inhalt und Präsentation](http://en.wikipedia.org/wiki/Separation_of_presentation_and_content) (➞ `HTML`/`CSS`)
 - *Genauer:* Aufteilung in **Inhalt + Formatierung** und **Präsentation / Design**
 - (**Inhalt** = Text + Formatierung) ➞ Deshalb `Markdown`, plaintext ➞ *meaning*

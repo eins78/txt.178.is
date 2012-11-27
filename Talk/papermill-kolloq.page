@@ -90,7 +90,7 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 - Integriert das web-framework `bootstrap` mit der HTML-Ausgabe von `pandoc`
 - *Old and busted:* [Trennung von Inhalt und Präsentation](http://en.wikipedia.org/wiki/Separation_of_presentation_and_content) (`HTML`/`CSS`)
-- *New hotness:* Trennung von Inhalt, Präsentation und Design
+- *New hotness:* Unterscheidung von (Inhalt und Formatierung), (Präsentation und Design)
 - Aufgepasst: (Inhalt = Text + Formatierung) ➞ Deshalb `Markdown`
 - (Präsentation = Inhalt + Framework) ➞ Deshalb `bootstrap`
 - (Produkt = Inhalt + Framework + Design)

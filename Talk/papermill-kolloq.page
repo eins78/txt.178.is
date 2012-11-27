@@ -69,13 +69,14 @@ See 'mill help <command>' for information on a specific command.
 
 ***Ist es nicht jetzt schon unglaublich einfach, digital zu schreiben?***
 
-Klar: Laptop auf, Word an. Schreiben, formatieren, speichern, fertig.
+*Klar:* Laptop auf, Word an. Schreiben, formatieren, speichern, fertig.
 
-Aber:
+*Aber:*
 
 - kompliziertes, meist geschlossenes Dateiformat
 - Format nur schwierig (sehr unsauber) übersetzbar (web, eBook, PDF)
 - schwierige Kollaboration
+- (auch `LaTeX` ist noch zu komplex… bzw ist Programmiersprache)
 
 # Eingebaute Gegenfrage 2
 

@@ -96,8 +96,8 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 - *Old and busted:* [Trennung von Inhalt und Präsentation](http://en.wikipedia.org/wiki/Separation_of_presentation_and_content) (`HTML`/`CSS`)
 - *New hotness:* Unterscheidung von (Inhalt und Formatierung), (Präsentation und Design)
 - (**Inhalt** = Text + Formatierung) ➞ Deshalb `Markdown`, plaintext
-- (Präsentation = Inhalt + Framework) ➞ Deshalb `bootstrap`
-- (Produkt = Inhalt + Framework + Design)
+- (**Präsentation** = Inhalt + Framework) ➞ Deshalb `bootstrap`
+- (**Produkt** = Inhalt + Framework + Design)
 
 # zum Beispiel
 

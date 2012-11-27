@@ -87,13 +87,20 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 - Integriert das web-framework `bootstrap` mit der HTML-Ausgabe von `pandoc`
 - *Old and busted:* Trennung von Inhalt und Präsentation (`HTML`/`CSS`)
-- *New hotness:* Betrachtung von Inhalt, Formatierung und Design
-- (Text + Formatierung = Inhalt) | (In)
+- *New hotness:* Trennung von Inhalt, Präsentation und Design
+- Aufgepasst: (Inhalt = Text + Formatierung) -> Deshalb `Markdown`
+- (Präsentation = Inhalt + Framework) -> Deshalb `bootstrap`
+- (Produkt = Inhalt + Framework + Design)
 
 # Vorher
 
 ![plain](https://dl.dropbox.com/s/2d5x0kkzhjevdzu/curie-html-plain.png?dl=1)
 
-# Nachher
+# Nachher (POC)
 
 ![`bootstrap`ped]
+
+# Ziele
+
+- ein Buch als web-application
+- andersherum: website, ist ein ebook und der reader!

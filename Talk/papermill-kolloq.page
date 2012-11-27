@@ -124,15 +124,15 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 - **Text:** <mark>`Das ist der Text.`</mark>
 - **Inhalt:** Autor meint, die Betonung liegt auf dem "`ist`"
-- **Markdown**: `Das *ist* der Text.`
-- **`HTML`**: `Das <em>ist</em> der Text.`
+- **Markdown**: <mark>`Das *ist* der Text.`</mark>
+- **`HTML`**: <mark>`Das <em>ist</em> der Text.`</mark>
     - (`<em>` == *empasis*, Hervorhebung)
-- **Ausgabe**: Das *ist* der Text.
+- **Ausgabe**: <mark>Das *ist* der Text.</mark>
     - ist nur kursiv lt. Konvention 
     - implementierung: browser-default.css: `em {font-style:italic}`
 - **Design**: Welche Schriftart? Wenn kein kursiver Schnitt, was dann?
-    - Das IST der Text.
-    - Das <u>ist</u> der Text.
+    - <mark>Das IST der Text.</mark>
+    - <mark>Das <u>ist</u> der Text.</mark>
 
 
 # Vorher

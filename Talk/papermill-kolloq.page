@@ -160,12 +160,12 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 - `Papermill`: zu viel, zu ungenau, zu utopisch ➞ schlechtes Bachelor-Projekt
 - Deshalb: Roadmap
 
-> - **better web output** -- think "book as web application". This is currently done in pandoc-bootstrap.
+> - **better web output** -- think "book as web application". This is currently done in `pandoc-bootstrap`.
 > - better workflow (also as web app)
-> - better collaboration by integrating even more with git
+> - better collaboration by integrating even more with `git`
 
 
-# pandoc-bootstrap
+# `pandoc-bootstrap`
 
 - Integriert das web-framework [`bootstrap`](http://getbootstrap.com) mit der HTML-Ausgabe von `pandoc`
 - *Informatik-Klassiker:* [Trennung von Inhalt und Präsentation](http://en.wikipedia.org/wiki/Separation_of_presentation_and_content) (➞ `HTML`/`CSS`)

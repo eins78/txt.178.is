@@ -89,7 +89,7 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 # pandoc-bootstrap
 
 - Integriert das web-framework `bootstrap` mit der HTML-Ausgabe von `pandoc`
-- *Old and busted:* Trennung von Inhalt und Präsentation (`HTML`/`CSS`)
+- *Old and busted:* [Trennung von Inhalt und Präsentation](http://en.wikipedia.org/wiki/Separation_of_presentation_and_content) (`HTML`/`CSS`)
 - *New hotness:* Trennung von Inhalt, Präsentation und Design
 - Aufgepasst: (Inhalt = Text + Formatierung) ➞ Deshalb `Markdown`
 - (Präsentation = Inhalt + Framework) ➞ Deshalb `bootstrap`
@@ -125,6 +125,9 @@ Folgende Punkte sind nicht im *scope* des Projektes:
     - z.B. farbige Hervorhebung von Zitaten
 - u.v.m. `:)`
 
+# Was bisher geschah
+
+<> \
 
 # BTW: Was habe ich eigentlich gegen "Bücher"
 

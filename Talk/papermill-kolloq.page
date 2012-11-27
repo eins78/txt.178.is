@@ -51,7 +51,11 @@ Ein "Projekt".
 
 # 3. `mill`
 
-Referenz-Implementierung als shell-script(s)
+Referenz-Implementierung als shell-script(s).
+
+Konsoleninterface für die Entwicklung der grundlegenden Funktionen -- direkte, auf das wesentliche reduzierte interaktion.
+
+Ziel: vollständige Dokumentation durch Kommentare, weil Grundlage für Interface/Features weiteres Versionen (`javascript`).
 
 - `mill new` -- "spannt das Papier in die Schreibmaschine"
 - `mill web` -- exportiert zu HTML (**plain**, noch…)

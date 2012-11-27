@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+  <link rel="stylesheet" type="text/css" media="screen, projection, print" 
+    href="http://www.w3.org/Talks/Tools/Slidy/slidy.css" /> 
+  <script src="http://www.w3.org/Talks/Tools/Slidy/slidy.js.gz"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div class="slide cover title">
+  <h1 class="title">Talk/papermill-kolloq</h1>
+  <p class="author">
+
+  </p>
+</div>
+<div class="slide">
+
+<h1><code>papermill</code></h1>
+<blockquote>
+<div class="figure">
+<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Forest_Fibre_Company_Berlin%2C_New_Hampshire.JPG/220px-Forest_Fibre_Company_Berlin%2C_New_Hampshire.JPG" alt="write once, publish everywhere" /><p class="caption"><em>write once, publish everywhere</em></p>
+</div>
+<p><strong><code>papermill</code> is a toolchain for cross-publishing long form text</strong> to different media. The text can be something like an academic paper or an essay; with output like static websites, an Ebook or a printable PDF. <br /><em>me, <a href="https://github.com/eins78/papermill/commit/ac2c8179e4254e809d311a3929bd2a1a7ef101ca#L0R18">late march 2012</a></em></p>
+</blockquote>
+</div>
+
+<div class="slide">
+
+<h1>Was ist es nicht?</h1>
+<ul class="incremental">
+<li>(noch) kein “Produkt”</li>
+<li>nichteinmal zwingend fertige Produkt-Idee bzw welche Art von Produkt entstehen könnte</li>
+<li>Möglicherweise: All-in-One web interface bzw Infrastruktur-as-a-service</li>
+</ul>
+</div>
+
+<div class="slide">
+
+<h1>Der Plan</h1>
+<p><strong>Vereinfachung des Herstellens “langer Texte”</strong> <em>(aus Sicht des Autors)</em></p>
+<ul class="incremental">
+<li>Lange Texte = <strong><em>long-form text</em></strong>
+<ul class="incremental">
+<li>“Bücher”; wissenschaftliche Arbeiten wie Papers, Dissertationen</li>
+</ul></li>
+<li><em>cross-publish</em>: Ein Quell-Text = verschiedene Ausgaben</li>
+<li>Nicht: Handbücher, Dokumentationen (Problem weitestgehend gelöst)</li>
+<li>Nicht: (klassisches) Content-Management (kein Fokus auf Autor)
+<ul class="incremental">
+<li>Redaktions- und Verlagssysteme</li>
+<li><code>NoCMS 8)</code></li>
+</ul></li>
+<li>Anspruch: Ein neues Dokument anzufangen sollte nicht komplizierter sein als ein Blatt Papier in seine Schreibmaschine zu spannen und loszuschreiben</li>
+</ul>
+</div>
+
+<div class="slide">
+
+<h1>2. Eine toolchain</h1>
+<ul class="incremental">
+<li>Werkzeug-Kette/Sammlung</li>
+<li>keine großen Eigenentwicklungen, (nicht “das Rad neu erfinden”) <em>sondern:</em></li>
+<li><strong>Integration</strong> bestehender Bestandteile und <strong>Werkzeuge</strong> zu einer funktionierenden <strong>Lösung</strong></li>
+<li>Syntax und Konvertierung (Markdown/<code>pandoc</code>), Versionskontrolle (<code>git</code>), etc</li>
+<li>Flexibilität:
+<ul class="incremental">
+<li>Plain-Text</li>
+<li>Modularität!</li>
+<li>und: 100% Free/OpenSource-Software <code>\o/</code></li>
+</ul></li>
+</ul>
+</div>
+
+<div class="slide">
+
+<h1>3. <code>mill.sh</code></h1>
+<p>Referenz-Implementierung als shell-script(s)</p>
+<ul class="incremental">
+<li><code>mill new</code> — “spannt das Papier in die Schreibmaschine”</li>
+<li><code>mill web</code> — exportiert zu HTML (<strong>plain</strong>, noch…)</li>
+<li><code>mill print</code> — exportiert zu PDF (via LaTeX)</li>
+</ul>
+</div>
+
+<div class="slide">
+
+<h1><code>mill</code> in the shell</h1>
+<pre><code><br />$ mill
+Usage: mill &lt;command&gt; [&lt;args&gt;]
+
+Some useful mill commands are:
+   check                  Check if something is working.
+   commands               List all mill commands
+   import                 Import a document and convert to Markdown.
+   new                    Make a blank paper from the stationery.
+   print                  Output to HTML
+   shim                   Glue code, (platform) abstractions, nasty hacks.
+   update                 Update mill cli tool from git.
+   web                    Output to HTML
+
+See 'mill help &lt;command&gt;' for information on a specific command.
+</code></pre>
+</div>
+
+<div class="slide">
+
+<h1>Eingebaute Gegenfrage 1</h1>
+<p><strong><em>Ist es nicht jetzt schon unglaublich einfach, digital zu schreiben?</em></strong></p>
+<p><em>Klar:</em> Laptop auf, Word an. Schreiben, formatieren, speichern, fertig.</p>
+<p><em>Aber:</em></p>
+<ul class="incremental">
+<li>kompliziertes, meist geschlossenes Dateiformat</li>
+<li>Format nur schwierig (sehr unsauber) übersetzbar (web, eBook, PDF)</li>
+<li>schwierige Kollaboration</li>
+<li>(auch <code>LaTeX</code> ist noch zu komplex… bzw ist Programmiersprache)</li>
+</ul>
+</div>
+
+<div class="slide">
+
+<h1>Eingebaute Gegenfrage 2</h1>
+<p><strong><em>Kein Problem: Das macht ja alles der Verlag!</em></strong></p>
+<ul class="incremental">
+<li>Genau das <em>ist</em> das eigentlich zu lösende Problem:</li>
+<li>Verlage = grundsätzlich “evil”, <strong>müssen</strong> es sein (Kapitalismus)
+<ul class="incremental">
+<li>Rechte-Byout, Verwaltungsoverhead</li>
+</ul></li>
+<li>Ansatz: OpenAccess (Infrastruktur, Druck durch Geldgeber)</li>
+<li>Papermill: Problemlösung kann nur beim Autor ansetzen! (= der Urheber)</li>
+<li>Verlage werden nicht überflüssig, aber viele Aufgaben sind dort fehl am Platz
+<ul class="incremental">
+<li>Kernkompetenzen: Kuration, Distribution, Promotion</li>
+<li>nicht einmal diese von jedem Autor “benötigt”</li>
+</ul></li>
+</ul>
+</div>
+
+<div class="slide">
+
+<h1>OPP <em>(other people’s problems)</em></h1>
+<p>Folgende Punkte sind nicht im <em>scope</em> des Projektes:</p>
+<ul class="incremental">
+<li>Kurze Texte/Sammlungen (➞ Blogs, facebook, twitter)</li>
+<li>Vergütung</li>
+<li>Gestaltung (Details später…)</li>
+<li>Soziale Integration der Kollaboration</li>
+</ul>
+</div>
+
+<div class="slide">
+
+<h1>Roadmap</h1>
+<ul class="incremental">
+<li><code>Papermill</code>: zu viel, zu ungenau, zu utopisch ➞ schlechtes Bachelor-Projekt</li>
+<li>Deshalb: Roadmap
+<ul class="incremental">
+<li><strong>better web output</strong> — think “book as web application”. This is currently done in pandoc-bootstrap.</li>
+<li>better workflow (also as web app)</li>
+<li>better collaboration by integrating even more with git</li>
+</ul></li>
+</ul>
+</div>
+
+<div class="slide">
+
+<h1>pandoc-bootstrap</h1>
+<ul class="incremental">
+<li>Integriert das web-framework <a href="http://getbootstrap.com"><code>bootstrap</code></a> mit der HTML-Ausgabe von <code>pandoc</code></li>
+<li><em>Informatik-Klassiker:</em> <a href="http://en.wikipedia.org/wiki/Separation_of_presentation_and_content">Trennung von Inhalt und Präsentation</a> (➞ <code>HTML</code>/<code>CSS</code>)</li>
+<li><em>Genauer:</em> Aufteilung in <strong>Inhalt + Formatierung</strong> und <strong>Präsentation / Design</strong></li>
+<li>(<strong>Inhalt</strong> = Text + Formatierung) ➞ Deshalb <code>Markdown</code>, plaintext ➞ <em>meaning</em></li>
+<li>(<strong>Präsentation</strong> = Inhalt + Framework) ➞ Deshalb <code>bootstrap</code></li>
+<li>(<strong>Produkt</strong> = Inhalt + Framework + Design)</li>
+</ul>
+</div>
+
+<div class="slide">
+
+<h1>zum Beispiel</h1>
+<ul class="incremental">
+<li><strong>Text:</strong> <mark><code>Das ist der Text.</code></mark></li>
+<li><strong>Inhalt:</strong> Autor meint, die Betonung liegt auf dem “<code>ist</code>”</li>
+<li><strong>Markdown</strong>: <mark><code>Das *ist* der Text.</code></mark></li>
+<li><strong><code>HTML</code></strong>: <mark><code>Das &lt;em&gt;ist&lt;/em&gt; der Text.</code></mark>
+<ul class="incremental">
+<li>(<code>&lt;em&gt;</code> == <em>empasis</em>, Hervorhebung)</li>
+</ul></li>
+<li><strong>Ausgabe</strong>: <mark>Das <em>ist</em> der Text.</mark>
+<ul class="incremental">
+<li>ist nur kursiv lt. Konvention</li>
+<li>implementierung: browser-default.css: <code>em {font-style:italic}</code></li>
+</ul></li>
+<li><strong>Design</strong>: Welche Schriftart? Wenn kein kursiver Schnitt, was dann?
+<ul class="incremental">
+<li><mark>Das IST der Text.</mark></li>
+<li><mark>Das <u>ist</u> der Text.</mark></li>
+</ul></li>
+</ul>
+</div>
+
+<div class="slide">
+
+<h1>Vorher</h1>
+<div class="figure">
+<img src="https://dl.dropbox.com/s/2d5x0kkzhjevdzu/curie-html-plain.png?dl=1" alt="plain" /><p class="caption">plain</p>
+</div>
+</div>
+
+<div class="slide">
+
+<h1>Nachher (POC)</h1>
+<div class="figure">
+<img src="https://dl.dropbox.com/s/rwsmxj20zrp15zq/curie-html-bootstrappoc.png?dl=1" alt="bootstrap'd" /><p class="caption"><code>bootstrap</code>’d</p>
+</div>
+</div>
+
+<div class="slide">
+
+<h1>Ziele</h1>
+<ul class="incremental">
+<li>“Buch” als web-application</li>
+<li>Andersherum gesagt: eBook und eBook-Reader in einem <code>HTML</code>!</li>
+<li>Erweiterung des frameworks um “buch”-spezifische Funktionen</li>
+<li>z.B. für Leser:
+<ul class="incremental">
+<li>Inhaltsverzeichnis</li>
+<li>Fußnoten!</li>
+<li>Offline/LocalStorage, Lesezeichen, Notizen</li>
+</ul></li>
+<li>aber auch für Autor (Debug-Optionen)
+<ul class="incremental">
+<li>z.B. farbige Hervorhebung von Zitaten</li>
+</ul></li>
+<li>u.v.m. <code>:)</code></li>
+</ul>
+</div>
+
+<div class="slide">
+
+<h1>Links</h1>
+<p><a href="https://github.com/NTS/PhD"><code class="url">https://github.com/NTS/PhD</code></a> <br /><a href="https://github.com/papermill"><code class="url">https://github.com/papermill</code></a> <br /><a href="http://www.enviv.de"><code class="url">http://www.enviv.de</code></a> <br /> Weiteres: <br /><a href="http://www.open-access.net"><code class="url">http://www.open-access.net</code></a> <a href="https://leanpub.com"><code class="url">https://leanpub.com</code></a></p>
+<p>Software: <br /><a href="http://gitit.net"><code class="url">http://gitit.net</code></a> <br /><a href="http://documentup.com/papermill/documentation"><code class="url">http://documentup.com/papermill/documentation</code></a> <br /><a href="http://www.docverter.com"><code class="url">http://www.docverter.com</code></a> <a href="http://dillinger.io"><code class="url">http://dillinger.io</code></a> <br /><a href="http://brackets.io"><code class="url">http://brackets.io</code></a> <em>from Adobe</em> <code>o_O</code> <br /> Änlich aber anders: <br /><a href="http://interior.substance.io"><code class="url">http://interior.substance.io</code></a> <br /></p>
+</div>
+
+<div class="slide">
+
+<h1>BTW: Was habe ich eigentlich gegen “Bücher”</h1>
+<ul class="incremental">
+<li>“Buch” ist KEIN Medium sondern ein FORMAT</li>
+<li>Roman, Gedicht, Sachbuch (z.B. Biographie) sind Medien</li>
+<li>(Gleiches Problem wie bei “Zeitung”, ist auch nicht “Nachrichten auf totem Holz”, sondern “regelmäßige, redaktionell aufbereitete Nachrichten”)</li>
+<li>Geschichte der langen Texte: von Schriftrolle zu Webseite — das Buch kürzt sich weg!</li>
+</ul>
+</div>
+
+<div class="slide">
+
+<h1>Thanks for your analog attention</h1>
+<div class="figure">
+<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/PSF-scroll.png/519px-PSF-scroll.png" alt="It turns out we were scrolling the hole time" /><p class="caption">It turns out we were scrolling the hole time</p>
+</div>
+</div>
+</body>
+</html>

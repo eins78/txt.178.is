@@ -47,6 +47,23 @@ Referenz-Implementierung als shell-script(s)
 
 # `mill` in the shell
 
+```bash
+$ mill
+Usage: mill <command> [<args>]
+
+Some useful mill commands are:
+   check                  Check if something is working.
+   commands               List all mill commands
+   import                 Import a document and convert to Markdown.
+   new                    Make a blank paper from the stationery.
+   print                  Output to HTML
+   shim                   Glue code, (platform) abstractions, nasty hacks.
+   update                 Update mill cli tool from git.
+   web                    Output to HTML
+
+See 'mill help <command>' for information on a specific command.
+```
+
 # Eingebaute Gegenfrage 1
 
 ***Ist es nicht jetzt schon unglaublich einfach, digital zu schreiben?***

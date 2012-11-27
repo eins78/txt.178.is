@@ -173,6 +173,8 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 - (**Inhalt** = Text + Formatierung) ➞ Deshalb `Markdown`, plaintext ➞ *meaning*
 - (**Präsentation** = Inhalt + Framework) ➞ Deshalb `bootstrap`
 - (**Produkt** = Inhalt + Framework + Design)
+    - Design kann auf framework aufgesetzt werden
+    - Nutzt die gleichen Standards (`CSS`, `JS`, `LaTeX`)
 
 # zum Beispiel
 

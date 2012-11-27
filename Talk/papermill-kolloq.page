@@ -153,15 +153,15 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 - Kurze Texte/Sammlungen (➞ Blogs, facebook, twitter, etc)
 - Vergütung
 - spezifisches Design/(Aus-)Gestaltung
-- Soziale Integration der Kollaboration
+- (soziale Integration der) Kollaboration
 
 # Roadmap
 
 - `Papermill`: zu viel, zu ungenau, zu utopisch ➞ schlechtes Bachelor-Projekt
 - Deshalb: Roadmap
-    - **better web output** -- think "book as web application". This is currently done in pandoc-bootstrap.
-    - better workflow (also as web app)
-    - better collaboration by integrating even more with git
+> - **better web output** -- think "book as web application". This is currently done in > pandoc-bootstrap.
+> - better workflow (also as web app)
+> - better collaboration by integrating even more with git
 
 
 # pandoc-bootstrap

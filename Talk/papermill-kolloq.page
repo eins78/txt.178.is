@@ -216,21 +216,23 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 # Links
 
-<https://github.com/papermill> all the `<CODE>` is here \
-<https://github.com/NTS/PhD> (unreleased) - PhD written with `papermill` \
-<http://www.enviv.de> Dirk von Gehlen is writing a new book
+<https://github.com/papermill> -- all the `<CODE>` is here \
+<https://github.com/NTS/PhD> -- (unreleased) - PhD written with `papermill` \
+<http://www.enviv.de> -- Dirk von Gehlen is writing a new book
 
-Weiteres: \
-<http://www.open-access.net> at least want open licensing \
-<https://leanpub.com> are doing 'liquid' publishing, Markdown \
-<http://substance.io> also working on the revolution in writing
+Weiteres:
 
-Software: \
-<http://gitit.net> Pandoc+Git=Wiki \
-<http://documentup.com/papermill/documentation> nicer READMEs \
-<http://www.docverter.com> doc conversion `HTTP API`(!) \
-<http://dillinger.io> Markdown Writer/Live-Preview\
-<http://brackets.io> *from Adobe* `o_O` 
+<http://www.open-access.net> -- at least want open licensing \
+<https://leanpub.com> -- are doing 'liquid' publishing, Markdown \
+<http://substance.io> -- also working on the revolution in writing
+
+Software:
+
+<http://gitit.net> -- Pandoc+Git=Wiki \
+<http://documentup.com/papermill/documentation> -- nicer READMEs \
+<http://www.docverter.com> -- doc conversion `HTTP API`(!) \
+<http://dillinger.io> -- Markdown Writer/Live-Preview\
+<http://brackets.io> -- floss editor for/in webtech *from Adobe* `o_O` 
 
 
 # BTW: Was habe ich eigentlich gegen "Bücher"

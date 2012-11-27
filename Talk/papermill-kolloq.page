@@ -176,7 +176,7 @@ Folgende Punkte sind nicht im Bereich des Projektes:
     - Funktionsbausteine: `js` aus `bootstrap` (`jQuery`-basiert)
 - *Informatik-Klassiker:* [Trennung von Inhalt und Präsentation](http://en.wikipedia.org/wiki/Separation_of_presentation_and_content) (➞ `HTML`/`CSS`)
 - *Genauer:* Aufteilung in **Inhalt + Formatierung** und **Präsentation / Design**
-- (**Inhalt** = Text + Formatierung) ➞ Deshalb `Markdown`, plaintext ➞ *meaning*
+- (**Inhalt** = Text + Formatierung) ➞ Deshalb `Markdown` *(plaintext with meaning)*
 - (**Präsentation** = Inhalt + Framework) ➞ Deshalb `bootstrap`
 - (**Produkt** = Inhalt + Framework + Design)
     - Design kann auf framework aufgesetzt werden

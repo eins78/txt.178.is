@@ -244,5 +244,5 @@ Software: \
 <style>
 body{font-family:"Lato",sans-serif}
 tt,code,kbd,samp{font-family:"Inconsolata",monospace}
-pre {border-color:hsl(188,35%,55%);hsl(188,100%,80%);background-color:#222;}
+pre {border-color:hsl(188,35%,55%);color:hsl(188,100%,80%);background-color:#222;}
 </style>

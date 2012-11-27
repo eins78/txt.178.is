@@ -14,7 +14,8 @@
 
 **Vereinfachung des Erstellens langer Texte** *(aus Sicht des Autors)*
 
-- Lange Texte: Bücher; wissenschaftliche Arbeiten wie Papers, Dissertationen 
+- Lange Texte = ***long-form text***
+    - Bücher; wissenschaftliche Arbeiten wie Papers, Dissertationen 
 - Nicht: Handbücher, Dokumentationen -- Problem weitestgehend "gelöst"
 - Nicht: (klassisches) Content-Management -- kein Fokus auf Autor
     - Redaktions- und Verlagssysteme
@@ -30,6 +31,7 @@
 # 3. `mill.sh`
 
 Referenz-Implementierung als shell-script(s)
+
 - `mill new` -- "spannt das Papier in die Schreibmaschine"
 - `mill web` -- exportiert zu HTML (**plain**)
 - `mill print` -- exportiert zu PDF (via LaTeX)

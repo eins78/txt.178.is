@@ -216,20 +216,20 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 # Links
 
-<https://github.com/NTS/PhD> \
-<https://github.com/papermill> \
-<http://www.enviv.de>
+<https://github.com/papermill> all the `<CODE>` is here \
+<https://github.com/NTS/PhD> (unreleased) - PhD written with `papermill` \
+<http://www.enviv.de> Dirk von Gehlen is writing a new book
 
 Weiteres: \
-<http://www.open-access.net> \
-<https://leanpub.com> \
-<http://substance.io>
+<http://www.open-access.net> at least want open licensing \
+<https://leanpub.com> are doing 'liquid' publishing, Markdown \
+<http://substance.io> also working on the revolution in writing
 
 Software: \
-<http://gitit.net> \
-<http://documentup.com/papermill/documentation> \
-<http://www.docverter.com> \
-<http://dillinger.io> \
+<http://gitit.net> Pandoc+Git=Wiki \
+<http://documentup.com/papermill/documentation> nicer READMEs \
+<http://www.docverter.com> doc conversion `HTTP API`(!) \
+<http://dillinger.io> Markdown Writer/Live-Preview\
 <http://brackets.io> *from Adobe* `o_O` 
 
 

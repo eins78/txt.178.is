@@ -25,3 +25,6 @@
     - möglichst komplette Integration bestehender Bestandteile und Werkzeuge in eine "fertige" Lösung
 
 3. **`mill.sh`**: Referenz-Implementierung als shell-script(s)
+    - `mill new` -- spannt das Papier in die Schreibmaschine
+    - `mill web` -- exportiert zu HTML (**plain**)
+    - `mill print` -- exportiert zu PDF (via LaTeX)

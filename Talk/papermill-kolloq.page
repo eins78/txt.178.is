@@ -47,7 +47,8 @@ Referenz-Implementierung als shell-script(s)
 
 # `mill` in the shell
 
-`````{.shell}
+~~~~~
+
 $ mill
 Usage: mill <command> [<args>]
 
@@ -62,7 +63,7 @@ Some useful mill commands are:
    web                    Output to HTML
 
 See 'mill help <command>' for information on a specific command.
-`````
+~~~~~
 
 
 # Eingebaute Gegenfrage 1

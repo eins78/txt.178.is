@@ -45,7 +45,7 @@ Ein "Projekt".
 - **Integration** bestehender Bestandteile und **Werkzeuge** zu einer funktionierenden **Lösung**
 - Syntax und Konvertierung (Markdown/`pandoc`), Versionskontrolle (`git`), etc
 - Bestehende 'Standards'
-    - `HTML`/`CSS`/`javascript`
+    - `HTML`/`CSS`/`javascript` (also `ePub`)
     - `TeX`/`LaTeX`
 - Fertige Tools und Services:
     - Plugins für Texteditoren (`vim`, `TextMate`)

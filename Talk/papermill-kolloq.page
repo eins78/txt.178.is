@@ -67,7 +67,7 @@ Ziel: vollständige Dokumentation durch Kommentare, weil Grundlage für Interfac
 - `mill web` -- exportiert zu HTML (**plain**, noch…)
 - `mill print` -- exportiert zu PDF (via LaTeX)
 
-# `mill` in the shell
+# `mill` in the shell (1)
 
 ~~~~~
 
@@ -87,6 +87,37 @@ Some useful mill commands are:
 See 'mill help <command>' for information on a specific command.
 
 ~~~~~
+
+
+# `mill` in the shell (2)
+
+~~~~~
+mfa@Quince:/tmp $ mill new My-Paper
+[>] Creating new Paper in /My-Paper
+    [#] Getting and unwrapping the stationery.
+    [#] Setting up project config.
+    [#] Initializing version control.
+    [-] [master (root-commit) 624481d] Starting My-Paper
+    [-] Committer: Max F. Albrecht <mfa@Quince.178.is>
+    [-] 6 files changed, 735 insertions(+)
+    [-] create mode 100644 .gitignore
+    [-] create mode 100644 .papermill/din-1505-2-numeric.csl
+    [-] create mode 100644 .papermill/din-1505-2.csl
+    [-] create mode 100644 .papermill/papermill.config
+    [-] create mode 100644 My-Paper.markdown
+    [-] create mode 100644 bibliography.bib
+    [#] SUCCESS!
+[!] If you don't want git, just delete the .git folder.
+[<] Finished creating new Paper in /My-Paper
+
+mfa@Quince:/tmp $ cd My-Paper/
+mfa@Quince:/tmp/My-Paper [master]
+$ mill web
+[>] Output to WEB ...
+   [#] Generating HTML: My-Paper.markdown ...
+   [!] SUCCESS
+[<] Finished output to WEB ...
+~~~~~ 
 
 
 # Eingebaute Gegenfrage 1

@@ -45,6 +45,8 @@ Referenz-Implementierung als shell-script(s)
 - `mill web` -- exportiert zu HTML (**plain**, noch!)
 - `mill print` -- exportiert zu PDF (via LaTeX)
 
+# `mill` in the shell
+
 # Eingebaute Gegenfrage 1
 
 ***Ist es nicht jetzt schon unglaublich einfach, digital zu schreiben?***
@@ -93,7 +95,7 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 - Integriert das web-framework `bootstrap` mit der HTML-Ausgabe von `pandoc`
 - *Old and busted:* [Trennung von Inhalt und Präsentation](http://en.wikipedia.org/wiki/Separation_of_presentation_and_content) (`HTML`/`CSS`)
 - *New hotness:* Unterscheidung von (Inhalt und Formatierung), (Präsentation und Design)
-- (**Inhalt** = Text + Formatierung) ➞ Deshalb `Markdown`
+- (**Inhalt** = Text + Formatierung) ➞ Deshalb `Markdown`, plaintext
 - (Präsentation = Inhalt + Framework) ➞ Deshalb `bootstrap`
 - (Produkt = Inhalt + Framework + Design)
 

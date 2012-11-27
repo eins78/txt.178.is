@@ -95,6 +95,13 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 - (Präsentation = Inhalt + Framework) ➞ Deshalb `bootstrap`
 - (Produkt = Inhalt + Framework + Design)
 
+# zum Beispiel
+
+- Autor **meint**: Dieses Wort is wichtig
+- Autor **schreibt**: `Dieses Wort ist *wichtig*.`
+- Im `HTML` steht: `Dieses Wort ist <em>wichtig<em>.`
+    - (`<em>` == *empasis*, Hervorhebung)
+
 # Vorher
 
 ![plain](https://dl.dropbox.com/s/2d5x0kkzhjevdzu/curie-html-plain.png?dl=1)

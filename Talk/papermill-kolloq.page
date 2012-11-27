@@ -72,14 +72,14 @@ Aber:
 
 Folgende Punkte sind nicht im *scope* des Projektes:
 
-- Kurze Texte/Sammlungen (-> Blogs, facebook, twitter)
+- Kurze Texte/Sammlungen (➞ Blogs, facebook, twitter)
 - Vergütung
 - Gestaltung (Details später…)
 - Soziale Integration der Kollaboration
 
 # Roadmap
 
-- `Papermill`: zu viel, zu ungenau, zu utopisch -> schlechtes Bachelor-Projekt
+- `Papermill`: zu viel, zu ungenau, zu utopisch ➞ schlechtes Bachelor-Projekt
 - Deshalb: Roadmap
     - **better web output** -- think "book as web application". This is currently done in pandoc-bootstrap.
     - better workflow (also as web app)
@@ -91,8 +91,8 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 - Integriert das web-framework `bootstrap` mit der HTML-Ausgabe von `pandoc`
 - *Old and busted:* Trennung von Inhalt und Präsentation (`HTML`/`CSS`)
 - *New hotness:* Trennung von Inhalt, Präsentation und Design
-- Aufgepasst: (Inhalt = Text + Formatierung) -> Deshalb `Markdown`
-- (Präsentation = Inhalt + Framework) -> Deshalb `bootstrap`
+- Aufgepasst: (Inhalt = Text + Formatierung) ➞ Deshalb `Markdown`
+- (Präsentation = Inhalt + Framework) ➞ Deshalb `bootstrap`
 - (Produkt = Inhalt + Framework + Design)
 
 # Vorher

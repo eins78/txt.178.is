@@ -157,8 +157,8 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 # Roadmap
 
-> - `Papermill`: zu viel, zu ungenau, zu utopisch ➞ schlechtes Bachelor-Projekt
-> - Deshalb: Roadmap
+- `Papermill`: zu viel, zu ungenau, zu utopisch ➞ schlechtes Bachelor-Projekt
+- Deshalb: Roadmap
 
 > - **better web output** -- think "book as web application". This is currently done in pandoc-bootstrap.
 > - better workflow (also as web app)

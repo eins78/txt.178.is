@@ -6,14 +6,14 @@
 
 - (noch) kein "Produkt"
 - nichteinmal zwingend fertige Produkt-Idee bzw welche Art von Produkt entstehen könnte
-- Aktueller Plan: All-in-One web interface bzw Infrastruktur-as-a-service
+- Möglicherweise: All-in-One web interface bzw Infrastruktur-as-a-service
 
 # Was ist jetzt?
 
 - **Ein Plan** zur Vereinfachung des Erstellens langer Texte (aus Sicht des Autors)
    - Lange Texte: Bücher; wissenschaftliche Arbeiten wie Papers, Dissertationen 
    - Nicht: Handbücher, Dokumentationen -- Problem weitestgehend "gelöst"
-   - Nicht: (klassisches) Content-Management -- keine Fokus auf Autor
+   - Nicht: (klassisches) Content-Management -- kein Fokus auf Autor
       - Redaktions- und Verlagssysteme
       - `NoCMS` :)
    - Anspruch: Ein neues Dokument anzufangen sollte nicht komplizierter sein als ein Blatt Papier in seine Schreibmaschine zu spannen und loszuschreiben

@@ -15,7 +15,15 @@
 - Möglicherweise: All-in-One web interface bzw Infrastruktur-as-a-service
 
 
-# Der Plan 
+# Was ist es dann?
+
+Ein "Projekt".
+
+1. Ein Plan
+2. Eine *toolchain* 
+3. Ein shell-script (`mill`)
+
+# 1. Der Plan 
 
 **Vereinfachung des Herstellens "langer Texte"** *(aus Sicht des Autors)*
 
@@ -29,7 +37,7 @@
 - Anspruch: Ein neues Dokument anzufangen sollte nicht komplizierter sein als ein Blatt Papier in seine Schreibmaschine zu spannen und loszuschreiben
 
 
-# 2. Eine toolchain
+# 2. Die *toolchain*
 
 - Werkzeug-Kette/Sammlung
 - keine großen Eigenentwicklungen, (nicht "das Rad neu erfinden") *sondern:*
@@ -40,7 +48,7 @@
     - Modularität!
     - und: 100% Free/OpenSource-Software `\o/`
 
-# 3. `mill.sh`
+# 3. `mill`
 
 Referenz-Implementierung als shell-script(s)
 

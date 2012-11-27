@@ -6,8 +6,9 @@
 > 
 > It aims to provide the best possible output, with minimal configuration and manual work. Just 'drop in' your Markdown formatted text file and you'll instantly get a static website and a printable PDF (via LaTeX).
 > 
-> Instead of a framework, `papermill` rather tries to be an opinionated collection of the best tools, standards and practices currently in use, combined with simple scripting to glue it together. \
-> *me, [2012-04-28](https://github.com/eins78/papermill/commit/ac2c8179e4254e809d311a3929bd2a1a7ef101ca#L0R18)*
+> Instead of a framework, `papermill` rather tries to be an opinionated collection of the best tools, standards and practices currently in use, combined with simple scripting to glue it together. 
+
+*me, [2012-04-28](https://github.com/eins78/papermill/commit/ac2c8179e4254e809d311a3929bd2a1a7ef101ca#L0R18)*
 
 # Was ist es nicht?
 

@@ -131,8 +131,8 @@ Folgende Punkte sind nicht im *scope* des Projektes:
     - ist nur kursiv lt. Konvention 
     - implementierung: browser-default.css: `em {font-style:italic}`
 - **Design**: Welche Schriftart? Wenn kein kursiver Schnitt, was dann?
-    - Das  i s t  der Text.
     - Das IST der Text.
+    - Das <u>ist</u> der Text.
 
 
 # Vorher

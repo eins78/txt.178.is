@@ -101,6 +101,8 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 - Autor **schreibt**: `Dieses Wort ist *wichtig*.`
 - Im `HTML` steht: `Dieses Wort ist <em>wichtig<em>.`
     - (`<em>` == *empasis*, Hervorhebung)
+- Lt. Konvention ist em
+
 
 # Vorher
 
@@ -114,10 +116,13 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 - "Buch" als web-application
 - Andersherum gesagt: eBook und eBook-Reader in einem `HTML`!
-- Erweiterung des frameworks um Funktionen
+- Erweiterung des frameworks um "buch"-spezifische Funktionen
+- z.B. für Leser:
     - Inhaltsverzeichnis
     - Fußnoten!
     - Offline/LocalStorage, Lesezeichen, Notizen
+- aber auch für Autor (Debug-Optionen)
+    - z.B. farbige Hervorhebung von Zitaten
 - u.v.m. `:)`
 
 

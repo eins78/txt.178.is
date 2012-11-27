@@ -11,17 +11,17 @@
 # Was ist jetzt?
 
 - **Ein Plan** zur Vereinfachung des Erstellens langer Texte (aus Sicht des Autors)
-   - Lange Texte: Bücher; wissenschaftliche Arbeiten wie Papers, Dissertationen 
-   - Nicht: Handbücher, Dokumentationen -- Problem weitestgehend "gelöst"
-   - Nicht: (klassisches) Content-Management -- kein Fokus auf Autor
+    - Lange Texte: Bücher; wissenschaftliche Arbeiten wie Papers, Dissertationen 
+    - Nicht: Handbücher, Dokumentationen -- Problem weitestgehend "gelöst"
+    - Nicht: (klassisches) Content-Management -- kein Fokus auf Autor
       - Redaktions- und Verlagssysteme
       - `NoCMS` :)
-   - Anspruch: Ein neues Dokument anzufangen sollte nicht komplizierter sein als ein Blatt Papier in seine Schreibmaschine zu spannen und loszuschreiben
+    - Anspruch: Ein neues Dokument anzufangen sollte nicht komplizierter sein als ein Blatt Papier in seine Schreibmaschine zu spannen und loszuschreiben
    
 
 - **Eine toolchain**
-   - Werkzeug-Kette/Sammlung
-   - keine großen Eigenentwicklungen, (nicht "das Rad neu erfinden") *sondern:*
-   - möglichst komplette Integration bestehender Bestandteile und Werkzeuge in eine "fertige" Lösung
+    - Werkzeug-Kette/Sammlung
+    - keine großen Eigenentwicklungen, (nicht "das Rad neu erfinden") *sondern:*
+    - möglichst komplette Integration bestehender Bestandteile und Werkzeuge in eine "fertige" Lösung
 
 - **`mill.sh`**: Referenz-Implementierung als shell-script(s)

@@ -122,7 +122,7 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 # zum Beispiel
 
-- `Das ist der Text.`
+- **Text:** `Das ist der Text.`
 - **Inhalt:** Autor meint, die Betonung liegt auf dem "`ist`"
 - **Markdown**: `Das *ist* der Text.`
 - **`HTML`**: `Das <em>ist</em> der Text.`
@@ -130,8 +130,8 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 - **Ausgabe**: Das *ist* der Text.
     - ist nur kursiv lt. Konvention 
     - implementierung: browser-default.css: `em {font-style:italic}`
-- **Design** = Welche Schriftart? Wenn kein kursiver Schnitt, was dann?
-    - Das i s t der Text.
+- **Design**: Welche Schriftart? Wenn kein kursiver Schnitt, was dann?
+    - Das  i s t  der Text.
     - Das IST der Text.
 
 

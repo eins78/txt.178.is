@@ -201,7 +201,7 @@ Folgende Punkte sind nicht im Bereich des Projektes:
 
 ![plain](https://dl.dropbox.com/s/2d5x0kkzhjevdzu/curie-html-plain.png?dl=1)
 
-# Nachher (POC)
+# Nachher (*proof-of-concept*)
 
 ![`bootstrap`'d](https://dl.dropbox.com/s/rwsmxj20zrp15zq/curie-html-bootstrappoc.png?dl=1)
 
@@ -220,7 +220,7 @@ Folgende Punkte sind nicht im Bereich des Projektes:
 
 # Links
 
-<http://getbootstrap.com> \
+<http://getbootstrap.com>, <http://lesscss.org> \
 <http://johnmacfarlane.net/pandoc> \
 <https://github.com/papermill> -- all the `<CODE>` is here \
 <https://github.com/NTS/PhD> -- (unreleased) - PhD written with `papermill` \

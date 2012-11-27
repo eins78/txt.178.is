@@ -32,10 +32,10 @@
 - keine großen Eigenentwicklungen, (nicht "das Rad neu erfinden") *sondern:*
 - **Integration** bestehender Bestandteile und **Werkzeuge** zu einer funktionierenden **Lösung**
 - Syntax und Konvertierung (Markdown/`pandoc`), Versionskontrolle (`git`), etc
-- Flexibilität
-- Plain-Text
-- Modularität!
-- (und: 100% Free/OpenSource-Software)
+- Flexibilität:
+    - Plain-Text
+    - Modularität!
+    - und: 100% Free/OpenSource-Software `\o/`
 
 # 3. `mill.sh`
 

@@ -11,9 +11,8 @@
 - nichteinmal zwingend fertige Produkt-Idee bzw welche Art von Produkt entstehen könnte
 - Möglicherweise: All-in-One web interface bzw Infrastruktur-as-a-service
 
-# Was ist dann?
 
-# Ein Plan 
+# Der Plan 
 
 **Vereinfachung des Erstellens langer Texte** *(aus Sicht des Autors)*
 
@@ -85,6 +84,9 @@ Aber:
 # pandoc-bootstrap
 
 - Integriert das web-framework `bootstrap` mit der HTML-Ausgabe von `pandoc`
+- *Old and busted:* Trennung von Inhalt und Präsentation (`HTML`/`CSS`)
+- *New hotness:* Betrachtung von Inhalt, Formatierung und Design
+- (Text + Formatierung = Inhalt) | (In)
 
 # Vorher
 

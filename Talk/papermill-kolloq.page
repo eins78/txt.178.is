@@ -122,7 +122,7 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 # zum Beispiel
 
-- **Text:** `Das ist der Text.`
+- **Text:** <mark>`Das ist der Text.`</mark>
 - **Inhalt:** Autor meint, die Betonung liegt auf dem "`ist`"
 - **Markdown**: `Das *ist* der Text.`
 - **`HTML`**: `Das <em>ist</em> der Text.`

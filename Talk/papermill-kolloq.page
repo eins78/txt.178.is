@@ -23,7 +23,7 @@
     - "Bücher"; wissenschaftliche Arbeiten wie Papers, Dissertationen 
 - ***cross-publish***: Ein Quell-Text = verschiedene Ausgaben
 - Nicht: Handbücher, Dokumentationen (Problem weitestgehend gelöst)
-- Nicht: (klassisches) Content-Management (kein Fokus auf Autor)
+- Nicht: (klassisches) Content-Management (Fokus nicht Autor, sondern Ausgabemedium)
     - Redaktions- und Verlagssysteme
     - `NoCMS 8)`
 - Anspruch: Ein neues Dokument anzufangen sollte nicht komplizierter sein als ein Blatt Papier in seine Schreibmaschine zu spannen und loszuschreiben

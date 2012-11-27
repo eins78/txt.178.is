@@ -159,6 +159,7 @@ Folgende Punkte sind nicht im *scope* des Projektes:
 
 - `Papermill`: zu viel, zu ungenau, zu utopisch ➞ schlechtes Bachelor-Projekt
 - Deshalb: Roadmap
+
 > - **better web output** -- think "book as web application". This is currently done in > pandoc-bootstrap.
 > - better workflow (also as web app)
 > - better collaboration by integrating even more with git

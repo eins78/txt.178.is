@@ -51,10 +51,10 @@ Ein "Projekt".
 - Bestehende 'Standards'
     - `HTML`/`CSS`/`javascript` (…und `ePub`, etc.)
     - `TeX`/`LaTeX`
-- Fertige Tools und Services:
+- Es könne fertige Tools und Services verwendet werden!
     - Plugins für Texteditoren ([`vim`](http://www.vim.org), [`TextMate`](https://github.com/textmate/textmate))
-    - Andere Tools mit Markdown-support ([`iA Writer`](http://www.iawriter.com), [`Marked`](http://markedapp.com))
-    - `github` u.a.
+    - Tools mit Markdown-support ([`iA Writer`](http://www.iawriter.com), [`Marked`](http://markedapp.com))
+    - [github](https://github.com), [`gitlab`](http://gitlabhq.com), [gitorious](http://gitorious.com) u.a.
 - Flexibilität:
     - Plain-Text
     - Modularität!

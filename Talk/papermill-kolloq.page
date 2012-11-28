@@ -226,25 +226,27 @@ Folgende Punkte sind nicht im Bereich des Projektes:
 <https://github.com/NTS/PhD> -- (unreleased) - PhD written with `papermill` \
 <http://www.enviv.de> -- Dirk von Gehlen is writing a new book…
 
-Weiteres:
-
+Weiteres: \
 <http://www.open-access.net> -- at least they want open licensing \
 <https://leanpub.com> -- are doing 'liquid' publishing, Markdown \
 <http://substance.io> -- also working on the revolution in writing
 
-Software:
-
+Software: \
 <http://gitit.net> -- Pandoc+Git=Wiki \
 <http://documentup.com/papermill/documentation> -- nicer READMEs \
 <http://www.docverter.com> -- doc conversion `HTTP API`(!) \
 <http://dillinger.io> -- Markdown Writer/Live-Preview\
 <http://brackets.io> -- floss editor for/in webtech *from Adobe* `o_O` 
 
+Schöne Doku: \
+<http://docs.meteor.com> \
+<http://modrails.com/documentation/Users%20guide%20Nginx.html>
+
 
 # BTW: "Bücher"
 
 - "Buch" ist KEIN Medium sondern ein FORMAT
-- Roman, Gedicht, Sachbuch (z.B. Biographie) sind Medien
+    - Roman, Gedicht, Sachbuch (z.B. Biographie) sind Medien
 - (Gleiches Problem wie bei "Zeitung", ist auch nicht "Nachrichten auf totem Holz", sondern "regelmäßige, redaktionell aufbereitete Nachrichten")
 - Geschichte der langen Texte: von Schriftrolle zu Webseite -- das Buch kürzt sich weg!
 

@@ -53,6 +53,7 @@ Ein "Projekt".
     - `TeX`/`LaTeX`
 - Fertige Tools und Services:
     - Plugins für Texteditoren (`vim`, `TextMate`)
+    - Andere Tools mit Markdown-support ([`iA Writer`](http://www.iawriter.com), [`Marked`](http://markedapp.com))
     - `github` u.a.
 - Flexibilität:
     - Plain-Text
@@ -61,11 +62,9 @@ Ein "Projekt".
 
 # 3. `mill`
 
-Referenz-Implementierung als shell-script(s).
-
-Konsoleninterface für die Entwicklung der grundlegenden Funktionen -- direkte, auf das wesentliche reduzierte interaktion.
-
-Ziel: vollständige Dokumentation durch Kommentare, weil Grundlage für Interface/Features weiteres Versionen (`javascript`).
+- Referenz-Implementierung als shell-script(s).
+- Konsoleninterface für die Entwicklung der grundlegenden Funktionen -- direkte, auf das wesentliche reduzierte interaktion.
+- Ziel: vollständige Dokumentation durch Kommentare, weil Grundlage für Interface/Features weiteres Versionen (`javascript`).
 
 - `mill new` -- "spannt das Papier in die Schreibmaschine"
 - `mill web` -- exportiert zu HTML (**plain**, noch…)

@@ -1,8 +1,9 @@
-# Wilhelm Ostwald und die Weltformate
+% Wilhelm Ostwald und die Weltformate
+% Max F. Albrecht
 
-## Ostwald: Einordnung
+# Ostwald: Einordnung
 
-- Wikipedia-Kategorien des Artikels zu seiner Person (gekürzt): 
+## Wikipedia-Kategorien des Artikels zu seiner Person (gekürzt): 
 
 * Mann
 * Geboren 1853
@@ -16,5 +17,6 @@
 * Monismus
 * Deutsch-Balte
 * Deutscher Freimaurer
-* Freimaurer (19. Jahrhundert)
 * Farbenlehre
+
+- Personennummer der D. Nationalbibliothek:  11859057X

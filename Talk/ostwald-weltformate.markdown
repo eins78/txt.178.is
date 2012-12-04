@@ -8,15 +8,26 @@
 * Mann
 * Geboren 1853
 * Gestorben 1932
+* Deutsch-Balte
 * Nobelpreisträger für Chemie
-* Physikochemiker
+* Physikochemiker [Begründer]
 * Hochschullehrer (Universität Leipzig, MIT, Tartu, Riga)
 * Mitglied der Preußischen Akademie der Wissenschaften
     * und [Sächsischen, Königlich Niederländischen, Ungarischen]
 * Herausgeber
-* Monismus
-* Deutsch-Balte
+* Monismus [Mitstreiter der Kirchenaustrittsbewegung]
 * Deutscher Freimaurer
 * Farbenlehre
 
-- Personennummer der D. Nationalbibliothek:  11859057X
+## Bibliothek der BUW
+
+- ZKM-Buch `->` Kunst/Gestaltung (Limona)
+- Biographie `->` Bauingenieurwesen (Coudray7)
+- Farbatlas `->` Sondermagazin (Haupt)
+
+
+
+## TODO
+
+- Planquadrat: Weltformate schneiden, Vergleich mit DIN
+

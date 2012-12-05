@@ -90,18 +90,16 @@
 
 - 1: Farbschema, ählich HSL
 - [![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/HSL_color_solid_dblcone_chroma_gray.png/394px-HSL_color_solid_dblcone_chroma_gray.png)](https://en.wikipedia.org/wiki/HSL_and_HSV)
-- Abstufungs-system ähnlich heutige Farbfächer (RAL, Pantone)
-- Im Schuber, ca. A3, kleine Kärtchen im Raster
-- heausnehmbar, Rückseite beschriftet, nachbestellbar
-- Farbe aufgedruckt
-
-- Systematik ???
+- 2: Produkte: Farbatlas (Referenzkarten) + Farbenorgel (Temperafarben mit Schrank)
+- 3: Mischverhältnisse anorganischer Stoffe zur Herstellung
+- Farbatlas: Schuber, ca. A3, kleine Kärtchen im Raster
+    * herausnehmbar, Rückseite beschriftet, nachbestellbar
 
 # Die Ideen heute
 
-- Weltformat `-->` ISO 216
-- Farbatlas `-->` HSL; Pantone, RAL
-- Brücke `-->` Wikimedia Foundation?
+- Weltformat `~>` DIN 476, ISO 216
+- Farbatlas `->` HSL; Pantone, RAL
+- Brücke `~>` Wikimedia Foundation?
 
 
 

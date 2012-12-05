@@ -44,8 +44,6 @@
 
 # Die Weltformate
 
-- Typischer Fall von "vom Hölzchen aufs Stöckchen gekommen"
-
 > "Damit ein Gedanke Bestandteil der menschlichen Kultur wird, muss er *mittelbar* sein, d.h. von Raum und Zeit unabhängig werden.
 > Dies geschieht durch Sprache und Schrift.
 > *So ist das mit Schrift- und anderen Zeichen versehene Papierblatt die technische Grundform aller Kultur*, 
@@ -69,7 +67,7 @@ Wilhelm Oswald, "Die technische Handhabung der Gedanken" über K.W. Bührers Ged
 
 - Warum? Jahr?
 - ![XKCD: Standards](http://imgs.xkcd.com/comics/standards.png) [Source](http://xkcd.com/927/)
-- Gleiche Idee wie Weltformat, aber andere *baseline*
+- Gleiche Idee wie Weltformat, aber andere (metrische) "Grundgröße"
 - WF: von 1cm Kanten**länge** verdoppeln
 - DIN: von 1qm **Fläche** halbieren 
 - Trifft sich fast in der Mitte: C4/A4 -> ?

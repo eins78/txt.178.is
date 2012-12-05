@@ -49,7 +49,10 @@
 
 # Aufgaben der *Brücke*
 
-- 
+- Verbindung der durch Arbeitsteilung getrennter Bereiche (Fachgebiete)
+- Sammlung von allen(!) Kulturprodukten
+- Entwicklung von Werkzeugen
+
 
 # Die Weltformate
 
@@ -69,10 +72,6 @@
 - ([wie auch schon](http://www.cl.cam.ac.uk/~mgk25/lichtenberg-letter.html) "Georg Christoph Lichtenberg rund 125 Jahre zuvor"[source-DINheft]
 
 
-
-[^source-lebenslinien]: Lebenslinien, Dritter Teil, 9. Kapitel (Die Brücke), 
-
-
 # DIN 476
 
 - Warum? Jahr?
@@ -89,13 +88,20 @@
 
 # Der Farbatlas
 
-- Produkt
+- 1: Farbschema, ählich HSL
+- [![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/HSL_color_solid_dblcone_chroma_gray.png/394px-HSL_color_solid_dblcone_chroma_gray.png)](https://en.wikipedia.org/wiki/HSL_and_HSV)
 - Abstufungs-system ähnlich heutige Farbfächer (RAL, Pantone)
 - Im Schuber, ca. A3, kleine Kärtchen im Raster
 - heausnehmbar, Rückseite beschriftet, nachbestellbar
 - Farbe aufgedruckt
 
 - Systematik ???
+
+# Die Ideen heute
+
+- Weltformat `-->` ISO 216
+- Farbatlas `-->` HSL; Pantone, RAL
+- Brücke `-->` Wikimedia Foundation?
 
 
 
@@ -111,7 +117,7 @@
 - Deutsches Institut für Normierung: "DIN-FORMATE"[source-DINheft]
 
 [source-DINheft]: <http://www.din.de/sixcms_upload/media/2896/DIN_Formate.pdf>
-
+[^source-lebenslinien]: Lebenslinien, Dritter Teil, 9. Kapitel (Die Brücke)
 
 
 <style>

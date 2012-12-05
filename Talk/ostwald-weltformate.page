@@ -91,5 +91,14 @@ Wilhelm Oswald, "Die technische Handhabung der Gedanken" über K.W. Bührers Ged
 ## Planquadrat
 - Weltformate schneiden
 - Vergleich mit DIN
-- Monoformat: 11.5 x 16.5cm
 
+
+
+
+
+
+<style>
+body{font-family:"Lato",sans-serif}
+tt,code,kbd,samp{font-family:"Inconsolata",monospace}
+pre {border-color:hsl(188,35%,55%);color:hsl(188,100%,80%);background-color:#222;}
+</style>

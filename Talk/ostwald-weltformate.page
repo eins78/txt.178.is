@@ -60,7 +60,7 @@
 
 - Verbindung der durch Arbeitsteilung getrennter Bereiche (Fachgebiete)
 - Sammlung und Ordung von allen(!) Kulturprodukten/Wissen
-- Entwicklung von Werkzeugen
+- Entwicklung von Werkzeugen und Standards für diese Sammlungen
 - Schwerpunkt auf Wissenschaft (und deren Internationalisierung)
 - Praxis: Schwerpunkt Gebrauchsgrafik etc.
 - "Restlosigkeit": alles ist wichtig, weil es wichtig werden könnte
@@ -82,7 +82,7 @@
 
 - Ein Format reicht nicht aus -- es braucht diverse Größen
 - Diese sollen "zueinanderpassen" (durch Faltung verlustfrei ineinander übergehen)
-- Nur möglich mit Seitenverhältnis $1:{\sqrt{2}}$ (~1:1.414)
+- Nur möglich mit Seitenverhältnis $1 : \sqrt{2}$ (~1:1.414)
     - ([wie auch schon](http://www.cl.cam.ac.uk/~mgk25/lichtenberg-letter.html) "Georg Christoph Lichtenberg rund 125 Jahre zuvor"[^source-DINheft]
 - Grundmaß (#1): 1cm x 1.41cm
 - alle weiteren Formate jeweils verdoppelt, beliebig fortsetzbar

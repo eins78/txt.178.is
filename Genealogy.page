@@ -1,6 +1,6 @@
 # Genealogy Software
 
-- there is a standard to format the data, "GEDCOM"
+- there is a standard to format the data, [`GEDCOM`](https://en.wikipedia.org/wiki/GEDCOM)
 - node.js library: [`gedcom-stream`](https://github.com/connrs/gedcom-stream)
 
 ## Web interfaces/services

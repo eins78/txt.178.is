@@ -1,13 +1,13 @@
 # Genealogy Software
 
-- there is a standard to format the data, [`GEDCOM`](https://en.wikipedia.org/wiki/GEDCOM)
+- there is a standard to format the data: [`GEDCOM`](https://en.wikipedia.org/wiki/GEDCOM)
 - node.js library: [`gedcom-stream`](https://github.com/connrs/gedcom-stream)
 
 ## Web interfaces/services
 
 [overview from wikipedia](http://en.wikipedia.org/wiki/Comparison_of_web-based_genealogy_software)
 
-* [SERVICE](http://en.geneanet.org/connexion/?action=home&url=http%3A%2F%2Fmy.geneanet.org%2Farbre%2F)
+* [geneweb](http://opensource.geneanet.org/projects/geneweb) - [SERVICE](http://en.geneanet.org/connexion/?action=home&url=http%3A%2F%2Fmy.geneanet.org%2Farbre%2F)
 * [webtress](http://www.webtrees.net/index.php/en/) - [DEMO](http://svn.webtrees.net/demo-stable/pedigree.php?rootid=i1&ged=demo)
 * [humo-Gen](http://www.humogen.com/index.php?option=com_content&view=article&id=54&Itemid=60) - [DEMO](http://www.maxvandam.info/humo-gen/report_ancestor.php?database=humo9_&id=I50309&screen_mode=ancestor_chart)
 

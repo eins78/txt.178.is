@@ -1,14 +1,14 @@
 "missing" packages
 ------------------
 
-```shell
-MYPACKAGES='vim tmux mosh'
-pacman -Syu $MYPACKAGES 
-```
+    MYPACKAGES='vim tmux mosh'
+    pacman -Syu $MYPACKAGES 
 
 
 Install Arch Linux
 ===================
+
+as root:
 
     # inet?
     ping nts.is

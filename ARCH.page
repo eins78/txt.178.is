@@ -119,6 +119,10 @@ pdbedit -a -u $MYSAMBAUSER
 # the default config already enables user home shares
 cp /etc/samba/smb.conf.default /etc/samba/smb.conf 
 
+# start it
+systemctl enable smbd nmbd
+systemctl start smbd nmbd
+
 ````
     
 - maybe use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)  

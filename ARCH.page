@@ -10,46 +10,45 @@ pacman -Syu $MYPACKAGES
 Install Arch Linux
 ===================
 
-```
-# inet?
-ping nts.is
+    # inet?
+    ping nts.is
 
-# hdd
-cfdisk /dev/sda # new, primary, bootable, write
-mkfs.ext4 -L MANODE /dev/sda1
-mount /dev/sda1 /mnt
+    # hdd
+    cfdisk /dev/sda # new, primary, bootable, write
+    mkfs.ext4 -L MANODE /dev/sda1
+    mount /dev/sda1 /mnt
 
-# install minimal system
-pacstrap -i /mnt pacman systemd ip vim p git openssh nodejs
+    # install minimal system
+    pacstrap -i /mnt pacman systemd ip vim p git openssh nodejs
 
-# generate fstab (label-based, in case virthost messes with our /dev)
-genfstab -L -p /mnt >> /mnt/etc/fstab
-# check it out
-vi /mnt/etc/fstab
+    # generate fstab (label-based, in case virthost messes with our /dev)
+    genfstab -L -p /mnt >> /mnt/etc/fstab
+    # check it out
+    vi /mnt/etc/fstab
 
-# chroot #########################
-arch-chroot /mnt
+    # chroot #########################
+    arch-chroot /mnt
 
-# lang
-echo 'en_US.UTF-8 UTF-8' > /etc/locale.gen
-locale-gen
-echo 'LANG=en_US.UTF-8' > /etc/locale.conf
-export LANG=en_US.UTF-8
+    # lang
+    echo 'en_US.UTF-8 UTF-8' > /etc/locale.gen
+    locale-gen
+    echo 'LANG=en_US.UTF-8' > /etc/locale.conf
+    export LANG=en_US.UTF-8
 
-# time
-ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime
-hwclock --systohc --utc
+    # time
+    ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+    hwclock --systohc --utc
 
-# kernel modules for virt ???
-echo '' > /etc/modules-load.d/virt.conf
+    # kernel modules for virt ???
+    echo '' > /etc/modules-load.d/virt.conf
 
-# hostname
-echo 'ma-node' > /etc/hostname
+    # hostname
+    echo 'ma-node' > /etc/hostname
 
-# net
-ip l # get name of interface
-systemctl enable dhcpcd@eth0.service
-```
+    # net
+    ip l # get name of interface
+    systemctl enable dhcpcd@eth0.service
+
 
 Resize partitions (Raspberry Pi)
 ================================
@@ -57,41 +56,26 @@ Resize partitions (Raspberry Pi)
 > from [arch forum](http://archlinuxarm.org/forum/viewtopic.php?f=31&t=3119#p18160)
 
 1. fdisk: partion manager
-
-````
-fdisk /dev/mmcblk0
-````
+    fdisk /dev/mmcblk0
 
 2. Delete the second partition /dev/mmcblk0p2
-
-````
-d
-2
-````
+    d
+    2
 
 3. Create a new primary partition and use default sizes prompted. This will then create a partiton that fills the disk
-
-````
-n
-p
-2
-<enter>
-<enter>
-````
+    n
+    p
+    2
+    <enter>
+    <enter>
 
 4. Save and exit fdisk:
-
-````
-w
-````
+    w
 
 5. Now reboot.
 
 6. Once rebooted:
-
-````
-resize2fs /dev/mmcblk0p2
-````
+    resize2fs /dev/mmcblk0p2
 
 node.js with systemd
 ====================
@@ -135,13 +119,13 @@ install [samba](https://wiki.archlinux.org/index.php/Samba)
     
 use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)
 
-````
-pacman -Syu webmin
-vim vim /etc/webmin/miniserv.conf
-# include allowed IPs in allow=127.0.0.1 192.168.1.yourIP any.other.ip.addr
-# or tunnel from your side: ssh -N -L 1000/localhost/1000 root@alarmpi
-systemctl start webmin
-````
 
-- <http://alarmpi:10000>; <http://alarmpi:10000/samba/>
+    pacman -Syu webmin
+    vim vim /etc/webmin/miniserv.conf
+    # include allowed IPs in allow=127.0.0.1 192.168.1.yourIP any.other.ip.addr
+    # or tunnel from your side: ssh -N -L 1000/localhost/1000 root@alarmpi
+    systemctl start webmin
+
+
+go <http://alarmpi:10000>; <http://alarmpi:10000/samba/>
 

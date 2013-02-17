@@ -121,7 +121,7 @@ use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)
 
 
     pacman -Syu webmin
-    vim vim /etc/webmin/miniserv.conf
+    vim /etc/webmin/miniserv.conf
     # include allowed IPs in allow=127.0.0.1 192.168.1.yourIP any.other.ip.addr
     # or tunnel from your side: ssh -N -L 1000/localhost/1000 root@alarmpi
     systemctl start webmin

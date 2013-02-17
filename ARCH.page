@@ -1,3 +1,9 @@
+
+
+Install Arch Linux
+===================
+
+```
 # inet?
 ping nts.is
 
@@ -36,7 +42,16 @@ echo 'ma-node' > /etc/hostname
 # net
 ip l # get name of interface
 systemctl enable dhcpcd@eth0.service
+```
 
+Resize partitions (Raspberry Pi)
+================================
+
+
+node.js with systemd
+====================
+
+```
 # NODE ##############################################
 npm install haiku coffee
 
@@ -51,3 +66,4 @@ Environment=NODE_ENV=production
 WantedBy=multi-user.target
 
 systemctl enable manode.service
+```

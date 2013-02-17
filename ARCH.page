@@ -119,7 +119,10 @@ SAMBA
 pacman -Syu samba
 
 MYSAMBAUSER=ed
-useradd $MYSAMBAUSER
+MYUSER=ed
+useradd -d /home/$MYUSER $MYUSER
+usermod -a -G samba $MYUSER
+passwd $MYUSER
 
 # the default config already enables user home shares
 cp /etc/samba/smb.conf.default /etc/samba/smb.conf 
@@ -129,14 +132,10 @@ systemctl enable smbd nmbd
 systemctl start smbd nmbd
 systemctl status nmbd smbd
 
-# second try:
-MYUSER=ed
-user add -d /home/$MYUSER $MYUSER
-usermod -a -G samba $MYUSER
-passwd $MYUSER
 ````
     
-- use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)  
+- use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)
+
 ````
 pacman -Syu webmin
 vim vim /etc/webmin/miniserv.conf
@@ -144,6 +143,6 @@ vim vim /etc/webmin/miniserv.conf
 # or tunnel from your side: ssh -N -L 1000/localhost/1000 root@alarmpi
 systemctl start webmin
 ````
-    * <http://alarmpi:10000>
-    * <http://alarmpi:10000/samba/>
+
+- <http://alarmpi:10000>; <http://alarmpi:10000/samba/>
 

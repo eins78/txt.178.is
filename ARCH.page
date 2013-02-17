@@ -76,7 +76,7 @@ fdisk /dev/mmcblk0
     <enter>
 ````
 
-4. Save and exit fdisk:
+4. Save and exit fdisk:  
 
 ````
     w
@@ -92,7 +92,7 @@ fdisk /dev/mmcblk0
 node.js with systemd
 ====================
 
-````
+````shell
 # NODE ##############################################
 npm install haiku coffee
 
@@ -109,10 +109,12 @@ WantedBy=multi-user.target
 systemctl enable manode.service
 ````
 
+
 SAMBA
 =====
 
-- install [samba](https://wiki.archlinux.org/index.php/Samba)
+- install [samba](https://wiki.archlinux.org/index.php/Samba)  
+
 ````
 pacman -Syu samba
 

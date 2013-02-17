@@ -111,6 +111,7 @@ SAMBA
 - install [samba](https://wiki.archlinux.org/index.php/Samba)  
 ````
 pacman -Syu samba
+useradd samba
 cp /etc/samba/smb.conf.default /etc/samba/smb.conf
 vim /etc/samba/smb.conf
 [homes]

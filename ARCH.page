@@ -1,0 +1,53 @@
+# inet?
+ping nts.is
+
+# hdd
+cfdisk /dev/sda # new, primary, bootable, write
+mkfs.ext4 -L MANODE /dev/sda1
+mount /dev/sda1 /mnt
+
+# install minimal system
+pacstrap -i /mnt pacman systemd ip vim p git openssh nodejs
+
+# generate fstab (label-based, in case virthost messes with our /dev)
+genfstab -L -p /mnt >> /mnt/etc/fstab
+# check it out
+vi /mnt/etc/fstab
+
+# chroot #########################
+arch-chroot /mnt
+
+# lang
+echo 'en_US.UTF-8 UTF-8' > /etc/locale.gen
+locale-gen
+echo 'LANG=en_US.UTF-8' > /etc/locale.conf
+export LANG=en_US.UTF-8
+
+# time
+ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+hwclock --systohc --utc
+
+# kernel modules for virt ???
+echo '' > /etc/modules-load.d/virt.conf
+
+# hostname
+echo 'ma-node' > /etc/hostname
+
+# net
+ip l # get name of interface
+systemctl enable dhcpcd@eth0.service
+
+# NODE ##############################################
+npm install haiku coffee
+
+vim /etc/system/system/manode.service
+[Service]
+ExecStart=/usr/bin/node /home/node/manode.js
+Restart=always
+StandardOutput=syslog
+SyslogIdentifier=manode
+Environment=NODE_ENV=production
+[Install]
+WantedBy=multi-user.target
+
+systemctl enable manode.service

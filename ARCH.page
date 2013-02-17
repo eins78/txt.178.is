@@ -58,7 +58,7 @@ Resize partitions (Raspberry Pi)
 
 1. fdisk: partion manager
 ````
-    fdisk /dev/mmcblk0
+fdisk /dev/mmcblk0
 ````
 
 2. Delete the second partition /dev/mmcblk0p2

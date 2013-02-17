@@ -130,6 +130,11 @@ systemctl enable smbd nmbd
 systemctl start smbd nmbd
 systemctl status nmbd smbd
 
+# second try:
+MYUSER=ed
+useradd $MYUSER
+usermod -a -G users $MYUSER
+passwd $MYUSER
 ````
     
 - use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)  

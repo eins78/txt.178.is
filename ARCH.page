@@ -58,7 +58,7 @@ Resize partitions (Raspberry Pi)
     d
     2
 
-3. Create a new primary partition and use default sizes prompted. This will then create a partiton that fills the disk  
+3. Create a new primary partition and use default sizes prompted. This will then create a partiton that fills the disk
 
     n
     p
@@ -70,6 +70,7 @@ Resize partitions (Raspberry Pi)
 ````
     w
 ````
+
 5. Now reboot.
 
 6. Once rebooted: 
@@ -100,6 +101,12 @@ systemctl enable manode.service
 SAMBA
 =====
 
-- install [samba](https://wiki.archlinux.org/index.php/Samba)
+- install [samba](https://wiki.archlinux.org/index.php/Samba)  
+````
+pacman -Syu samba
+````
     
-- maybe use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)
+- maybe use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)  
+````
+pacman -Syu webmin
+````

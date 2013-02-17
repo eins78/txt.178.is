@@ -118,11 +118,9 @@ SAMBA
 ````
 pacman -Syu samba
 
-MYSAMBAUSER=ed
-MYUSER=ed
-useradd -d /home/$MYUSER $MYUSER
+MYUSER=mfa
+useradd -p penis -d /home/$MYUSER $MYUSER
 usermod -a -G samba $MYUSER
-passwd $MYUSER
 
 # the default config already enables user home shares
 cp /etc/samba/smb.conf.default /etc/samba/smb.conf 

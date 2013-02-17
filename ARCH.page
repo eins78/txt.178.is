@@ -65,24 +65,24 @@ fdisk /dev/mmcblk0
 2. Delete the second partition /dev/mmcblk0p2
 
 ````
-    d
-    2
+d
+2
 ````
 
 3. Create a new primary partition and use default sizes prompted. This will then create a partiton that fills the disk
 
 ````
-    n
-    p
-    2
-    <enter>
-    <enter>
+n
+p
+2
+<enter>
+<enter>
 ````
 
 4. Save and exit fdisk:
 
 ````
-    w
+w
 ````
 
 5. Now reboot.
@@ -90,7 +90,7 @@ fdisk /dev/mmcblk0
 6. Once rebooted:
 
 ````
-    resize2fs /dev/mmcblk0p2
+resize2fs /dev/mmcblk0p2
 ````
 
 node.js with systemd
@@ -98,7 +98,7 @@ node.js with systemd
 
 install and autostart haibu
 
-````shell
+`````````````````````````````````````````````````````````shell
 # NODE ##############################################
 npm install haiku coffee
 
@@ -113,8 +113,7 @@ Environment=NODE_ENV=production
 WantedBy=multi-user.target
 
 systemctl enable manode.service
-````
-
+`````````````````````````````````````````````````````````
 
 SAMBA
 =====
@@ -135,8 +134,8 @@ cp /etc/samba/smb.conf.default /etc/samba/smb.conf
 systemctl enable smbd nmbd
 systemctl start smbd nmbd
 systemctl status nmbd smbd
-
 ````
+
     
 use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)
 

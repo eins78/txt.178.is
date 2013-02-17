@@ -118,9 +118,8 @@ SAMBA
 ````
 pacman -Syu samba
 
-MYSAMBAUSER=samba
+MYSAMBAUSER=ed
 useradd $MYSAMBAUSER
-pdbedit -a -u $MYSAMBAUSER
 
 # the default config already enables user home shares
 cp /etc/samba/smb.conf.default /etc/samba/smb.conf 

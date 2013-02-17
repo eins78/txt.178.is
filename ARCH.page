@@ -131,8 +131,8 @@ systemctl status nmbd smbd
 
 # second try:
 MYUSER=ed
-useradd $MYUSER
-usermod -a -G users $MYUSER
+user add -d /home/$MYUSER $MYUSER
+usermod -a -G samba $MYUSER
 passwd $MYUSER
 ````
     

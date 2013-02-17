@@ -113,7 +113,7 @@ systemctl enable manode.service
 SAMBA
 =====
 
-- install [samba](https://wiki.archlinux.org/index.php/Samba)  
+install [samba](https://wiki.archlinux.org/index.php/Samba)  
 
 ````
 pacman -Syu samba
@@ -132,7 +132,7 @@ systemctl status nmbd smbd
 
 ````
     
-- use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)
+use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)
 
 ````
 pacman -Syu webmin

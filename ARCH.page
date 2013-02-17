@@ -111,6 +111,13 @@ SAMBA
 - install [samba](https://wiki.archlinux.org/index.php/Samba)  
 ````
 pacman -Syu samba
+cp /etc/samba/smb.conf.default /etc/samba/smb.conf
+vim /etc/samba/smb.conf
+[homes]
+   comment = Home Directories
+   browseable = no
+   writable = yes
+
 ````
     
 - maybe use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)  

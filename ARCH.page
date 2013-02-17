@@ -98,43 +98,39 @@ node.js with systemd
 
 install and autostart haibu
 
-`````````````````````````````````````````````````````````shell
-# NODE ##############################################
-npm install haiku coffee
+    npm install haiku coffee
 
-vim /etc/system/system/manode.service
-[Service]
-ExecStart=/usr/bin/node /home/node/manode.js
-Restart=always
-StandardOutput=syslog
-SyslogIdentifier=manode
-Environment=NODE_ENV=production
-[Install]
-WantedBy=multi-user.target
+    vim /etc/system/system/manode.service
+    [Service]
+    ExecStart=/usr/bin/node /home/node/manode.js
+    Restart=always
+    StandardOutput=syslog
+    SyslogIdentifier=manode
+    Environment=NODE_ENV=production
+    [Install]
+    WantedBy=multi-user.target
 
-systemctl enable manode.service
-`````````````````````````````````````````````````````````
+    systemctl enable manode.service
 
 SAMBA
 =====
 
 install [samba](https://wiki.archlinux.org/index.php/Samba)  
 
-````
-pacman -Syu samba
+    pacman -Syu samba
 
-MYUSER=mfa
-useradd -p penis -d /home/$MYUSER $MYUSER
-usermod -a -G samba $MYUSER
+    MYUSER=mfa
+    useradd -p penis -d /home/$MYUSER $MYUSER
+    usermod -a -G samba $MYUSER
 
-# the default config already enables user home shares
-cp /etc/samba/smb.conf.default /etc/samba/smb.conf 
+    # the default config already enables user home shares
+    cp /etc/samba/smb.conf.default /etc/samba/smb.conf 
 
-# start it
-systemctl enable smbd nmbd
-systemctl start smbd nmbd
-systemctl status nmbd smbd
-````
+    # start it
+    systemctl enable smbd nmbd
+    systemctl start smbd nmbd
+    systemctl status nmbd smbd
+
 
     
 use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)

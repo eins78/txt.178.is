@@ -65,15 +65,17 @@ Resize partitions (Raspberry Pi)
     d
     2
 
-3. Create a new primary partition and use default sizes prompted. This will then create a partiton that fills the disk
+3. Create a new primary partition and use default sizes prompted. This will then create a partiton that fills the disk  
 
+````
     n
     p
     2
     <enter>
     <enter>
+````
 
-4. Save and exit fdisk:
+4. Save and exit fdisk:  
 
 ````
     w
@@ -132,6 +134,7 @@ systemctl status nmbd smbd
 pacman -Syu webmin
 vim vim /etc/webmin/miniserv.conf
 # include allowed IPs in allow=127.0.0.1 192.168.1.yourIP any.other.ip.addr
+# or tunnel from your side: ssh -N -L 1000/localhost/1000 root@alarmpi
 systemctl start webmin
 ````
     * <http://alarmpi:10000>

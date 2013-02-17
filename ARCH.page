@@ -108,7 +108,7 @@ systemctl enable manode.service
 SAMBA
 =====
 
-- install [samba](https://wiki.archlinux.org/index.php/Samba)  
+- install [samba](https://wiki.archlinux.org/index.php/Samba)
 ````
 pacman -Syu samba
 
@@ -134,4 +134,5 @@ vim vim /etc/webmin/miniserv.conf
 systemctl start webmin
 ````
     * <http://alarmpi:10000>
-    * 
+    * <http://alarmpi:10000/samba/>
+

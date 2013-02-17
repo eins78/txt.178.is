@@ -122,6 +122,7 @@ cp /etc/samba/smb.conf.default /etc/samba/smb.conf
 # start it
 systemctl enable smbd nmbd
 systemctl start smbd nmbd
+systemctl status nmbd smbd
 
 ````
     

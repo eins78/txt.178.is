@@ -1,3 +1,10 @@
+"missing" packages
+------------------
+
+```shell
+MYPACKAGES='vim tmux mosh'
+pacman -Syu $MYPACKAGES 
+```
 
 
 Install Arch Linux

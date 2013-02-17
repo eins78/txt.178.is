@@ -55,32 +55,24 @@ Resize partitions (Raspberry Pi)
 
 > from [arch forum](http://archlinuxarm.org/forum/viewtopic.php?f=31&t=3119#p18160)
 
-1. fdisk: partion manager
-
-    fdisk /dev/mmcblk0
+1. `fdisk /dev/mmcblk0`
 
 2. Delete the second partition /dev/mmcblk0p2
-
-    d
-    2
+    * `d`
+    * `2`
 
 3. Create a new primary partition and use default sizes prompted. This will then create a partiton that fills the disk
+    * `n`
+    * `p`
+    * `2`
+    * `<enter>`
+    * `<enter>`
 
-    n
-    p
-    2
-    <enter>
-    <enter>
-
-4. Save and exit fdisk:
-
-    w
+4. Save and exit fdisk: `w`
 
 5. Now reboot.
 
-6. Once rebooted:
-
-    resize2fs /dev/mmcblk0p2
+6. Once rebooted: `resize2fs /dev/mmcblk0p2`
 
 
 

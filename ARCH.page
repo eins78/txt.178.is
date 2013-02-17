@@ -47,6 +47,12 @@ systemctl enable dhcpcd@eth0.service
 Resize partitions (Raspberry Pi)
 ================================
 
+> from [arch forum](http://archlinuxarm.org/forum/viewtopic.php?f=31&t=3119#p18160)
+
+```
+
+```
+
 
 node.js with systemd
 ====================

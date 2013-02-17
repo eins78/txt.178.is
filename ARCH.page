@@ -67,14 +67,15 @@ Resize partitions (Raspberry Pi)
     <enter>
 
 4. Save and exit fdisk:  
-
+````
     w
-
+````
 5. Now reboot.
 
 6. Once rebooted: 
+````
     resize2fs /dev/mmcblk0p2
-
+````
 
 node.js with systemd
 ====================
@@ -99,5 +100,6 @@ systemctl enable manode.service
 SAMBA
 =====
 
-- install []()
+- install [samba](https://wiki.archlinux.org/index.php/Samba)
+    
 - maybe use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)

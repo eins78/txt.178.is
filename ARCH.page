@@ -1,7 +1,7 @@
 "missing" packages
 ------------------
 
-    MYPACKAGES='vim tmux mosh'
+    MYPACKAGES='vim htop git tmux mosh'
     pacman -Syu $MYPACKAGES 
 
 

@@ -38,9 +38,8 @@ in short, it has **emitters**, **relays** and **collectors**.
 it defines TLS or UDP as transports, but any other protocol can be chosen
 
 - openwrt's [syslog](http://wiki.openwrt.org/doc/howto/log.essentials) already is an [**emitter**])http://wiki.openwrt.org/doc/uci/system?s[]=syslog#system.
-- how does it send?
 
-- we want a nodejs syslog collector. 
+- [`glossy`](https://github.com/squeeks/glossy) (node module) works as a syslog collector. 
     - receives messages via whatever openWRT sends
     - sends them to winston instance of user/project/whatever
 

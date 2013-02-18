@@ -31,6 +31,19 @@ a more complicated setup is possible, using multiple distributed DBs (per-instal
                           ↑ sync ↓
                        [Redis or *SQL] =[Costum Code]=> [WEBAPP.public]
 
+# Syslog
+
+'syslog' is an established standard with a remote transport protocoll.
+in short, it has **emitters**, **relays** and **collectors**.
+it defines TLS or UDP as transports, but any other protocol can be chosen
+
+- openwrt's syslog already is an **emitter**.
+- how does it send?
+
+- we want a nodejs syslog collector. 
+    - receives messages via whatever openWRT sends
+    - sends them to winston instance of user/project/whatever
+
 ### Special Info
 
 (info regarding the Idea to use CouchDB as Backend/DB/API)

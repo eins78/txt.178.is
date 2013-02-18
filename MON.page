@@ -37,7 +37,7 @@ a more complicated setup is possible, using multiple distributed DBs (per-instal
 in short, it has **emitters**, **relays** and **collectors**.
 it defines TLS or UDP as transports, but any other protocol can be chosen
 
-- openwrt's syslog already is an **emitter**.
+- openwrt's [syslog](http://wiki.openwrt.org/doc/howto/log.essentials) already is an [**emitter**])http://wiki.openwrt.org/doc/uci/system?s[]=syslog#system.
 - how does it send?
 
 - we want a nodejs syslog collector. 

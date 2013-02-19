@@ -133,4 +133,25 @@ go <http://alarmpi:10000>; <http://alarmpi:10000/samba/>
 
 <https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS#Prepare_hard_drive_for_Arch_Install_Scripts>
 
+    # create a dm-crypt/LUKS blockdevice for the crypted root
     cryptsetup -y -v luksFormat /dev/sdaX
+    
+    # open it
+    cryptsetup luksOpen /dev/sdaX cryptroot
+    
+    # format it
+    mkfs -t ext4 /dev/mapper/cryptroot
+    
+    # mount it
+    mount -t ext4 /dev/mapper/cryptroot /mnt
+    
+- continue normal install (`pacstrap`)
+- **mkinitcpio**
+    vim /etc/mkinitcpio.conf
+    # this:
+    HOOKS="base udev autodetect modconf block keyboard encrypt filesystems fsck"
+    MODULES="virtio virtio_blk virtio_pci virtio_net dm_mod ext4"
+- **GRUB**
+    vim /etc/default/grub
+    GRUB_CMDLINE_LINUX="cryptdevice=/dev/vda2:cryptroot"
+- 

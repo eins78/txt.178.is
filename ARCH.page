@@ -128,3 +128,9 @@ use [webmin web admin interface](https://wiki.archlinux.org/index.php/Webmin)
 
 go <http://alarmpi:10000>; <http://alarmpi:10000/samba/>
 
+
+# Full-Disk-Encryption
+
+<https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS#Prepare_hard_drive_for_Arch_Install_Scripts>
+
+    cryptsetup -y -v luksFormat /dev/sdaX

@@ -179,3 +179,9 @@ go <http://alarmpi:10000>; <http://alarmpi:10000/samba/>
     vim /etc/iptables/iptables.rules
     systemctl enable iptables.service
     systemctl start iptables.service && systemctl status iptables.service
+    
+    # IPv6
+    cp /etc/iptables/iptables.rules /etc/iptables/ip6tables.rules
+    vim /etc/iptables/ip6tables.rules
+    # s/icmp-port-unreachable/icmp6-port-unreachable/
+    

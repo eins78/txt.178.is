@@ -153,28 +153,29 @@ go <http://alarmpi:10000>; <http://alarmpi:10000/samba/>
     vim /etc/default/grub
     GRUB_CMDLINE_LINUX="cryptdevice=/dev/vda2:cryptroot"
 
-# authbind
+# Firewall
 
-tl;dr: 
-
-    mkdir -p /etc/authbind/byport/
-    touch /etc/authbind/byport/80
-    chmod 441 /etc/authbind/byport/80
-    chown js:js /etc/authbind/byport/80
+    iptables -N TCP
+    iptables -N UDP
+    iptables -P FORWARD DROP
+    iptables -P OUTPUT ACCEPT
+    iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+    iptables -A INPUT -i lo -j ACCEPT
+    iptables -A INPUT -m conntrack --ctstate INVALID -j DROP
+    iptables -A INPUT -p icmp --icmp-type 8 -m conntrack --ctstate NEW -j ACCEPT
+    iptables -A INPUT -p udp -m conntrack --ctstate NEW -j UDP
+    iptables -A INPUT -p tcp --syn -m conntrack --ctstate NEW -j TCP
+    iptables -A INPUT -p udp -j REJECT --reject-with icmp-port-unreachable
+    iptables -A INPUT -p tcp -j REJECT --reject-with tcp-rst
+    iptables -A INPUT -j REJECT --reject-with icmp-proto-unreachable
+    iptables -A TCP -p tcp --dport 80 -j ACCEPT
+    iptables -A TCP -p tcp --dport 22 -j ACCEPT
+    iptables -P INPUT DROP
     
----
-
-    ACCESS CONTROL
-       Access  to low numbered ports is controlled by permissions and contents
-       of files in a configuration area, /etc/authbind.
-
-       Firstly,  /etc/authbind/byport/port  is  tested.   If  this   file   is
-       accessible  for  execution to the calling user, according to access(2),
-       then binding to the port is authorised.  If the file can be seen not to
-       exist  (the  existence check returns ENOENT) then further tests will be
-       used to find authorisation; otherwise, binding is not  authorised,  and
-       the bind call will return with the errno value from the access(2) call,
-       usually EACCES (Permission denied).
-
-       Secondly,   if   that   test   fails    to    resolve    the    matter,
-       /etc/authbind/byaddr/addr:port  is tested, in the same manner as above.
+    vim /etc/sysctl.conf
+    # > net.ipv4.conf.all.rp_filter=1
+    
+    iptables-save > /etc/iptables/iptables.rules
+    vim /etc/iptables/iptables.rules
+    systemctl enable iptables.service
+    systemctl start iptables.service && systemctl status iptables.service

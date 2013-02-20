@@ -83,7 +83,7 @@ install and autostart haibu
 
     npm install haiku coffee
 
-    vim /etc/system/system/manode.service
+    vim /etc/systemd/system/manode.service
     [Service]
     ExecStart=/usr/bin/node /home/node/manode.js
     Restart=always

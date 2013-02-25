@@ -174,7 +174,8 @@ go <http://alarmpi:10000>; <http://alarmpi:10000/samba/>
 
 run a proxy on port 80.  
 
-howto allow it to run on this port as non root? ([via](http://stackoverflow.com/a/414258/1781156))
+howto allow it to run on this port as non root? 
+setcap! [manpage](http://www.kernel.org/doc/man-pages/online/pages/man7/capabilities.7.html), ([via](http://stackoverflow.com/a/414258/1781156))
 
     setcap 'cap_net_bind_service=+ep' /usr/bin/node
     # saved in filessytem, so setting is permanent, also after reboot

@@ -172,6 +172,15 @@ go <http://alarmpi:10000>; <http://alarmpi:10000/samba/>
 
 # Firewall
 
+run a proxy on port 80.  
+
+howto allow it to run on this port as non root? ([via](http://stackoverflow.com/a/414258/1781156))
+
+    setcap 'cap_net_bind_service=+ep' /usr/bin/node
+    # saved in filessytem, so setting is permanent, also after reboot
+
+then configure firewall to block everything else.
+
     iptables -N TCP
     iptables -N UDP
     iptables -P FORWARD DROP
@@ -220,5 +229,5 @@ go <http://alarmpi:10000>; <http://alarmpi:10000/samba/>
     ip6tables -A TCP -p tcp --dport 80 -j ACCEPT
     ip6tables -A TCP -p tcp --dport 22 -j ACCEPT
     ip6tables -P INPUT DROP
-    
-     
+
+

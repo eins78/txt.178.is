@@ -22,3 +22,4 @@
 
 open vim and jump to line number  
     $ vim .ssh/known_hosts +1337
+

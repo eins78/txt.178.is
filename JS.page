@@ -1,16 +1,15 @@
-JS
-==
+# JS
 
-Frameworks
-----------
+
+## Frameworks
+
 - [list on ned.js wiki](https://github.com/joyent/node/wiki/_pages)
 
 - [Spine. Build Awesome JavaScript MVC Applications](http://spinejs.com)
 - <http://expressjs.com>
 - <http://emberjs.com>
 
-Libraries
----------
+## Libraries
 
 - [NowJS creates a magic namespace "now", accessible by server and client](http://www.nowjs.com/guide)
 - <http://socket.io>
@@ -18,8 +17,11 @@ Libraries
 - <http://sugarjs.com>
 - <http://everyauth.com>
 
-Ideas
------
+## jQuery Tools
+
+- <http://datatables.net>
+
+## Ideas
 
 - mutti: multi user/tenant terminal integration
 - mom: mother of monitoring                                                                                  

@@ -3,13 +3,16 @@
 
 ## Frameworks
 
-- [list on ned.js wiki](https://github.com/joyent/node/wiki/_pages)
+- [list on node.js wiki](https://github.com/joyent/node/wiki/_pages)
 
 - [Spine. Build Awesome JavaScript MVC Applications](http://spinejs.com)
 - <http://expressjs.com>
 - <http://emberjs.com>
+    - <http://wekeroad.com/2013/03/20/ember-baby-steps>
 
 ## Libraries
+
+- <http://blog.grimwire.com/#2013-03-20-breaking_the_single_page_with_webworkers.md>
 
 - [NowJS creates a magic namespace "now", accessible by server and client](http://www.nowjs.com/guide)
 - <http://socket.io>

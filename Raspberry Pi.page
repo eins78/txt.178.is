@@ -17,4 +17,10 @@
 
 - <http://www.cjb.im/2012/06/raspberry-pi-wireless-display-using.html>
 
+## Webcam
 
+    apt-get install libjpeg imagemagick
+    curl http://mjpg-streamer.svn.sourceforge.net/viewvc/mjpg-streamer/?view=tar > mjpg-streamer.tar.gz
+    tar xvzf mjpg-streamer.tar.gz
+    cd mjpg-streamer/mjpg-streamer
+    make

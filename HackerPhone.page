@@ -1,0 +1,25 @@
+# HackerPhone
+
+Idea:
+
+- Wireless Router w/ USB, running [`OpenWRT`](http://openwrt.org)
+- [USB Audio "Phone"](#nolink) -- really just an USB audio card with mic and speaker in form of a fone
+- = `HackerPhone`
+
+# Hardware
+
+- TP-Link WR703N or better
+- cheap USB handset
+
+# Software
+
+- Asterisk can be used as client, but should be too bloated
+- there is [`baresip`](https://forum.openwrt.org/viewtopic.php?id=31129) - but no info on howto use
+- [Sofia-SIP](http://sofia-sip.sourceforge.net) -- lib used by FreeSWITCH
+- [Linphone](http://www.linphone.org) - läuft super auf linux, mac und iOS. gab [pathes für openwrt](https://dev.openwrt.org/ticket/1679)
+
+# Prior Art
+
+of course sombody already built it
+
+- <http://www.devbase.at/voip/yeaphone.php>

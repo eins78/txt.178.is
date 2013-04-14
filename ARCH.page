@@ -232,3 +232,38 @@ then configure firewall to block everything else.
     ip6tables -P INPUT DROP
 
 
+---
+
+DOES NOT WORK!
+
+## Bootstrap from Debian VPS
+
+1. Virtuozzo: put VPS into 'repair' mode, connects via `ssh`.
+
+2. bootstrap  
+  ```
+    cd /tmp;
+    wget http://tokland.googlecode.com/svn/trunk/archlinux/arch-bootstrap.sh;
+    chmod +x arch-bootstrap.sh;
+    #mount -t tmpfs -o size=2G tmpfs /mnt
+    ./arch-bootstrap.sh -a x86_64 -r "ftp://ftp.hosteurope.de/mirror/ftp.archlinux.org" /mnt/
+  ```
+
+3. prepare mount points
+  ```
+    mount -t proc none /mnt/proc
+    mount -t sysfs none /mnt/sys
+    mount -o bind /dev /mnt/dev
+    mount -o bind /dev/pts /mnt/dev/pts # important for pacman (for signature check)
+  ```
+
+4. chroot
+  ```
+    chroot /mnt bash
+    # entropy
+    cat /usr/bin/* > /dev/null & find / > /dev/null &
+    # pacman keys
+    pacman-key --init  && pacman-key --populate archlinux
+    # install
+    pacman -S base base-devel
+  ```

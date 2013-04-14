@@ -1,0 +1,17 @@
+% Linux
+
+# Nix
+
+    cd /tmp
+    wget http://hydra.nixos.org/build/4253997/download/1/nix_1.5.1-1_amd64.deb
+    dpkg -i nix*
+    apt-get install -f
+    dpkg -i nix*
+    nix-channel --add http://nixos.org/channels/nixpkgs-unstable
+    nix-channel --update
+    nix-env --install nodejs
+    
+  python python-cheetah python-configobj python-feedparser python-dbus python-openssl python-support python-yenc par2 unrar unzip
+  
+  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAJwkZ8e+mrllyyhJeanTEoPsIUKJ1vIudy9d8v3eqDzY16zAc2W5tR4WLDt80Gk8OWR7YE97CRLdnmQG8wJie7AkUTSBh5AzZwUkSZYyLkwNZ63aEJFWTp32/5nqrLxkHBQoMVeWnfvMfN2nkarm3CJMfbFcn30g+vqjlCuLc/Ql2NJ59yvsBpfhQXrYEd69qq3q77q3xSjd9nbSzf2soaFRjRYeDRL2uuC5sDePvuFgPRoEBtWIJNVEKIMOPJCXs6qJoiF4aZ+QKk9I+fKy/y+9Tn9+0i7IyDN5nDRwyTyg2pVKNWoRejAC1x8ERH6EOmU25oB7c7rAl4PWakMzv kop1@KOP1.tk
+  

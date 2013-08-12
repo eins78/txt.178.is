@@ -16,7 +16,7 @@ Idea:
 - Asterisk can be used as client, but should be too bloated
 - there is [`baresip`](https://forum.openwrt.org/viewtopic.php?id=31129) - but no info on howto use
 - [Sofia-SIP](http://sofia-sip.sourceforge.net) -- lib used by FreeSWITCH
-- [Linphone](http://www.linphone.org) - läuft super auf linux, mac und iOS. gab [pathes für openwrt](https://dev.openwrt.org/ticket/1679)
+- [Linphone](http://www.linphone.org) - läuft super auf linux, mac und iOS. gab [patches für openwrt](https://dev.openwrt.org/ticket/1679)
 
 # Prior Art
 

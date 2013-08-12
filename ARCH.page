@@ -19,7 +19,7 @@ as root:
     mount /dev/sda1 /mnt
 
     # install minimal system
-    pacstrap -i /mnt pacman systemd ip vim p git openssh nodejs
+    pacstrap -i /mnt base base-devel pacman systemd iproute vim git openssh mosh nodejs
 
     # generate fstab (label-based, in case virthost messes with our /dev)
     genfstab -L -p /mnt >> /mnt/etc/fstab

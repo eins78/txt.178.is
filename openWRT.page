@@ -1,0 +1,23 @@
+% OpenWRT
+
+# UMTS/3G-USB-STICK/DONGLE
+
+- <http://wiki.openwrt.org/doc/recipes/3gdongle>
+- `opkg install kmod-usb-core kmod-usb2 kmod-usb-serial kmod-usb-serial-option kmod-usb-serial-wwan usb-modeswitch usb-modeswitch-data`
+- `opkg install kmod-ppp ppp chat comgt luci-proto-3g`
+- <http://www.draisberghof.de/usb_modeswitch/>
+- `cat /proc/bus/usb/devices`
+    * `P:  Vendor=12d1 ProdID=1520 Rev= 0.00`
+- `usb_modeswitch -v 12d1 -p 1520 -M 55534243EE0000006000000000000611062000000000000000000000000000`
+- <http://wiki.openwrt.org/doc/uci/network#protocol.3g.ppp.over.ev-do.cdma.umts.or.gprs>
+  - ```  
+    config interface 'wan'
+        option ifname  ppp0
+    option device  /dev/ttyUSB1
+    option service umts
+    option proto   3g
+    option apn     internet.eplus.de
+    #option pincode 1234
+    option username simyo
+    option password simyo
+    ```

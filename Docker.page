@@ -1,0 +1,65 @@
+# Docker
+
+## Install on OS X
+
+
+1. Install Virtualbox, Vagrant
+
+    *<http://docs.docker.io/en/latest/installation/vagrant/>*
+
+2. Get Docker box (Vagrant machine)
+
+    ```sh
+    git clone https://github.com/dotcloud/docker.git ~/dockerbox
+    cd ~/dockerbox
+    
+    # this will download for some time
+    vagrant up
+    vagrant halt
+    ```
+
+3. **Run Docker box**
+
+    *<http://docs.docker.io/en/latest/examples/hello_world/#hello-world>*
+    
+    ```sh
+    cd ~/dockerbox
+    vagrant up
+    vagrant ssh
+    
+    # you are now inside the docker box!
+    
+    # fix this once
+    sudo vim /etc/init/docker.conf
+    # > exec /usr/bin/docker -d && chmod 777 /var/run/docker.sock
+    
+    # this will download for some time
+    docker pull ubuntu
+    
+    # Run "Hello world" 
+    docker run ubuntu:precise /bin/echo "Hello World"
+    
+    # Always exit and shut down the docker box
+    exit
+    vagrant halt
+    ```
+
+4. **Docker box Port Forwarding** 
+
+    ```sh
+    cd ~/dockerbox
+
+    # enter your app's port
+    vim Vagrantfile
+    # > config.vm.forward_port 9000, 9000
+    
+    vagrant reload
+
+    ```
+
+5. Run app from Dockerfile
+
+    ```sh
+    # DOCKERFILE
+    ```
+    

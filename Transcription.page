@@ -1,0 +1,35 @@
+# transcription software
+
+conclusion: 
+
+- there are a bunch of programs **assisting with the manual typing** — they can have slower playback, a button to go back X seconds and so on. so they are more or less like quicktime, VLC, or any other media player, but are specialised for these needs (as opposed to watching movies etc)
+
+- there seems to be only 1 program that does what we want: a) do an automatic run from a recording and then having an interface for fixing that (see `Dragon`).
+
+
+
+## free
+
+- [Transscribe! for Mac](http://www.seventhstring.com/xscribe/download_mac.html) 
+  — just a typing assistant, *seems to be for music.* lots of funny features, though.
+
+- [Express Scribe](http://www.nch.com.au/scribe/index.html#102)
+  — just a typing assistant.
+
+- [Transcriva 2](http://www.bartastechnologies.com/products/transcriva/)
+  – just a typing assistant
+
+- [`transcriptions`](https://code.google.com/p/transcriptions/) 
+  — just a typing assistant, *OPEN SOURCE*
+
+- [F5](http://www.audiotranskription.de/f5.htm)
+  — just a typing assistant, based on `transcriptions`
+
+## buy
+
+- Dragon seems to be the best, but expensive. different editions. mac, windows, iphone. 
+    - [arstech](http://arstechnica.com/apple/2012/09/dragon-dictate-3-for-mac-gains-audio-file-transcription-improved-accuracy/)
+    - [macworld](http://www.macworld.com/article/2013093/how-to-use-transcription-with-dragon-dictate-3-for-mac.html)
+
+- [InqScribe](http://www.inqscribe.com)
+  — just a typing assistant…

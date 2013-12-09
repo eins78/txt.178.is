@@ -1,0 +1,38 @@
+# NPM clone
+
+Set up your own copy of the [npm registry](http://npmjs.org), for example for offline use
+
+```
+
+# install nodejs and npm
+
+# install couchdb
+
+# secure couchdb, put credentials here
+COUCH_USER=admin
+COUCH_PASS=secret
+
+cd /path/to/code
+
+# clone
+git clone https://github.com/isaacs/npmjs.org.git
+cd npmjs.org
+
+# install deps
+sudo npm install couchapp -g
+npm install couchapp
+npm install semver
+
+
+# setup db+couchapp
+curl -X PUT "http://$COUCH_USER:$COUCH_PASS@localhost:5984/npm_registry"
+couchapp push registry/app.js "http://$COUCH_USER:$COUCH_PASS@localhost:5984/npm_registry"
+couchapp push www/app.js "http://$COUCH_USER:$COUCH_PASS@localhost:5984/npm_registry"
+
+# start sync
+curl -X POST -H "Content-Type:application/json" \
+    "http://$COUCH_USER:$COUCH_PASS@localhost:5984/_replicate" -d \
+    '{"source":"http://isaacs.iriscouch.com/registry/", "target":"npm_registry"}'
+
+
+```

@@ -1,6 +1,68 @@
 # Docker
 
-## Install on OS X
+## Concepts
+
+### `Image`
+
+[(Docs)](http://docs.docker.io/en/latest/terms/image/)
+
+A file with a mini-linux (file system) inside. Can be `run` by `docker` as a **Container**.
+
+* Read-Only!
+* Can have parent(s) - just the diff between those images is saved in the file! ([UnionFS](https://en.wikipedia.org/wiki/UnionFS))
+* A *Container* is created from an *Image* by *running* it
+* An *Image* can be created from a *Container* by *committing* it
+
+Commands used w/ Images:
+
+- `docker images` - List images
+- `docker rmi` - Remove an Image
+
+- `docker run [OPTIONS] IMAGE[:TAG] [COMMAND] [ARG...]` - Run an Image *in a new Container*
+    - `docker run -d -i $CONTAINER_ID /bin/bash` - Create a new box from Image, run it in the background, start a shell
+
+### Container
+
+[(Docs)](http://docs.docker.io/en/latest/terms/container/)
+
+"Instance" of an **Image**. Has an `$ID`.
+Can be started, stopped, attached to,….
+
+* If the image has parents, they are all combined in order
+* plus own read/write layer on top of it
+* gets unique config ($ID, networking setup, etc)
+
+Commands used w/ Containers:
+
+- `docker ps` - List containers
+- `docker logs $CONTAINER_ID` - Fetch the logs of a container
+
+- `docker attach $CONTAINER_ID`
+    - detach with `Ctrl-p + Ctrl-q`
+- `docker restart $CONTAINER_ID`
+- `docker stop $CONTAINER_ID`
+- `docker kill $CONTAINER_ID`
+
+- `docker commit` - Create a new image from a container’s changes
+- `docker rm` - Remove a container
+
+### `Dockerfile`
+
+Blueprint (like a Makefile) for an docker (Container) **Image**. Can be built with `docker build`.
+
+* very efficient: uses a cache for every step (`RUN`)
+
+Commands used w/ Dockerfile:
+
+- `docker build $Docker_file`
+
+## Commands
+
+- `run $box`: runs a box, returns `$ID`
+- `attach $ID`: attaches console to box with `$ID`
+ 
+
+## Install (on OS X) + Walkthrough
 
 
 1. Install Virtualbox, Vagrant
@@ -51,7 +113,7 @@
 
     # enter your app's port
     vim Vagrantfile
-    # > config.vm.forward_port 9000, 9000
+    # > config.vm.forward_port 1337, 1337
     
     vagrant reload
 
@@ -59,7 +121,57 @@
 
 5. Run app from Dockerfile
 
-    ```sh
-    # DOCKERFILE
-    ```
+    - app.js:
     
+        ```js
+        require('http').createServer(function (req, res) {
+          res.writeHead(200, {'Content-Type': 'text/plain'});
+          res.end('Hello World\n');
+        }).listen(1337, '127.0.0.1');        
+        ```
+
+        - Dockerfile:
+        
+        ```sh
+        # DOCKER-VERSION 0.3.4
+
+        FROM    ubuntu:precise
+    
+        RUN     apt-get update
+        RUN     apt-get install nodejs
+        
+        # Bundle app source
+        ADD . ap
+        
+        # Install app dependencies (if there was a package.json)
+        RUN     cd /src; npm install
+
+        EXPOSE  1337
+        CMD ["node", "/src/index.js"]
+    
+        ```
+        
+call & surf comfort 4
+ 
+## Kolab
+
+- run from tianon/centos:6.3
+- install kolab as per docs
+- `vi /etc/rc.local` 
+    - `chmod 666 /dev/null`
+- `vi /etc/sysconfig/network`
+    - `NETWORKING=yes`  
+      `HOSTNAME=my-system-name`
+- `ln -s /usr/share/zoneinfo/America/Chicago /etc/localtime`
+- tweaks: <http://www.bmtsolutions.us/wiki/doku.php?id=article:kolab:centos>
+- `setup-kolab`
+- detach with `Ctrl-p + Ctrl-q`
+- docker commit -> id -> kolab.base.id
+
+- `docker commit -m "message" $(cat docker.id) repo:tag`
+
+mysql sticklers33massacre
+cool5synthetically
+
+
+gameharmonica

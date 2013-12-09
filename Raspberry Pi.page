@@ -1,3 +1,4 @@
+% Raspberry Pi 
 
 ## Hardware Interfacing
 
@@ -24,3 +25,76 @@
     tar xvzf mjpg-streamer.tar.gz
     cd mjpg-streamer/mjpg-streamer
     make
+
+
+# Recipes
+
+## **`NAS`** w/git-annex
+
+base image: Raspbian
+
+on first boot:
+
+- expand fs
+- set memory split '16'
+- set overclock 'modest'
+- set locale, timezone
+
+apt:
+
+````shell
+apt-get update \
+&& apt-get remove --purge -y aspell aspell-en cups-bsd cups-client cups-common dillo galculator ghostscript oracle-java7-jdk penguinspuzzle python-pifacecommon python3-pifacecommon python3-pifacedigital-scratch-handler python3-pifacedigitalio scratch sonic-pi squeak-plugins-scratch supercollider supercollider-common supercollider-server \
+&& apt-get autoremove -y --purge \
+&& apt-get upgrade -y \
+&& apt-get install -y vim mosh tmux htop btrfs-tools nodejs git libgsasl7 \
+&& ln -s /usr/bin/nodejs /usr/bin/node
+````
+
+git annex:
+
+````shell
+cd 
+git clone --depth=1 https://github.com/tradloff/git-annex-RPi.git
+cd git-annex-RPi
+tar xvzf git-annex.tar.gz
+chmod a+x /root/git-annex-RPi/git-annex
+ln -s /root/git-annex-RPi/git-annex /usr/bin/git-annex
+ln -s /root/git-annex-RPi/git-annex /usr/bin/git-annex-shell
+cd 
+git annex version
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+````
+
+user:
+
+````shell
+NAME=nas
+addgroup --gid 1111 $NAME
+adduser --gid 1111 --uid 1111 --disabled-password $NAME
+````
+
+disk:
+
+````shell
+NAME=FOO
+DEV=/dev/sda
+mkdir -p /media/$NAME
+mount $DEV /media/$NAME
+ln -s /media/$NAME /$NAME
+ ### btrfs setup
+ # mkfs.btrfs -L $NAME $DEV 
+btrfs filesystem show
+ # Label: 'FOO'  uuid: foobar
+ # …
+UUID="foobar"
+mount /media/$NAME
+echo "" >> /etc/fstab
+echo "# NAS: $NAME" >> /etc/fstab
+echo "UUID=$UUID /media/$NAME btrfs defaults,noatime 0 0" >> /etc/fstab
+mount -a
+df -h
+````
+
+

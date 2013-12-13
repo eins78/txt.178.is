@@ -1,6 +1,8 @@
 # Eine <small>(kurze)</small> Geschichte \
 des Internetz
 
+(**`Leertaste`** drücken um weiter zu springen)
+
 # 
 
 ## **Protokoll**

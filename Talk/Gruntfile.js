@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     "input": "Was-ist-das-Internetz.md",
-    "output": "Was-ist-das-Internetz.html",
+    "output": "gh-pages/Talk/Was-ist-das-Internetz.html",
     "pandocOpts": "--smart --self-contained --section --template=_template.html",
     
     shell: {
@@ -19,6 +19,9 @@ module.exports = function(grunt) {
       },
       publish: {
         command: 'git push github gh-pages'
+      },
+      clonePages: {
+        command: 'git clone git@github.com:eins78/txt.178.is.git gh-pages'
       }
     },
     

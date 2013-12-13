@@ -17,11 +17,22 @@ module.exports = function(grunt) {
       buildDev: {
         command: 'pandoc -t html5 -i "<%= input %>" -o "<%= output %>" <%= pandocOpts %>',
       },
-      publish: {
-        command: 'git push github gh-pages'
+      publishPages: {
+        command: 'cd gh-pages && git push origin gh-pages'
+      },
+      commitPages: {
+        command: 'cd gh-pages && git add . && git commit -m "output for <%= githash %>"'
       },
       clonePages: {
-        command: 'git clone git@github.com:eins78/txt.178.is.git gh-pages'
+        command: 'git clone git@github.com:eins78/txt.178.is.git gh-pages && cd gh-pages && git checkout gh-pages'
+      }
+    },
+    
+    revision: {
+      options: {
+        property: 'githash',
+        ref: 'HEAD',
+        short: true
       }
     },
     
@@ -50,6 +61,7 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-shell');
+  grunt.loadNpmTasks('grunt-git-revision');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
 
@@ -57,6 +69,8 @@ module.exports = function(grunt) {
   grunt.registerTask('build', ['shell:build']);
   grunt.registerTask('buildDev', ['shell:buildDev']);
   grunt.registerTask('auto', ['buildDev', 'connect', 'watch']);
-  grunt.registerTask('deploy', ['build', 'shell:publish']);
+  grunt.registerTask('deploy', ['build', 'revision', 'shell:commitPages', 'shell:publishPages']);
+  grunt.registerTask('ci', ['shell:clonePages', 'deploy']);
+  
 
 };

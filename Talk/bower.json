@@ -1,0 +1,18 @@
+{
+  "name": "Talk",
+  "authors": [
+    "Max F. Albrecht <1@178.is>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "2.5.x"
+  }
+}

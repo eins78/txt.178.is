@@ -106,11 +106,13 @@ hanulla: policy of small gestures
 
 ## **ACTION**
 
-- reddit
-- CreativeCommons
-- `PACER` data
-- `JSTOR` data
-- also: wikileaks supporter; [DeadDrop](http://www.newyorker.com/online/blogs/closeread/2013/05/introducing-strongbox-anonymous-document-sharing-tool.html)
+- [CreativeCommons](http://creativecommons.org)
+- Open Data
+    - `PACER` data
+    - `JSTOR` data
+- also: 
+    - wikileaks supporter
+    - [DeadDrop](http://www.newyorker.com/online/blogs/closeread/2013/05/introducing-strongbox-anonymous-document-sharing-tool.html)
 
 ## OpenLibrary
 
@@ -137,6 +139,10 @@ hanulla: policy of small gestures
 - FBI investigated, \
   but **"found nothing wrong"** <small>[(source)](https://public.resource.org/aaron/army/index.html)</small>
 
+## `JSTOR`
+
+> "Swartz used **JSTOR**, a digital repository, to **download a large number of academic journal articles** through MIT's computer network over the course of a few weeks **in late 2010 and early 2011**. At the time, Swartz was a research fellow at Harvard University, which provided him with a JSTOR account."
+
 ## **IMPACT**
 
 > "**This was part of how Aaron approached things**. [… His PACER activities were] a project to liberate the documents but **also an effort to make public the problems that existed to hopefully solve the larger policy problem**."
@@ -154,6 +160,9 @@ hanulla: policy of small gestures
 
 - [wiki](https://en.wikipedia.org/wiki/Aaron_Swartz)
 
+## {data-background=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/RIP_Aaron_Swartz.jpg/629px-RIP_Aaron_Swartz.jpg}
+
+
 #
 
 ## **julian assange**
@@ -163,11 +172,11 @@ hanulla: policy of small gestures
 ## **MOTIVATION**
 
 > "The more **secretive or unjust an organization** is, the **more leaks induce fear and paranoia in its leadership** and planning coterie.  \
-> This must result in minimization of efficient internal communications mechanisms (an increase in cognitive **'secrecy tax'**) and consequent system-wide cognitive decline resulting in decreased ability to hold onto power as the environment demands adaption."
+> This must result in minimization of efficient internal communications mechanisms (an increase in **cognitive 'secrecy tax'**) and consequent system-wide cognitive decline resulting in decreased ability to hold onto power as the environment demands adaption."
 
 ##
 
-> "Hence in a world where leaking is easy, secretive or unjust systems are nonlinearly hit relative to open, just systems. \
+> "Hence **in a world where leaking is easy**, secretive or **unjust systems are nonlinearly hit relative to open, just systems**. \
 > Since unjust systems, by their nature induce opponents, and in many places barely have the upper hand, mass leaking leaves them exquisitely vulnerable to those who seek to replace them with more open forms of governance."
 
 - [IQ.org, 2006-12-31](http://web.archive.org/web/20070126052019/http://iq.org/#Thenonlineareffectsofleaksonunjustsystemsofgovernance)
@@ -192,6 +201,11 @@ More leaks:
 
 ## **IMPACT**
 
+> "***Egypt***: During the Egyptian revolution, the cables gave the rest of the world a stark and unflinching look at the brutality of Mubarak and his regime, facts of which Egyptians were already well aware. […]\
+> \
+> ***Tunisia***: The cables have been credited with directly influencing what came to be known as the **Jasmine Revolution** […]”
+
+- <small>["Cablegate One Year Later: How WikiLeaks Has Influenced Foreign Policy, Journalism and the First Amendment" by Trevor Timm, EFF ](https://www.eff.org/deeplinks/2011/11/cablegate-one-year-later-how-wikileaks-has-influenced-foreign-policy-journalism)</small>
 
 ## **REACTION**
 
@@ -209,11 +223,15 @@ More leaks:
 
 > "On 16 **August 2012** Ricardo Patiño, the Ecuadorian Foreign Minister, stated in a press conference that the **Ecuadorian government** was **granting Assange political asylum**."
 
+- <small>[wiki/Julian_assange](https://en.wikipedia.org/wiki/Julian_assange)</small>
+
 ##
 
 > "Officers from the **Metropolitan Police Service** have remained **stationed outside the Ecuadorian embassy** since Assange entered the building on 19 June 2012. They have been **ordered to arrest Assange if he attempts to leave** the building." \
 > \
 > <small>"Police disclosed in February 2013 that, as of 31 January 2013, the full cost of keeping officers outside the embassy was estimated at £2.9 million ($4.5 million)."</small>
+
+- <small>[wiki/Julian_assange](https://en.wikipedia.org/wiki/Julian_assange)</small>
 
 
 # 
@@ -261,8 +279,13 @@ More leaks:
 ![Bitcoin Marketprice](images/bitcoin-marketprice.png)
 <small>[blockchain.info/charts/market-price](https://blockchain.info/charts/market-price?timespan=all&showDataPoints=false&daysAverageString=1&show_header=true&scale=0&address=)</small>
 
-> "Nakamoto is believed to be in possession of roughly one million bitcoins. At one point in December 2013, this was the equivalent of **1.1 billion US dollars**."
+## 
 
+> "Nakamoto is believed to be in possession of roughly \
+> **one million bitcoins**. \
+> At one point in December 2013, this was the equivalent of **1.1 billion US dollars**."
+
+- [wiki/Satoshi_Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto)
 
 ## **REACTION**
 
@@ -280,13 +303,24 @@ NONE \
 
 ## **MOTIVATION**
 
+> "My sole motive is \
+> **to inform the public** as to that which is **done in their name** and that which is done against them."
+> <small>in: [The Guardian, 2013-06-09](http://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance)</small>
 
 ## **ACTION**
+
+- copied thousands of **internal NSA documents**
+- is **leaking** them to journalists
+- creates public debate
+
+<aside class="notes">
 
 - worked for dell, saw nsa secrets  (subcontract at CIA)
 - changed to booz amilton to get closer into NSA
 - collected stuff
 - met with greenwald and xxx in NYC
+
+</aside>
 
 ## **IMPACT**
 
@@ -298,6 +332,19 @@ NONE \
 
 ## **REACTION**
 
+> "On **June 14, 2013, United States federal prosecutors filed a criminal complaint** against Snowden, charging him with **theft of government property**, and alleging he had **violated the US' 1917 Espionage Act** through unauthorized communication of national defense information and 'willful communication of classified communications intelligence information to an unauthorized person'."
+
+- [wiki/Edward_snowden#Criminal_charges](https://en.wikipedia.org/wiki/Edward_snowden#Criminal_charges)
+
+## 
+
+> "On **June 23, 2013**, Snowden **landed in Moscow**'s Sheremetyevo international airport. […] He was […] changing planes in the Moscow airport when the **United States revoked his passport**."
+
+> "Snowden remained in the Sheremetyevo **transit zone for 39 days** until being granted temporary asylum by the Russian government on August 1"
+
+
+<aside class="notes">
+  
 - he knew he wasn't safe in US (manning)
 - flew from hawaii to hong kong
 - wanted to fly via moskow to ecuador
@@ -306,22 +353,33 @@ NONE \
 - watch: alt xmas message
 - => lavabit…
 
+</aside>
 
 
 #
 
 ## **SUMMARY**
 
-<small>
+<!-- <small> -->
 
-- **`anakata`** (TPB), not anon.: **jail**
-- **aaron swartz**, not anon.: **suicide**
-- **julian assange**, not anon.: **uk limbo**
-- **chelsea manning**, tried to be anon.: **us gulag**
-- **satoshi nakamoto**, still anon.: **???** 
-- **edward snowden**, not anon.: **exile/russia limbo**
+- **`anakata`** (TPB), *not anon.* \
+  **jail** (unrelated charges)\
+  \
+- **aaron swartz**, *not anon.* \
+  **suicide** (extreme charges)\
+  \
+- **julian assange**, *not anon.* \
+  **uk limbo** (unrelated charges)\
+  \
+- **satoshi nakamoto**, *still anon.* \
+  **???** \
+  \
+- **edward snowden**, *not anon.* \
+  **exile/russia limbo** (related charges)\
+  \
 
-</small>
+<!-- </small> -->
+
 
 # 
 
@@ -346,6 +404,25 @@ NONE \
   ["a 32-hour live mail art piece performed on 16 and 17 January 2013"](bitnik.org/assange/)
 
 </small>
+
+
+# 
+
+## slides && links
+
+\
+
+<h3> **`http://bit.ly/digiact`** </h3>
+
+<small><http://code.178.is/txt.178.is/Talk/Digital-Activism.html></small>
+
+\
+
+source code:
+
+**`http://git.io/iA8bgg`**
+ 
+<small><https://github.com/eins78/txt.178.is/blob/master/Talk/Digital-Activism.page></small>
 
 
 

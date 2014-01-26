@@ -385,7 +385,8 @@ Folien etc: **`http://bit.ly/ktlwiki`** \
 
 
 
-<style>
+
+<style type="text/css" media="screen">
 /* icons from font awesome */
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic|Source+Code+Pro:400,600,500|Grand+Hotel);
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);

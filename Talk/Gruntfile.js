@@ -2,9 +2,9 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    "input": "Was-ist-das-Internetz.md",
-    "output": "gh-pages/Talk/Was-ist-das-Internetz.html",
-    "pandocOpts": "--smart --self-contained --section --template=_template.html",
+    "input": "Digital-Activism.page",
+    "output": "gh-pages/Talk/Digital-Activism.html",
+    "pandocOpts": "--smart --section --template=\"_template.html\" --css=\"style.css\"",
     
     shell: {
       options: {
@@ -12,7 +12,7 @@ module.exports = function(grunt) {
         failOnError: true
       },
       build: {
-        command: 'pandoc -t revealjs -i "<%= input %>" -o "<%= output %>" <%= pandocOpts %>',
+        command: 'pandoc -f markdown -t revealjs --self-contained -i "<%= input %>" -o "<%= output %>" <%= pandocOpts %>',
       },
       buildDev: {
         command: 'pandoc -t html5 -i "<%= input %>" -o "<%= output %>" <%= pandocOpts %>',

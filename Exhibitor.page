@@ -1,0 +1,27 @@
+# Exhibitor
+
+## Arch Linux ARM on RaspberryPi
+
+- systemd: player.service (calls shell script on startup)
+- shell script: play.sh calls omxplayer
+- 
+
+## gst-omx
+
+### install 
+
+    pacman -S base-devel python gstreamer gst-plugins-base gst-plugins-good gst-plugins-ugly gst-libav
+    pacaur -S gst-omx
+    > arch=('armv6h')
+    
+    # from <http://lists.freedesktop.org/archives/gstreamer-devel/2013-March/040168.html>
+    gst-inspect-1.0 | grep omx # should show omx plugin
+    
+    gst-launch-1.0 filesrc location=/path/to/some/mp4/file/with/h264 \
+    ! qtdemux ! queue max-size-bytes=10000000 ! h264parse ! omxh264dec \
+    ! queue max-size-buffers=4 ! eglglessink
+
+    gst-launch-1.0 videotestsrc num-buffers=1000 ! omxh264enc \
+    ! "video/x-h264,profile=high" ! h264parse ! queue max-size-bytes=10000000 \
+    ! matroskamux ! filesink location=test.mkv
+    

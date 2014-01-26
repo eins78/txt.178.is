@@ -3,19 +3,22 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     "input": "Digital-Activism.page",
-    "output": "gh-pages/Talk/Digital-Activism.html",
+    "output": "gh-pages/Talk/Digital-Activism",
     "pandocOpts": "--smart --section --template=\"_template.html\" --css=\"style.css\"",
-    
+
     shell: {
       options: {
         stdout: true,
         failOnError: true
       },
       build: {
-        command: 'pandoc -f markdown -t revealjs --self-contained -i "<%= input %>" -o "<%= output %>" <%= pandocOpts %>',
+        command: 'pandoc -f markdown -t revealjs -i "<%= input %>" -o "<%= output %>.html" <%= pandocOpts %>',
+      },
+      buildBundle: {
+        command: 'pandoc -f markdown -t revealjs --self-contained -i "<%= input %>" -o "<%= output %>.bundle.html" <%= pandocOpts %>',
       },
       buildDev: {
-        command: 'pandoc -t html5 -i "<%= input %>" -o "<%= output %>" <%= pandocOpts %>',
+        command: 'pandoc -t html5 -i "<%= input %>" -o "<%= output %>.html" <%= pandocOpts %>',
       },
       publishPages: {
         command: 'cd gh-pages && git push origin gh-pages'
@@ -69,7 +72,7 @@ module.exports = function(grunt) {
   grunt.registerTask('build', ['shell:build']);
   grunt.registerTask('buildDev', ['shell:buildDev']);
   grunt.registerTask('auto', ['buildDev', 'connect', 'watch']);
-  grunt.registerTask('deploy', ['build', 'revision', 'shell:commitPages', 'shell:publishPages']);
+  grunt.registerTask('deploy', ['build', 'shell:buildBundle', 'revision', 'shell:commitPages', 'shell:publishPages']);
   grunt.registerTask('ci', ['shell:clonePages', 'deploy']);
   
 

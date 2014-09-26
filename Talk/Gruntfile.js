@@ -2,8 +2,8 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    "input": "Digital-Activism.page",
-    "output": "gh-pages/Talk/Digital-Activism",
+    "input": "Copyright.md",
+    "output": "gh-pages/Talk/Copyright",
     "pandocOpts": "--smart --section --template=\"_template.html\" --css=\"style.css\"",
 
     shell: {

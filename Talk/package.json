@@ -11,10 +11,11 @@
     "grunt-contrib-connect": "~0.5.0",
     "grunt-cli": "~0.1.11",
     "bower": "~1.2.8",
-    "grunt-git-revision": "0.0.1",
+    "grunt-git-revision": "0.0.1"
   },
   "devDependencies": {},
   "scripts": {
+    "grunt": "grunt",
     "bower": "bower install",
     "ci": "npm run bower && grunt ci"
   },

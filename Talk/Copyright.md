@@ -20,9 +20,10 @@ Filme herunterladen.
 
 ## Was ist das Urheberrecht?
 
-**Das** Urheberrecht = Der Urheber
-darf über **die Rechte** \
-*an einem Werk* entscheiden/verfügen
+**Das** Urheberrecht = \
+Der Urheber bekommt \
+**verschiedene Rechte** \
+*an einem **Werk***
 
 ## **Urheber & Werk**
 
@@ -124,7 +125,7 @@ So kann, später, ein anderer Verlag mit anderen Konditionen das Buch als Tasche
 - Verschachtelte Rechte
 - Kreuzung anderen Rechte (Persönlichkeitsrecht)
 - Unklare Definitionen (wie lang darf ein Zitat sein)
-- Lizenzen skalieren schwierig
+- **Lizenzen skalieren schwierig**
 - Ausnahmen, Ausnahmen, Ausnahmen
 
 
@@ -134,14 +135,16 @@ sondern dies sind alles eigenständige Berufe beziehungsweise URHEBER.
 
 Im echten Leben ist es also schlecht möglich, das jeder einzelne DJ in einem Club oder Radiosender für jedes Lied jeden Beteiligten kontaktiert,
 um Erlaubnis fragt und eine "angemessene Vergütung" vereinbart (wie im Gesetz gefordert).
+
+
+- Beispiele für Ausnahmen & Details
+
+  - ZHdK: Übertragung der Nutzungsrechte qua (Hochschul-)Gesetz
+  - Graffiti: Anonyme Urheber, öffentl. Raum 
+  - Soziale Netzwerke: Lizenz per TOS
+  - keine Privatkopie für Software
+
 </aside>
-
-## Beispiele für Ausnahmen
-
-TODO
-
-- ZHdK: Übertragung der Nutzungsrechte qua Gesetz
-- Frankreich: "Urheberrechts-Uhr steht still" 1.+2. Weltkrieg(!)
 
 
 #

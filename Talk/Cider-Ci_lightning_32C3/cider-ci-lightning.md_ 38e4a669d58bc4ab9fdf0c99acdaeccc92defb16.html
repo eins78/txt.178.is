@@ -1,0 +1,226 @@
+<!doctype html>
+<!-- Quick and dirty fork off reveal.js 2.5.0 + pandoc vars -->
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Cider-CI multi-service integration tests</title>
+          <meta name="author" content="eins78">
+    
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="reveal.js-2.5.0/css/reveal.min.css">
+		<link rel="stylesheet" href="reveal.js-2.5.0/css/theme/simple.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="reveal.js-2.5.0/lib/css/zenburn.css">
+    <!-- enable for print/onepage output -->
+    <link rel="stylesheet" href="reveal.js-2.5.0/css/print/pdf.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic|Source+Code+Pro:400,600,500' rel='stylesheet' type='text/css'>
+
+		<!--[if lt IE 9]>
+		<script src="reveal.js-2.5.0/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+<section id="cider-ci" class="level2">
+<h2>Cider-CI</h2>
+<p>Multi-service integration tests</p>
+</section>
+<section id="traditional-ci" class="level2">
+<h2>Traditional CI:</h2>
+<p><strong>Continous <em>build</em>s</strong></p>
+<p>single shell script</p>
+<p>hooks <em>around</em> that script <small>(<code>before</code>, <code>after</code>, …)</small></p>
+<p><strong>Problems:</strong></p>
+<p>hard to make faster/parallelize</p>
+<p>hard to set up/manage complex setups</p>
+</section>
+<section id="cider-ci-approach" class="level2">
+<h2>Cider-CI approach</h2>
+<ul class="incremental">
+<li>complex, but <strong>explicit configuration</strong></li>
+<li><strong>declarative dependencies</strong></li>
+<li>very little assumptions about your workflow</li>
+<li><em>pro:</em> hackability</li>
+<li><em>con:</em> simples cases are relatively verbose</li>
+</ul>
+</section>
+<section id="cider-ci-overview" class="level2">
+<h2>Cider-CI overview</h2>
+<p><strong>Projects</strong> have <em>1</em> <strong>(git) Repo</strong></p>
+<p><strong>Repo</strong> contains configuration for <em>1+</em> <strong>Jobs</strong></p>
+<p><strong>Jobs</strong> run <em>1+</em> <strong>Tasks</strong> <em>in parallel</em></p>
+<p><strong>Tasks</strong> run <em>1+</em> (shell) <strong>Scripts</strong> <em>in order</em></p>
+<hr />
+<p><em>Jobs</em> can be <strong>triggered</strong> from branches and <strong>depend</strong> on each other</p>
+<p><em>Tasks</em> can be re-tried</p>
+<p><em>Scripts</em> can <strong>depend</strong> on each other</p>
+</section>
+<section id="details-quick-walkthrough" class="level2">
+<h2>Details, quick walkthrough</h2>
+<p>(Excerpt from much longer Talk about Cider-CI)</p>
+<ul class="incremental">
+<li>HTML: <a href="http://drtom.ch/talks/2015/CL/" class="uri">http://drtom.ch/talks/2015/CL/</a></li>
+<li>PDF: <a href="http://drtom.ch/talks/2015/CL/slides.pdf" class="uri">http://drtom.ch/talks/2015/CL/slides.pdf</a></li>
+</ul>
+</section>
+<section id="insert-slides-here" class="level2">
+<h2>INSERT SLIDES HERE</h2>
+</section>
+<section id="what-is-it-good-at" class="level2">
+<h2>What is it good at?</h2>
+<p><strong>Speed:</strong></p>
+<p>run lots of tasks <strong>in parallel &amp; retry</strong> them</p>
+<p><small><em>instead of</em> <code>sh tests/*</code></small></p>
+<p><strong>Continous Integration/Delivery/…</strong></p>
+<p>trigger and run different kinds of jobs</p>
+<p><small><em>instead of</em> <code>sh tests/* &amp;&amp; ./build &amp;&amp; ./deploy</code></small></p>
+<p><strong>Flexibility</strong></p>
+<p>1 instance for your organization <em>or</em> 1 per project<br />(re-)use existing infrastructure <em>or</em> &quot;in the cloud&quot;</p>
+</section>
+<section id="what-does-it-not-do" class="level2">
+<h2>What does it not do?</h2>
+<p><strong>Access management</strong></p>
+<p>always trusts the repository<br />control (push) access there</p>
+<p><strong>Secrets management</strong></p>
+<p>set up your own infrastructure and/or excutors,</p>
+<p>executors can be locked to &quot;accepted repos&quot;</p>
+<!-- If you dont trust your contributors, release/deploy from a special
+repository and manage push access to it. -->
+</section>
+<section id="examples" class="level2">
+<h2>Examples</h2>
+<ul class="incremental">
+<li>Jobs: &quot;Test&quot; <em>triggers</em> &quot;Build&quot; → &quot;Release&quot; → &quot;Deploy-Docs&quot;</li>
+<li>Job: <strong>&quot;Good To Merge&quot;</strong>,<br /> <em>depends on</em> &quot;Lint&quot;, &quot;Unit Tests&quot;, &quot;Feature Tests&quot;</li>
+</ul>
+</section>
+<section id="complex-example-ci-inception" class="level2">
+<h2><small>Complex example (CI-inception)</small></h2>
+<p><img src="./CI-ception.png" alt="Cider-CI tests itself" style="width: 19.5em;margin-top: -0.25em;"></p>
+</section>
+<section id="more-features" class="level2">
+<h2>more features</h2>
+<ul class="incremental">
+<li>REST-ful <strong>API</strong> to implement any workflow you want
+<ul class="incremental">
+<li>&quot;nightly&quot; builds and deploys</li>
+<li>integrate with external services</li>
+</ul></li>
+<li><strong>attachments</strong>
+<ul class="incremental">
+<li>per <em>Trial</em>: for debugging (logs)</li>
+<li>per <em>git-tree</em>: for <strong>build artefacts</strong> (binaries)</li>
+</ul></li>
+<li>good support for <code>git submodules</code></li>
+<li>some github support: listen to update hook, set repo status</li>
+</ul>
+</section>
+<section id="try-it-out" class="level2">
+<h2>Try it out</h2>
+<p>free software, installs with two commands <small>(ansible)</small></p>
+<p><code>docs.cider-ci.info/</code><br /><small>or read the sources: <code>github.com/cider-ci/cider-ci</code></small></p>
+<p>If you want to try something out here at the 32C3,<br />contact me: <code>1@178.is</code></p>
+<p><strong>THX!</strong></p>
+<style>
+/* for overriding 'simple' theme */
+.reveal {
+  font-size: 2em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  color: #444;
+}
+b, strong {
+  font-weight: 700;
+}
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  letter-spacing: inherit;
+  text-transform: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #444;
+}
+.reveal h2 {
+  font-size: 1.8em
+}
+.reveal hr {
+  border: none;
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.67);
+}
+.reveal pre, .reveal code {
+    font-family: "Source Code Pro", monospace;
+  font-weight: 500;
+  box-shadow: none;
+}
+.reveal strong code {
+  font-weight: 700;
+}
+.reveal small {
+  vertical-align: initial;
+}
+</style>
+</section>
+			</div>
+
+		</div>
+
+		<script src="reveal.js-2.5.0/lib/js/head.min.js"></script>
+		<script src="reveal.js-2.5.0/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+        width: 1280,
+        height: 720,
+        // height: 786,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.05,
+
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 0.05,
+        maxScale: 10.0,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'reveal.js-2.5.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal.js-2.5.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js-2.5.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js-2.5.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal.js-2.5.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'reveal.js-2.5.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+    <!-- <a id="gh-ribbon" href="https://github.com/eins78/git-annex-is-magic"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a> -->
+
+	</body>
+</html>

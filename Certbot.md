@@ -4,11 +4,12 @@ apt-get remove -fy certbot
 rm /etc/systemd/system/certbot.timer
 wget https://dl.eff.org/certbot-auto
 chmod a+x certbot-auto
-mv certbot-auto /usr/local/bin/
-certbot-auto --install-only
+mv certbot-auto /usr/local/bin/certbot-auto
+/usr/local/bin/certbot-auto --install-only
 
 # check/setup
-/usr/local/bin/certbot run
+/usr/local/bin/certbot-auto run
+/usr/local/bin/certbot-auto renew --dry-run # if already has certs installed
 
 # automate https://wiki.archlinux.org/index.php/Certbot#Automatic_renewal
 cat <<EOF > /etc/systemd/system/certbot-renew.service

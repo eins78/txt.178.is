@@ -9,7 +9,7 @@ mv certbot-auto /usr/local/bin/certbot-auto
 
 # check/setup
 /usr/local/bin/certbot-auto run
-/usr/local/bin/certbot-auto renew --dry-run # if already has certs installed
+/usr/local/bin/certbot-auto renew --dry-run 
 
 # automate https://wiki.archlinux.org/index.php/Certbot#Automatic_renewal
 cat <<EOF > /etc/systemd/system/certbot-renew.service
@@ -18,7 +18,7 @@ Description=certbot renewal
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/certbot-auto --no-bootstrap --no-self-upgrade -n renew
+ExecStart=/usr/local/bin/certbot-auto renew --no-bootstrap --no-self-upgrade -n --apache --post-hook 'systemctl restart apache2'
 EOF
 
 cat <<EOF > /etc/systemd/system/certbot-renew.timer

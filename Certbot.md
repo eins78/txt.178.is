@@ -6,6 +6,7 @@ wget https://dl.eff.org/certbot-auto
 chmod a+x certbot-auto
 mv certbot-auto /usr/local/bin/certbot-auto
 /usr/local/bin/certbot-auto --install-only
+ln -s /usr/local/bin/certbot-auto /usr/local/bin/certbot
 
 # check/setup
 /usr/local/bin/certbot-auto run

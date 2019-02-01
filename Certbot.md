@@ -1,12 +1,12 @@
 ```sh
 # install 
 apt-get remove -fy certbot
-rm /etc/systemd/system/certbot.timer
+rm -rf /usr/local/bin/certbot /etc/systemd/system/certbot.timer
 wget https://dl.eff.org/certbot-auto
 chmod a+x certbot-auto
 mv certbot-auto /usr/local/bin/certbot-auto
 /usr/local/bin/certbot-auto --install-only
-ln -s /usr/local/bin/certbot-auto /usr/local/bin/certbot
+ln -s /usr/local/bin/certbot-auto /usr/local/bin/certbot # alias for older scripts etc
 
 # check/setup
 /usr/local/bin/certbot-auto run

@@ -19,7 +19,7 @@ Description=certbot renewal
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/certbot-auto renew --no-bootstrap --no-self-upgrade -n --apache --post-hook 'systemctl restart apache2'
+ExecStart=/usr/local/bin/certbot-auto renew --no-bootstrap --no-self-upgrade -n --apache --post-hook 'sleep 3 && systemctl restart apache2'
 EOF
 
 cat <<EOF > /etc/systemd/system/certbot-renew.timer

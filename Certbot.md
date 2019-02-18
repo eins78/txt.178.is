@@ -1,6 +1,6 @@
 ```sh
 # install 
-apt-get remove -fy certbot
+apt-get remove -fy certbot python-certbot 
 rm -rf /usr/local/bin/certbot /etc/systemd/system/certbot.timer
 wget https://dl.eff.org/certbot-auto
 chmod a+x certbot-auto

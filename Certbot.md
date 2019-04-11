@@ -1,5 +1,7 @@
 # install 
 
+## debian
+
 ```sh
 apt-get remove -fy certbot python-certbot letsencrypt
 rm -rf /usr/local/bin/certbot /etc/systemd/system/certbot.timer
@@ -8,6 +10,23 @@ chmod a+x certbot-auto
 mv certbot-auto /usr/local/bin/certbot-auto
 ln -s /usr/local/bin/certbot-auto /usr/local/bin/certbot # alias for older scripts etc
 /usr/local/bin/certbot-auto --install-only
+
+# check/setup
+/usr/local/bin/certbot-auto run
+/usr/local/bin/certbot-auto renew --dry-run 
+```
+
+## ubuntu
+
+<https://certbot.eff.org/lets-encrypt/ubuntubionic-apache>
+
+```sh
+apt-get update
+apt-get install software-properties-common
+add-apt-repository -y universe
+add-apt-repository -y ppa:certbot/certbot
+apt-get update
+apt-get install -y certbot python-certbot-apache 
 
 # check/setup
 /usr/local/bin/certbot-auto run

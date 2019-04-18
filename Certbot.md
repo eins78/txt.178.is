@@ -29,8 +29,8 @@ apt-get update
 apt-get install -y certbot python-certbot-apache 
 
 # check/setup
-/usr/local/bin/certbot-auto run
-/usr/local/bin/certbot-auto renew --dry-run 
+certbot run
+certbot renew --dry-run 
 ```
 
 # apache

@@ -23,12 +23,12 @@ ln -s /usr/local/bin/certbot-auto /usr/local/bin/certbot # alias for older scrip
 
 ```sh
 test $(id -u) -eq 0 || sudo -i
-apt-get update
-apt-get install -fy software-properties-common
-add-apt-repository -y universe
-add-apt-repository -y ppa:certbot/certbot
-apt-get update
-apt-get install -fy certbot python-certbot-apache 
+apt-get update && \
+apt-get install -fy software-properties-common && \
+add-apt-repository -y universe && \
+add-apt-repository -y ppa:certbot/certbot && \
+apt-get update && \
+apt-get install -fy certbot python-certbot-apache
 
 # check/setup
 certbot run

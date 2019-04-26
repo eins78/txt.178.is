@@ -38,6 +38,7 @@ certbot renew --dry-run
 # apache
 
 ```sh
+test $(id -u) -eq 0 || sudo -i
 # automate https://wiki.archlinux.org/index.php/Certbot#Automatic_renewal
 cat <<EOF > /etc/systemd/system/certbot-renew.service
 [Unit]
@@ -68,6 +69,7 @@ systemctl daemon-reload && systemctl enable certbot-renew.timer && systemctl res
 # nginx
 
 ```sh
+test $(id -u) -eq 0 || sudo -i
 # automate https://wiki.archlinux.org/index.php/Certbot#Automatic_renewal
 cat <<EOF > /etc/systemd/system/certbot-renew.service
 [Unit]

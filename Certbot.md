@@ -3,6 +3,7 @@
 ## debian
 
 ```sh
+test $(id -u) -eq 0 || sudo -i
 apt-get remove -fy certbot python-certbot letsencrypt
 rm -rf /usr/local/bin/certbot /etc/systemd/system/certbot.timer
 wget https://dl.eff.org/certbot-auto
@@ -21,12 +22,13 @@ ln -s /usr/local/bin/certbot-auto /usr/local/bin/certbot # alias for older scrip
 <https://certbot.eff.org/lets-encrypt/ubuntubionic-apache>
 
 ```sh
+test $(id -u) -eq 0 || sudo -i
 apt-get update
-apt-get install software-properties-common
+apt-get install -fy software-properties-common
 add-apt-repository -y universe
 add-apt-repository -y ppa:certbot/certbot
 apt-get update
-apt-get install -y certbot python-certbot-apache 
+apt-get install -fy certbot python-certbot-apache 
 
 # check/setup
 certbot run
